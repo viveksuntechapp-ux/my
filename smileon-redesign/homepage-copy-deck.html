@@ -1,0 +1,417 @@
+<title>Smile On Homepage Copy</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Rubik:wght@400;500&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: one reading column; each Elementor section is a numbered block, each field a copy-ready row. Palette follows the clinic logo (teal + purple) used in the draft. */
+:root {
+  --bg: #f5f8f9; --surface: #ffffff; --fg: #3a4652; --head: #1f2a35; --muted: #6b7783;
+  --line: #dde6ea; --teal: #2D9CA9; --teal-soft: #E8F6F7; --purple: #6656C4; --purple-soft: #EEEBFA;
+  --warn-bg: #fff4dc; --warn: #7a5300; --ok: #1d7a4a; --bad: #a2402a;
+  --f-head: "Poppins", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Rubik", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f171c; --surface: #172228; --fg: #c8d4d9; --head: #eef4f6; --muted: #8b9aa2; --line: #26363e;
+  --teal: #5cc3cf; --teal-soft: #173a3f; --purple: #a196ea; --purple-soft: #262344;
+  --warn-bg: #3a2c0c; --warn: #f3cf85; --ok: #6fd09a; --bad: #f09a83; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0f171c; --surface: #172228; --fg: #c8d4d9; --head: #eef4f6; --muted: #8b9aa2; --line: #26363e;
+  --teal: #5cc3cf; --teal-soft: #173a3f; --purple: #a196ea; --purple-soft: #262344;
+  --warn-bg: #3a2c0c; --warn: #f3cf85; --ok: #6fd09a; --bad: #f09a83; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 400 16px/1.65 var(--f-body); }
+.page { max-width: 980px; margin: 0 auto; padding-block: 44px 90px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--f-head); color: var(--head); line-height: 1.2; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 700; }
+h2 { font-size: clamp(1.3rem, 2.6vw, 1.7rem); font-weight: 700; }
+h3 { font-size: 1.05rem; font-weight: 600; }
+p { margin: 0; }
+a { color: var(--teal); }
+.eyebrow { font: 500 .74rem/1 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--purple); }
+.lede { font-size: 1.08rem; max-width: 68ch; margin-top: 14px; }
+.toc { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+.toc a { font-size: .86rem; padding: 7px 12px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); text-decoration: none; color: var(--fg); }
+.toc a:hover { border-color: var(--teal); color: var(--teal); }
+.block { margin-top: 44px; display: grid; gap: 14px; scroll-margin-top: 16px; }
+.verdict { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 12px; }
+.vbox { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 4px; }
+.vbox b { font: 700 1.6rem/1.1 var(--f-head); color: var(--head); font-variant-numeric: tabular-nums; }
+.vbox span { font-size: .84rem; color: var(--muted); }
+.vbox.bad b { color: var(--bad); } .vbox.ok b { color: var(--ok); }
+@media (max-width: 720px) { .verdict { grid-template-columns: 1fr 1fr; } }
+.note { background: var(--warn-bg); color: var(--warn); border-radius: 10px; padding: 12px 16px; font-size: .93rem; }
+.note b { color: inherit; }
+
+.sec { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+.sec-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; padding: 18px 20px; border-bottom: 1px solid var(--line); background: linear-gradient(90deg, var(--teal-soft), transparent 70%); }
+.sec-head .n { font: 500 .78rem/1 var(--f-mono); color: var(--teal); }
+.sec-head .w { margin-left: auto; font: 500 .74rem/1.4 var(--f-mono); color: var(--muted); }
+.sec-head .tag { font: 500 .68rem/1 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; padding: 4px 7px; border-radius: 5px; background: var(--purple-soft); color: var(--purple); }
+.row { display: grid; grid-template-columns: 170px minmax(0,1fr) auto; gap: 14px; padding: 13px 20px; border-top: 1px solid var(--line); align-items: start; }
+.row:first-of-type { border-top: 0; }
+.row .lbl { font: 500 .74rem/1.5 var(--f-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .05em; padding-top: 2px; }
+.row .val { color: var(--head); min-width: 0; overflow-wrap: anywhere; }
+.row .val small { display: block; color: var(--muted); font-size: .8rem; margin-top: 4px; }
+.row .val .h { font-family: var(--f-head); font-weight: 600; }
+.row .side { display: flex; align-items: center; gap: 8px; }
+.cc { font: 500 .72rem/1 var(--f-mono); color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.cc.over { color: var(--bad); }
+.copy { all: unset; cursor: pointer; font: 500 .74rem/1 var(--f-mono); padding: 7px 10px; border-radius: 7px; border: 1px solid var(--line); color: var(--teal); background: var(--surface); }
+.copy:hover { border-color: var(--teal); }
+.copy:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; }
+.copy.done { color: var(--ok); border-color: var(--ok); }
+.flag { display: inline-block; margin-top: 6px; font: 500 .74rem/1.4 var(--f-mono); color: var(--warn); background: var(--warn-bg); padding: 3px 7px; border-radius: 5px; }
+.new { font: 500 .66rem/1 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; padding: 4px 7px; border-radius: 5px; background: var(--teal-soft); color: var(--teal); }
+@media (max-width: 680px) {
+  .row { grid-template-columns: 1fr auto; }
+  .row .lbl { grid-column: 1 / -1; }
+  .sec-head .w { margin-left: 0; width: 100%; }
+}
+
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 640px; font-size: .92rem; }
+th, td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 500 .7rem/1.3 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+tr:last-child td { border-bottom: 0; }
+td:first-child { font-weight: 500; color: var(--head); }
+.ok { color: var(--ok); font-weight: 500; } .bad { color: var(--bad); font-weight: 500; }
+.check { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; display: grid; gap: 8px; }
+.check ul, .check ol { margin: 0; padding-left: 20px; display: grid; gap: 7px; font-size: .95rem; }
+.check h3 { margin-bottom: 4px; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 760px) { .two { grid-template-columns: 1fr; } }
+code { font: 500 .86em var(--f-mono); background: var(--teal-soft); padding: 1px 5px; border-radius: 4px; color: var(--head); }
+</style>
+
+<div class="page">
+  <span class="eyebrow">Smile On Dental Clinic · Homepage · Copy deck for Elementor</span>
+  <h1 style="margin-top:12px">Homepage copy, built on the Claude Cowork draft</h1>
+  <p class="lede">This is the final copy for the new homepage. It follows the section order and widgets of the draft (<code>page_id=6836</code>), keeps its teal and purple logo colours, and pulls in the facts from the live homepage. Each field has a Copy button so it can be pasted straight into Elementor. Nothing on smileondc.com has been changed.</p>
+  <nav class="toc" aria-label="Contents">
+    <a href="#verdict">Feasibility</a><a href="#seo">SEO fields</a><a href="#s1">1 Hero</a><a href="#s2">2 Counters</a><a href="#s3">3 Why us</a><a href="#s4">4 Treatments</a><a href="#s5">5 Offers</a><a href="#s6">6 Specialists</a><a href="#s7">7 Reviews</a><a href="#s8">8 Find us</a><a href="#s9">9 First visit</a><a href="#s10">10 FAQ</a><a href="#s11">11 Blog</a><a href="#s12">12 Book</a><a href="#facts">Fact sheet</a><a href="#build">Build checklist</a>
+  </nav>
+
+  <!-- FEASIBILITY -->
+  <section class="block" id="verdict">
+    <span class="eyebrow">Feasibility check</span>
+    <h2>Yes, this page can be built in Elementor and be fast, mobile-friendly and crawlable</h2>
+    <p style="max-width:70ch">The draft already uses native Elementor widgets (Heading, Text Editor, Button, Icon List, Image, Counter, Icon Box, Image Box, Toggle) inside flexbox containers, with separate mobile padding. That is the lightest way to build in Elementor, and anyone who uses Elementor can edit it. The main work is speed, not design: the live homepage is slow on mobile because of page weight and plugins, not because of Elementor itself.</p>
+    <div class="verdict">
+      <div class="vbox bad"><b>65</b><span>Live homepage, mobile performance (PageSpeed, today)</span></div>
+      <div class="vbox bad"><b>6.3s</b><span>Mobile LCP (main content visible). Target is under 2.5s</span></div>
+      <div class="vbox ok"><b>88</b><span>Desktop performance. LCP 1.4s</span></div>
+      <div class="vbox ok"><b>100</b><span>SEO, accessibility and best practices (mobile)</span></div>
+    </div>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>What I checked</th><th>Live homepage today</th><th>Draft 6836</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td>Crawlable by Google</td><td class="ok">Yes. PageSpeed (Google's fetcher) reached it</td><td>Not public yet</td><td>The firewall returned 403 to my non-browser requests, including the REST API. After launch, run Search Console's URL Inspection live test to confirm Googlebot gets a 200.</td></tr>
+          <tr><td>H1 and heading order</td><td class="bad">1 H1, but H6, H4 and H5 headings come before it and are used for styling</td><td class="ok">1 H1, then H2 and H3 in order</td><td>In Elementor, choose the HTML tag for meaning and set the size in Style.</td></tr>
+          <tr><td>Page weight</td><td class="bad">592 KB of HTML, 234 KB of it inline SVG graphics (44 SVGs)</td><td class="ok">Light. Icons and photos only</td><td>Use WebP images and icon widgets, not pasted SVG artwork.</td></tr>
+          <tr><td>CSS and JS files</td><td class="bad">58 stylesheets and 45 scripts (ElementsKit, Exclusive Addons, Royal Addons, Premium Addons, Gravity Forms, the reviews plugin)</td><td class="ok">Native widgets only</td><td>See the speed checklist: unload unused add-on widgets.</td></tr>
+          <tr><td>Fonts</td><td class="bad">Poppins and Rubik, each loading all 18 weights</td><td>Same theme fonts</td><td>Load fonts locally with only 3–4 weights.</td></tr>
+          <tr><td>Images</td><td>38 images, 23 lazy-loaded, 1 missing alt text</td><td class="ok">Doctor photos have descriptive alt text</td><td>Don't lazy-load the hero image. Lazy-load everything below it.</td></tr>
+          <tr><td>Schema</td><td class="ok">Dentist (open 7 days, 9–21), FAQPage, Organization, WebSite</td><td>Inherits site schema</td><td>Update the FAQ schema to the new questions in Section 10.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note"><b>Fact conflicts I resolved:</b> the live homepage says "5 Years", "10 Dentists" and "100K+ Patients Treated", and also "Hundreds of Thousands of Satisfied Patients". A single clinic founded in 2021 can't support that last claim, and it's a risk under DHA advertising rules, so I left it out. Opening hours follow the live schema and the draft: <b>every day, 9am to 9pm</b>. The "closed Tuesdays" in my earlier mockups was wrong; please ignore it.</p>
+  </section>
+
+  <!-- SEO -->
+  <section class="block" id="seo">
+    <span class="eyebrow">Page settings · Rank Math / Yoast</span>
+    <h2>SEO fields</h2>
+    <div class="sec">
+      <div class="row"><span class="lbl">SEO title</span><div class="val" data-max="60">Dental Clinic in Al Satwa, Dubai | Smile On Dental Clinic</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Meta description</span><div class="val" data-max="155">Specialist dentists in Al Satwa, Dubai, rated 5.0 on Google. Braces, Invisalign, implants, root canals and kids' care. Open daily, 9am–9pm. Book online today.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Focus keyphrase</span><div class="val">dental clinic in Al Satwa<small>Secondary: dental clinic Dubai, dentist Satwa, dentist near Jumeirah</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">URL</span><div class="val">https://smileondc.com/<small>Keep the homepage at the root URL. Don't publish it as /dental-clinic-al-satwa/. See the build checklist.</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Social share title</span><div class="val" data-max="70">Smile On Dental Clinic, Al Satwa: specialists under one roof</div><span class="side"></span></div>
+    </div>
+  </section>
+
+  <!-- S1 HERO -->
+  <section class="block" id="s1">
+    <div class="sec">
+      <div class="sec-head"><span class="n">Section 1</span><h2>Hero</h2><span class="w">Container: row · Left 54% / Right 40%</span></div>
+      <div class="row"><span class="lbl">Text Editor · top line</span><div class="val">2nd December Street, Al Satwa · Open every day, 9am to 9pm</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Heading · H1</span><div class="val h" data-max="60">Dental Clinic in Al Satwa, Dubai</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Text Editor · intro</span><div class="val" data-max="420">Smile On Dental Clinic is a DHA-licensed dental clinic on 2nd December Street in Al Satwa, founded in 2021 by Dr. Arun Devarajan and Dr. Jeffrey Manuel. General dentists and specialists in orthodontics, root canals, implants, gums and children's dentistry work side by side, so most treatment plans start and finish under one roof.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Button 1 (accent)</span><div class="val">Book an Appointment<small>Link: https://smileondc.com/make-appointment/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Button 2 (outline)</span><div class="val">Call +971 55 896 1826<small>Link: tel:+971558961826</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon List · item 1</span><div class="val">DHA-licensed clinic</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon List · item 2</span><div class="val">Specialists in-house</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon List · item 3</span><div class="val">Same-day urgent appointments</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon List · item 4 <span class="new">new</span></span><div class="val">Rated 5.0 on Google</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Image collage caption</span><div class="val">Your Al Satwa dental team<small>Second line: Specialists for braces, root canals, implants and kids</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Image alt (×4)</span><div class="val">Keep the draft's alt text. Example: "Dr. Jeffrey Manuel, specialist orthodontist at Smile On Dental Clinic, Al Satwa"<small>The first image is the LCP element. Set Image Resolution to Medium Large, and turn off lazy-load and entrance animation on it.</small></div><span class="side"></span></div>
+    </div>
+  </section>
+
+  <!-- S2 COUNTERS -->
+  <section class="block" id="s2">
+    <div class="sec">
+      <div class="sec-head"><span class="n">Section 2</span><h2>Counter strip</h2><span class="w">Container: row · 4 × Counter (white on teal)</span></div>
+      <div class="row"><span class="lbl">Counter 1</span><div class="val">Ending number: <b>333</b> · Title: Google reviews, rated 5.0<small>Update the number when the review count changes. The Google reviews widget shows the live count.</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Counter 2</span><div class="val">Ending number: <b>6</b> · Title: Specialist dentists</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Counter 3</span><div class="val">Ending number: <b>5</b> · Suffix: + · Title: Years in Al Satwa<small>Founded 2021. Raise to 6 in 2027.</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Counter 4</span><div class="val">Ending number: <b>7</b> · Title: Days a week, 9am to 9pm</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Not used</span><div class="val">"100K+ Patients Treated" and "Hundreds of Thousands of Satisfied Patients"<span class="flag">Keep these out unless the clinic can document them</span></div><span class="side"></span></div>
+    </div>
+  </section>
+
+  <!-- S3 WHY -->
+  <section class="block" id="s3">
+    <div class="sec">
+      <div class="sec-head"><span class="n">Section 3</span><h2>Why choose us</h2><span class="w">Heading + Text + 4 × Icon Box (2 teal, 2 purple)</span></div>
+      <div class="row"><span class="lbl">Heading · H2</span><div class="val h">Why Satwa Residents Choose Smile On</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Text Editor</span><div class="val">Al Satwa has no shortage of dental clinics. The difference is who treats you once you're in the chair, and whether you have to be referred somewhere else for the next step.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon Box 1 · title</span><div class="val h">Specialists in-house</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon Box 1 · text</span><div class="val">An orthodontist, endodontist, oral surgeon, prosthodontist, periodontist and pediatric dentist all see patients here. No referral across town for the next step.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon Box 2 · title</span><div class="val h">Same-day urgent care</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon Box 2 · text</span><div class="val">Severe pain, a broken tooth or swelling? We keep slots open for urgent cases, so you can usually be seen the day you call.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon Box 3 · title</span><div class="val h">Modern diagnosis, clear costs</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon Box 3 · text</span><div class="val">Digital X-rays and modern equipment for an accurate diagnosis. Your dentist explains your options and what each one costs before anything starts.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon Box 4 · title</span><div class="val h">Care for the whole family</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon Box 4 · text</span><div class="val">From a child's first check-up with our specialist pediatric dentist to implants for grandparents, the whole family can come to one clinic.</div><span class="side"></span></div>
+    </div>
+  </section>
+
+  <!-- S4 TREATMENTS -->
+  <section class="block" id="s4">
+    <div class="sec">
+      <div class="sec-head"><span class="n">Section 4</span><h2>Treatments</h2><span class="w">Heading + Text + 8 × Icon Box (linked) + Button</span></div>
+      <div class="row"><span class="lbl">Heading · H2</span><div class="val h">Treatments Satwa Patients Book Most</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Text Editor</span><div class="val">Tap a treatment to see how it works, how long it takes and who carries it out.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Box 1</span><div class="val"><span class="h">Dental Checkups</span><br>A full exam, X-rays when needed and a plan you can follow.<small>Link: https://smileondc.com/dental-checkup-dubai/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Box 2</span><div class="val"><span class="h">Teeth Cleaning</span><br>Scaling and polishing to clear tartar and surface stains, from AED 150.<small>Link: https://smileondc.com/teeth-cleaning-dubai/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Box 3</span><div class="val"><span class="h">Root Canal Treatment</span><br>Save an infected tooth instead of losing it, with a specialist endodontist.<small>Link: https://smileondc.com/root-canal-treatment/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Box 4</span><div class="val"><span class="h">Braces</span><br>Metal, ceramic, Damon and lingual braces with a specialist orthodontist.<small>Link: https://smileondc.com/orthodontist-dubai/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Box 5</span><div class="val"><span class="h">Invisalign</span><br>Clear aligners planned by our specialist orthodontist, for teens and adults.<small>Link: https://smileondc.com/invisalign-dubai/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Box 6</span><div class="val"><span class="h">Teeth Whitening</span><br>In-clinic and Zoom whitening to lift stains from coffee and tea.<small>Link: https://smileondc.com/teeth-whitening-dubai/</small><span class="flag">The draft also says "take-home". Keep that only if the clinic offers take-home kits</span></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Box 7</span><div class="val"><span class="h">Dental Implants</span><br>Replace missing teeth, from a single implant to All-on-4, including same-day options.<small>Link: https://smileondc.com/dental-implants-dubai/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Box 8</span><div class="val"><span class="h">Kids' Dentistry</span><br>Gentle visits with a specialist pediatric dentist, plus Myobrace for growing smiles.<small>Link: https://smileondc.com/pediatric-dentistry-dubai/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Button <span class="new">new</span></span><div class="val">View All Treatments<small>Link: https://smileondc.com/dental-services/</small></div><span class="side"></span></div>
+    </div>
+  </section>
+
+  <!-- S5 OFFERS -->
+  <section class="block" id="s5">
+    <div class="sec">
+      <div class="sec-head"><span class="n">Section 5</span><h2>Current offers</h2><span class="tag">new section</span><span class="w">Heading + 3 × Icon Box (purple tint)</span></div>
+      <div class="row"><span class="lbl">Why add it</span><div class="val">These offers run in the live site's top ticker but aren't in the draft. They're the easiest first booking and they help conversions.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Heading · H2</span><div class="val h">Offers Running Now</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Offer 1</span><div class="val"><span class="h">Free Pediatric Consultation</span><br>Includes an X-ray and scaling for children.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Offer 2</span><div class="val"><span class="h">Scaling &amp; Polishing: AED 150</span><br>A professional clean to remove tartar and surface stains.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Offer 3</span><div class="val"><span class="h">Scaling, Polishing &amp; Whitening: AED 499</span><br>Clean and brighten your smile in one visit.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Small print</span><div class="val">Offers are subject to availability and a dentist's assessment. Call +971 55 896 1826 to book.<span class="flag">Add an end date if these offers are time-limited</span></div><span class="side"></span></div>
+    </div>
+  </section>
+
+  <!-- S6 SPECIALISTS -->
+  <section class="block" id="s6">
+    <div class="sec">
+      <div class="sec-head"><span class="n">Section 6</span><h2>Specialists</h2><span class="w">Heading + Text + 6 × Image Box (linked) + Button</span></div>
+      <div class="row"><span class="lbl">Heading · H2</span><div class="val h">Meet the Specialists at Our Al Satwa Clinic</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Text Editor</span><div class="val">Six specialists work alongside our general dentists, so complex cases are planned and treated in the same building.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Image Box 1</span><div class="val"><span class="h">Dr. Jeffrey Manuel</span><br>Specialist Orthodontist and Medical Director. Certified Invisalign provider, in UAE practice since 2008.<small>Link: https://smileondc.com/doctors/dr-jeffrey-manuel/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Image Box 2</span><div class="val"><span class="h">Dr. Arun Devarajan</span><br>Specialist Endodontist and co-founder. Root canal treatment, including complex cases and retreatment.<small>Link: https://smileondc.com/doctors/dr-arun-devarajan/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Image Box 3</span><div class="val"><span class="h">Dr. Amit Gupta</span><br>Specialist Oral and Maxillofacial Surgeon. Wisdom teeth and surgical extractions.<small>Link: https://smileondc.com/doctors/dr-amit-gupta/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Image Box 4</span><div class="val"><span class="h">Dr. Rahul Patel</span><br>Specialist Prosthodontist. Crowns, implants and full mouth rehabilitation.<small>Link: https://smileondc.com/doctors/dr-rahul-patel/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Image Box 5</span><div class="val"><span class="h">Dr. Vineetha Varughese</span><br>Specialist Periodontist. Gum disease treatment and gum health.<small>Link: https://smileondc.com/doctors/dr-vineetha-varughese/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Image Box 6</span><div class="val"><span class="h">Dr. Minu Mumtaz O.V.</span><br>Specialist Pediatric Dentist. Care for babies, children and teens.<small>Link: https://smileondc.com/doctors/dr-minu-mumtaz/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Button</span><div class="val">See the Full Team<small>Link: https://smileondc.com/doctors/</small></div><span class="side"></span></div>
+    </div>
+  </section>
+
+  <!-- S7 REVIEWS -->
+  <section class="block" id="s7">
+    <div class="sec">
+      <div class="sec-head"><span class="n">Section 7</span><h2>Reviews</h2><span class="tag">new section</span><span class="w">Heading + Shortcode (existing Google reviews plugin)</span></div>
+      <div class="row"><span class="lbl">Why add it</span><div class="val">The live homepage shows the 5.0 rating from 333 Google reviews, but the draft has no reviews section. Reviews are the strongest trust signal for a clinic, so keep them.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Heading · H2</span><div class="val h">What Our Patients Say</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Text Editor</span><div class="val">Rated 5.0 on Google by patients from Al Satwa, Jumeirah and across Dubai.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Widget</span><div class="val">Reuse the same Google reviews shortcode as the current homepage (plugin: widget-google-reviews). It updates the count and the reviews automatically.<small>Speed: set the widget to lazy-load, since it sits below the fold.</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Fallback quote 1</span><div class="val">"Undoubtedly the best clinic in Dubai...I visited the clinic with severe tooth ache..Dr Arun was a thorough professional in his approach..He explained the full treatment plan and did the root canal in a very gentle manner..highly recommend.."<small>Ahamed Fahim, Google review. Quoted exactly as written.</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Fallback quote 2</span><div class="val">"The technology used here is top notch. I felt that the diagnosis was accurate and the treatment plan and charges was fully explained. Dr Arun was truly professional. Pre and post xrays was shown..thanks smile on"<small>vincy abhilash, Google review. Quoted exactly as written.</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Fallback quote 3</span><div class="val">"Best Dental experience ever. Dr Arun explained the whole procedure before the treatment started. was scared of dentist before. The post care was excellent, dr himself following up with me. The clinic overall was very clean. going back for further treatment.."<small>Deepak Chohan, Google review. Quoted exactly as written.</small></div><span class="side"></span></div>
+    </div>
+  </section>
+
+  <!-- S8 FIND US -->
+  <section class="block" id="s8">
+    <div class="sec">
+      <div class="sec-head"><span class="n">Section 8</span><h2>Find us</h2><span class="w">Map (56%) + Icon List and Text (40%) + Button</span></div>
+      <div class="row"><span class="lbl">Heading · H2</span><div class="val h">How to Find Us in Al Satwa</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Heading · H3</span><div class="val h">Smile On Dental Clinic, Al Satwa</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon List · address</span><div class="val">Unit 213, 2nd floor, AMKM Investment Building, 2nd December Street, Al Satwa, Dubai</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon List · hours</span><div class="val">Open every day, 9am to 9pm</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon List · phone</span><div class="val">+971 55 896 1826<small>Link: tel:+971558961826</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon List · WhatsApp</span><div class="val">Message us on WhatsApp<small>Link: https://wa.me/971558961826</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Icon List · email <span class="new">new</span></span><div class="val">info@smileondc.com<small>Link: mailto:info@smileondc.com</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Text Editor</span><div class="val">2nd December Street is the road many people still know as Al Diyafa Street. By Metro, the closest Red Line station is Max (formerly Al Jafiliya), then a short taxi ride. The clinic is an easy drive from Al Hudaiba, Al Wasl, City Walk and Karama, and patients from Jumeirah are only a few minutes away.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Button</span><div class="val">Get Directions<small>Link: https://www.google.com/maps/dir/?api=1&amp;destination=25.2370576,55.2753671</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Map</span><div class="val">Speed: don't use a live Google Maps iframe here. Use a static map image (WebP) linked to the directions URL. A Maps iframe adds about 500 KB of scripts on mobile.</div><span class="side"></span></div>
+    </div>
+  </section>
+
+  <!-- S9 FIRST VISIT -->
+  <section class="block" id="s9">
+    <div class="sec">
+      <div class="sec-head"><span class="n">Section 9</span><h2>Your first visit</h2><span class="w">Heading + 4 × Icon Box + Text</span></div>
+      <div class="row"><span class="lbl">Heading · H2</span><div class="val h">Your First Visit, Step by Step</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Step 1</span><div class="val"><span class="h">1. Book a time</span><br>Book online, call or send a WhatsApp message. If you're in pain, tell us and we'll look for the earliest slot.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Step 2</span><div class="val"><span class="h">2. Check in on the 2nd floor</span><br>Come up to Unit 213 in the AMKM Investment Building. Bring your insurance card if you're claiming.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Step 3</span><div class="val"><span class="h">3. Exam and X-rays</span><br>Your dentist checks your teeth and gums, and takes X-rays only when they're needed for a diagnosis.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Step 4</span><div class="val"><span class="h">4. Your plan, explained</span><br>You hear what we found, your options and what each one costs. Then you decide in your own time.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Text · insurance</span><div class="val"><b>Insurance and payment.</b> We work with a range of insurance providers and offer flexible payment options for treatment your plan doesn't cover. Send us your insurance details when you book and our team will confirm your cover before the visit.</div><span class="side"></span></div>
+    </div>
+  </section>
+
+  <!-- S10 FAQ -->
+  <section class="block" id="s10">
+    <div class="sec">
+      <div class="sec-head"><span class="n">Section 10</span><h2>FAQ</h2><span class="w">Heading + Toggle (8 items). Match the FAQ schema to this text exactly</span></div>
+      <div class="row"><span class="lbl">Heading · H2</span><div class="val h">Questions About Our Al Satwa Clinic</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Q1</span><div class="val"><span class="h">What dental services does Smile On Dental Clinic offer?</span><br>We offer a full range of dental care under one roof: general and preventive dentistry, cosmetic treatments such as teeth whitening and veneers, orthodontics including Invisalign and braces, dental implants, root canal treatment, gum treatments and pediatric dentistry.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Q2</span><div class="val"><span class="h">Where exactly is Smile On Dental Clinic in Al Satwa?</span><br>We're at Unit 213 on the 2nd floor of the AMKM Investment Building, 2nd December Street, Al Satwa, Dubai. 2nd December Street is also known by its older name, Al Diyafa Street.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Q3</span><div class="val"><span class="h">What are your opening hours?</span><br>The clinic is open every day of the week, from 9am to 9pm.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Q4</span><div class="val"><span class="h">Can I get a same-day appointment for a dental emergency?</span><br>Yes. We keep slots open for urgent problems such as severe pain, a broken tooth or swelling, so you can usually be seen the same day you call. Phone +971 55 896 1826 and tell the team it's urgent.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Q5</span><div class="val"><span class="h">Do you treat children?</span><br>Yes. Our specialist pediatric dentist, Dr. Minu Mumtaz O.V., sees babies, children and teens, and we offer Myobrace for children with developing bite problems.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Q6</span><div class="val"><span class="h">Do you accept dental insurance?</span><br>We work with a range of insurance providers. Send us your insurance details when you book and we'll confirm your cover before your appointment. Flexible payment options are available for treatment that isn't covered.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Q7</span><div class="val"><span class="h">How do I book an appointment?</span><br>Call +971 55 896 1826, send us a WhatsApp message or book online. Our team will confirm your appointment time and send you a reminder before your visit.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Q8</span><div class="val"><span class="h">What is the nearest Metro station?</span><br>The closest Red Line station is Max, previously called Al Jafiliya. From there it's a short taxi ride to the clinic on 2nd December Street.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Optional Q9</span><div class="val"><span class="h">Which languages do your dentists speak?</span><br>Our team is multilingual and treats patients in English and several other languages. Tell the front desk your preference when you book and we'll do our best to match you with a dentist who speaks it.<small>Use the Toggle widget with only the first item open, or all closed. FAQ answers stay in the HTML, so Google can read them.</small></div><span class="side"></span></div>
+    </div>
+  </section>
+
+  <!-- S11 BLOG -->
+  <section class="block" id="s11">
+    <div class="sec">
+      <div class="sec-head"><span class="n">Section 11</span><h2>From the blog</h2><span class="tag">new section</span><span class="w">Heading + Posts widget (3 latest)</span></div>
+      <div class="row"><span class="lbl">Why add it</span><div class="val">The live homepage links to the latest posts, which helps Google find new articles fast. The draft drops this, so add it back as a small 3-post grid.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Heading · H2</span><div class="val h">Dental Tips From Our Specialists</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Widget</span><div class="val">Elementor Posts widget (or the existing post grid): 3 posts, image + title + excerpt, title tag H3, image lazy-loaded.<small>Button: Read All Articles. Link: https://smileondc.com/blogs/</small></div><span class="side"></span></div>
+    </div>
+  </section>
+
+  <!-- S12 BOOK -->
+  <section class="block" id="s12">
+    <div class="sec">
+      <div class="sec-head"><span class="n">Section 12</span><h2>Final call to action</h2><span class="w">Heading + Text + 3 × Button</span></div>
+      <div class="row"><span class="lbl">Heading · H2</span><div class="val h">Book Your Visit at Our Al Satwa Clinic</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Text Editor</span><div class="val">Same-day urgent slots, specialists in-house, and open every day from 9am to 9pm.</div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Button 1</span><div class="val">Book an Appointment<small>Link: https://smileondc.com/make-appointment/</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Button 2</span><div class="val">WhatsApp Us<small>Link: https://wa.me/971558961826</small></div><span class="side"></span></div>
+      <div class="row"><span class="lbl">Button 3</span><div class="val">Call +971 55 896 1826<small>Link: tel:+971558961826</small></div><span class="side"></span></div>
+    </div>
+  </section>
+
+  <!-- FACT SHEET -->
+  <section class="block" id="facts">
+    <span class="eyebrow">Single source of truth</span>
+    <h2>Fact sheet: use these on every page, in schema and in Google Business Profile</h2>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Fact</th><th>Use this</th><th>Where else it currently differs</th></tr></thead>
+        <tbody>
+          <tr><td>Hours</td><td>Every day, 9am–9pm</td><td>Some pages say Wed–Mon, Tuesday closed</td></tr>
+          <tr><td>Phone</td><td>+971 55 896 1826 (main). Landline 04 347 2102</td><td>Older pages lead with the landline</td></tr>
+          <tr><td>Address</td><td>Unit 213, 2nd floor, AMKM Investment Building, 2nd December Street, Al Satwa, Dubai</td><td>—</td></tr>
+          <tr><td>Founded</td><td>2021, by Dr. Arun Devarajan and Dr. Jeffrey Manuel</td><td>"Over 10 years of experience" appears in older copy</td></tr>
+          <tr><td>Google rating</td><td>5.0 from 333 reviews (October 2026)</td><td>Meta description says "300+". The cosmetic page says 333 and the homepage once said 314</td></tr>
+          <tr><td>Specialists</td><td>6: orthodontics, endodontics, oral surgery, prosthodontics, periodontics, pediatric</td><td>Live counter says "10 Dentists" (all dentists)</td></tr>
+          <tr><td>Pediatric dentist</td><td>Dr. Minu Mumtaz O.V.</td><td>Older pages name Dr. Hashmit Kaur and Dr. Thulasi</td></tr>
+          <tr><td>Licence</td><td>Licence no. CCB9Y0LC-251225 (as shown in the site footer)</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- BUILD CHECKLIST -->
+  <section class="block" id="build">
+    <span class="eyebrow">For the person building it</span>
+    <h2>Build, speed and launch checklist</h2>
+    <div class="two">
+      <div class="check">
+        <h3>Publish without losing rankings</h3>
+        <ol>
+          <li>Paste the copy into draft 6836, preview it on mobile, then get it approved.</li>
+          <li>Back up first, using Hostinger's one-click backup.</li>
+          <li>Go to Settings → Reading → Homepage and choose page 6836. WordPress then serves it at <code>/</code> and redirects its own slug to the homepage.</li>
+          <li>Redirect the old "Home" page (ID 4103, slug <code>home-copy</code>) to <code>/</code> with a 301, or set it to draft.</li>
+          <li>Set the SEO title and meta from this deck, and update the FAQ schema to the questions above.</li>
+          <li>In Elementor → Tools, click Regenerate CSS &amp; Data, then purge the LiteSpeed cache.</li>
+        </ol>
+      </div>
+      <div class="check">
+        <h3>Mobile speed (target LCP under 2.5s)</h3>
+        <ul>
+          <li>Elementor → Settings → Features: turn on Optimized Markup, Improved CSS Loading, Inline Font Icons and Lazy Load Background Images, and use Element Caching.</li>
+          <li>Hero: no entrance animation, and don't lazy-load the first doctor photo. Serve the collage as WebP at about 400 px wide on mobile.</li>
+          <li>Fonts: Elementor → Settings → Advanced → Load Google Fonts Locally. Use only Poppins 600/700 and Rubik 400/500.</li>
+          <li>Add-ons: in ElementsKit, Exclusive Addons, Royal Addons and Premium Addons, switch off every widget the site doesn't use. Their CSS and JS load on every page.</li>
+          <li>LiteSpeed Cache (Hostinger): page cache on, CSS/JS minify, delay JS, and Generate UCSS/CCSS. Test after each change.</li>
+          <li>Map as a static image, and the reviews widget lazy-loaded.</li>
+          <li>Don't paste large SVG illustrations. They are 40% of the current homepage's weight.</li>
+        </ul>
+      </div>
+      <div class="check">
+        <h3>SEO and crawlability</h3>
+        <ul>
+          <li>Only one H1, which is the hero heading. All section titles are H2 and box titles are H3. Choose the tag in Content and the size in Style.</li>
+          <li>Every treatment and doctor box links to its page, which gives 15+ internal links from the homepage.</li>
+          <li>All images have descriptive alt text. Decorative icons don't need it.</li>
+          <li>Hostinger security: make sure the bot protection doesn't block Googlebot, Bingbot or the AI crawlers you want (GPTBot, PerplexityBot, ClaudeBot).</li>
+          <li>Keep the Dentist schema in step with the fact sheet: hours, phone and rating.</li>
+        </ul>
+      </div>
+      <div class="check">
+        <h3>After publishing, check for errors</h3>
+        <ul>
+          <li>PageSpeed Insights (mobile and desktop). Goal: performance 80+, LCP under 2.5s, CLS under 0.1.</li>
+          <li>Google Rich Results Test: Dentist and FAQ show with no errors.</li>
+          <li>Search Console → URL Inspection → Test live URL, then Request indexing.</li>
+          <li>Tap every button on a real phone: Book, Call, WhatsApp, Directions.</li>
+          <li>Check that the 301 from the old Home page works, and that there are no 404s in Search Console after a week.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+(function () {
+  function plain(el) {
+    var c = el.cloneNode(true);
+    c.querySelectorAll('small, .flag, .new').forEach(function (x) { x.remove(); });
+    c.querySelectorAll('br').forEach(function (b) { b.replaceWith('\n'); });
+    return c.textContent.replace(/[ \t]+/g, ' ').replace(/ *\n */g, '\n').trim();
+  }
+  document.querySelectorAll('.row').forEach(function (row) {
+    var val = row.querySelector('.val'), side = row.querySelector('.side');
+    if (!val || !side) return;
+    var label = row.querySelector('.lbl').textContent;
+    if (/^(Why add it|Not used|Widget|Map|Image alt)/.test(label)) return;
+    var text = plain(val);
+    var cc = document.createElement('span'); cc.className = 'cc';
+    var max = val.dataset.max ? +val.dataset.max : 0;
+    cc.textContent = text.length + (max ? ' / ' + max : '') + ' ch';
+    if (max && text.length > max) cc.classList.add('over');
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'copy'; b.textContent = 'Copy';
+    b.setAttribute('aria-label', 'Copy ' + label.trim());
+    b.addEventListener('click', function () {
+      function ok() { b.textContent = 'Copied'; b.classList.add('done'); setTimeout(function () { b.textContent = 'Copy'; b.classList.remove('done'); }, 1400); }
+      function fallback() { var r = document.createRange(); r.selectNodeContents(val); var s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected'; }
+      try { navigator.clipboard.writeText(text).then(ok, fallback); } catch (e) { fallback(); }
+    });
+    side.append(cc, b);
+  });
+})();
+</script>
