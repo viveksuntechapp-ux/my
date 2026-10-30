@@ -1,37 +1,8 @@
 {
-    "title": "Home (New Design, Draft)",
-    "status": "draft",
-    "template_type": "wp-page",
-    "page_template": "elementor_header_footer",
+    "id": 6845,
     "data": [
         {
-            "id": "0f523907",
-            "elType": "container",
-            "settings": {
-                "content_width": "full",
-                "padding": {
-                    "unit": "px",
-                    "top": 0,
-                    "right": 0,
-                    "bottom": 0,
-                    "left": 0,
-                    "isLinked": true
-                },
-                "css_classes": "sodc-css"
-            },
-            "elements": [
-                {
-                    "id": "9d4f1bba",
-                    "elType": "widget",
-                    "widgetType": "html",
-                    "settings": {
-                        "html": "<style id=\"sodc-home-css\">\n/* Smile On homepage styles. Based on the Al Satwa location page system (WPCode snippet 6838), scoped to this page via this inline style block. Brand: teal #2D9CA9 -> violet #6656C4 */\nbody{--sodc-teal:#2D9CA9;--sodc-violet:#6656C4;--sodc-ink:#1d2733;--sodc-muted:#55606d;--sodc-line:#e7ecf1}\nbody .sodc-sat-hero{background:linear-gradient(135deg,#f1fafb 0%,#f4f2fd 100%);position:relative;overflow:hidden}\nbody .sodc-sat-hero::before{content:\"\";position:absolute;width:560px;height:560px;right:-180px;top:-200px;border-radius:50%;background:radial-gradient(circle,rgba(102,86,196,.16),rgba(102,86,196,0) 70%);pointer-events:none}\nbody .sodc-sat-hero::after{content:\"\";position:absolute;width:380px;height:380px;left:-160px;bottom:-200px;border-radius:50%;background:radial-gradient(circle,rgba(45,156,169,.16),rgba(45,156,169,0) 70%);pointer-events:none}\nbody .sodc-pill p{display:inline-block;margin:0;padding:7px 16px;border-radius:999px;background:#fff;border:1px solid #d6eef0;color:var(--sodc-teal);font-size:14px;font-weight:600;box-shadow:0 4px 14px rgba(45,156,169,.10)}\nbody .sodc-h1 .elementor-heading-title{font-family:Rubik,sans-serif;font-size:clamp(34px,4.6vw,56px);line-height:1.08;font-weight:700;color:var(--sodc-ink);letter-spacing:-.02em}\nbody .sodc-lead p{font-size:18px;line-height:1.65;color:var(--sodc-muted);max-width:580px;margin:0}\nbody .sodc-trust .elementor-icon-list-text{font-size:14px;font-weight:500;color:var(--sodc-ink)}\nbody .sodc-btn-grad .elementor-button,body .sodc-btn-ghost .elementor-button,body .sodc-btn-white .elementor-button,body .sodc-btn-outline-white .elementor-button{font-family:Rubik,sans-serif;font-weight:500;font-size:16px;border-radius:32px;transition:transform .2s ease,box-shadow .2s ease,background .2s ease,color .2s ease}\nbody .sodc-btn-grad .elementor-button{background:linear-gradient(90deg,#2D9CA9 0%,#6656C4 100%);color:#fff;padding:15px 30px;box-shadow:0 10px 24px rgba(102,86,196,.24)}\nbody .sodc-btn-grad .elementor-button:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(102,86,196,.32);color:#fff}\nbody .sodc-btn-ghost .elementor-button{background:#fff;color:var(--sodc-teal);border:2px solid var(--sodc-teal);padding:13px 28px}\nbody .sodc-btn-ghost .elementor-button:hover{background:var(--sodc-teal);color:#fff}\nbody .sodc-btn-white .elementor-button{background:#fff;color:var(--sodc-violet);padding:15px 30px;font-weight:600}\nbody .sodc-btn-white .elementor-button:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(0,0,0,.18)}\nbody .sodc-btn-outline-white .elementor-button{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.85);padding:13px 26px}\nbody .sodc-btn-outline-white .elementor-button:hover{background:#fff;color:var(--sodc-teal)}\nbody .sodc-collage-wrap{position:relative}\nbody .sodc-collage{display:grid!important;grid-template-columns:1fr 1fr;gap:14px;padding-bottom:28px}\nbody .sodc-collage>.elementor-widget-image:nth-child(even){transform:translateY(28px)}\nbody .sodc-collage img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top;border-radius:20px;box-shadow:0 18px 40px rgba(29,39,51,.14)}\nbody .sodc-float-card{position:absolute;left:-28px;bottom:6px;z-index:3;background:#fff;border-radius:16px;padding:14px 18px;box-shadow:0 16px 36px rgba(29,39,51,.18);max-width:250px;border-left:4px solid var(--sodc-violet)}\nbody .sodc-float-card p{margin:0;font-size:14px;line-height:1.45;color:var(--sodc-muted)}\nbody .sodc-float-card strong{color:var(--sodc-ink);font-size:15px}\nbody .sodc-stats{background:linear-gradient(90deg,#2D9CA9 0%,#6656C4 100%)}\nbody .sodc-stats>.e-con-inner>.elementor-widget-counter,body .sodc-stats>.elementor-widget-counter{flex:1 1 180px}\nbody .sodc-stats .elementor-counter-number-wrapper{font-family:Rubik,sans-serif;font-weight:700;font-size:44px;line-height:1.1}\nbody .sodc-stats .elementor-counter-title{font-size:15px;opacity:.92}\nbody .sodc-h2 .elementor-heading-title{font-family:Rubik,sans-serif;font-size:clamp(28px,3.2vw,38px);line-height:1.2;font-weight:700;color:var(--sodc-ink);letter-spacing:-.01em}\nbody .sodc-sub p{max-width:680px;margin:0 auto;color:var(--sodc-muted);font-size:17px;line-height:1.6}\nbody .sodc-tint{background:#f6f8fb}\nbody .sodc-grid{display:grid!important;gap:20px;margin-top:12px}\nbody .sodc-grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}\nbody .sodc-grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}\n@media (max-width:1024px){body .sodc-grid-4,body .sodc-grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}}\n@media (max-width:600px){body .sodc-grid-4,body .sodc-grid-3{grid-template-columns:1fr}body .sodc-docs{grid-template-columns:repeat(2,minmax(0,1fr))}}\nbody .sodc-card{background:#fff;border:1px solid var(--sodc-line);border-radius:18px;padding:26px 24px;box-shadow:0 6px 18px rgba(29,39,51,.05);transition:transform .25s ease,box-shadow .25s ease}\nbody .sodc-card:hover{transform:translateY(-4px);box-shadow:0 18px 38px rgba(45,156,169,.16)}\nbody .sodc-card .elementor-icon-box-title{font-family:Rubik,sans-serif;font-size:19px;font-weight:600;color:var(--sodc-ink);margin-bottom:6px}\nbody .sodc-card .elementor-icon-box-description{color:var(--sodc-muted);font-size:15px;line-height:1.6}\nbody .sodc-card .elementor-icon{font-size:22px}\nbody .sodc-tile{background:#fff;border:1px solid var(--sodc-line);border-radius:16px;padding:20px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}\nbody .sodc-tile:hover{transform:translateY(-3px);border-color:var(--sodc-teal);box-shadow:0 14px 30px rgba(45,156,169,.14)}\nbody .sodc-tile .elementor-icon{font-size:26px}\nbody .sodc-tile .elementor-icon-box-title,body .sodc-tile .elementor-icon-box-title a{font-family:Rubik,sans-serif;font-size:17px;font-weight:600;color:var(--sodc-ink)}\nbody .sodc-tile .elementor-icon-box-description{font-size:14px;line-height:1.55;color:var(--sodc-muted)}\nbody .sodc-doc .elementor-image-box-wrapper{text-align:left}\nbody .sodc-doc .elementor-image-box-img{width:100%!important;margin:0 0 14px!important;overflow:hidden;border-radius:18px}\nbody .sodc-doc img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top;border-radius:18px;transition:transform .4s ease}\nbody .sodc-doc:hover img{transform:scale(1.04)}\nbody .sodc-doc .elementor-image-box-title,body .sodc-doc .elementor-image-box-title a{font-family:Rubik,sans-serif;font-size:16px;line-height:1.3;font-weight:600;color:var(--sodc-ink);margin-bottom:2px}\nbody .sodc-doc .elementor-image-box-description{font-size:13px;line-height:1.4;color:var(--sodc-teal);font-weight:500}\nbody .sodc-docs{grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:18px}\n@media (max-width:1024px){body .sodc-docs{grid-template-columns:repeat(3,minmax(0,1fr))!important}}\n@media (max-width:600px){body .sodc-docs{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px}}\nbody .sodc-visit h3.elementor-heading-title{font-family:Rubik,sans-serif;font-size:22px;font-weight:700;color:var(--sodc-ink)}\nbody .sodc-visit p{color:var(--sodc-muted);line-height:1.6;margin:0}\nbody .sodc-visit a{color:var(--sodc-violet)}\nbody .sodc-mapframe{border-radius:20px;overflow:hidden;box-shadow:0 14px 34px rgba(29,39,51,.12)}\nbody .sodc-mapframe iframe{display:block}\n@media (max-width:767px){body .sodc-mapframe iframe{height:300px}}\nbody .sodc-note{background:#fff;border-left:4px solid var(--sodc-violet);border-radius:12px;padding:18px 22px;margin-top:12px}\nbody .sodc-note p{margin:0;color:var(--sodc-muted);line-height:1.6}\nbody .sodc-faq .elementor-toggle{max-width:860px;margin:0 auto}\nbody .sodc-faq .elementor-toggle-item{border:1px solid var(--sodc-line);border-radius:14px;margin-bottom:12px;overflow:hidden;background:#fff}\nbody .sodc-faq .elementor-tab-title{border:0!important;padding:18px 22px!important;font-family:Rubik,sans-serif;font-weight:600;font-size:17px;color:var(--sodc-ink)}\nbody .sodc-faq .elementor-tab-title a,body .sodc-faq .elementor-toggle-title{color:var(--sodc-ink)}\nbody .sodc-faq .elementor-tab-title.elementor-active a,body .sodc-faq .elementor-tab-title.elementor-active .elementor-toggle-title{color:var(--sodc-violet)}\nbody .sodc-faq .elementor-toggle-icon{color:var(--sodc-teal)}\nbody .sodc-faq .elementor-tab-content{border:0!important;padding:0 22px 18px!important;color:var(--sodc-muted);line-height:1.65}\nbody .sodc-faq .elementor-tab-content a{color:var(--sodc-violet)}\nbody .sodc-cta{background:linear-gradient(120deg,#2D9CA9 0%,#6656C4 100%);border-radius:28px;max-width:1160px;margin:0 auto 72px}\nbody .sodc-cta .elementor-heading-title{color:#fff;font-family:Rubik,sans-serif;font-size:clamp(26px,3vw,36px);font-weight:700}\nbody .sodc-cta p{color:rgba(255,255,255,.92);font-size:17px;margin:0}\n@media (max-width:767px){\nbody .sodc-float-card{position:relative;left:auto;bottom:auto;margin-top:12px;max-width:none}\nbody .sodc-stats .elementor-counter-number-wrapper{font-size:36px}\nbody .sodc-cta{border-radius:20px;width:auto!important;max-width:calc(100% - 32px)!important;margin:0 16px 48px!important}\n}\n\n/* Homepage additions */\nbody .sodc-css{display:none!important}\nbody .sodc-kicker p{display:inline-block;margin:0;padding:6px 14px;border-radius:999px;background:#EEEBFA;color:#6656C4;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}\nbody .sodc-kicker{margin-bottom:-6px}\nbody .sodc-offer{border-top:4px solid var(--sodc-violet)}\nbody .sodc-offer .elementor-icon-box-title{font-size:20px}\nbody .sodc-offer-hot{background:linear-gradient(135deg,#6656C4 0%,#4f43a8 100%);border-color:transparent;border-top-color:#f5a623}\nbody .sodc-offer-hot .elementor-icon-box-title,body .sodc-offer-hot .elementor-icon-box-description{color:#fff!important}\nbody .sodc-offer-hot .elementor-icon{background-color:rgba(255,255,255,.18)!important;color:#fff!important;fill:#fff!important}\nbody .sodc-small p{font-size:14px}\nbody .sodc-reviews,body .wpr-grid{max-width:1140px;margin-left:auto;margin-right:auto;width:100%}\nbody .sodc-form{background:#fff;border:1px solid var(--sodc-line);border-radius:16px;padding:18px}\nbody .sodc-tile .elementor-icon-box-title,body .sodc-tile .elementor-icon-box-title a{font-size:16px}\n@media (max-width:600px){body .sodc-tile{padding:16px}}\n\n</style>"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "971f1723",
+            "id": "f2609f5d",
             "elType": "container",
             "settings": {
                 "flex_direction": "row",
@@ -64,7 +35,16 @@
             },
             "elements": [
                 {
-                    "id": "d3dd79ec",
+                    "id": "e9eb0ee7",
+                    "elType": "widget",
+                    "widgetType": "html",
+                    "settings": {
+                        "html": "<style id=\"sodc-home-css\">\n/* Smile On homepage styles. Based on the Al Satwa location page system (WPCode snippet 6838), scoped to this page via this inline style block. Brand: teal #2D9CA9 -> violet #6656C4 */\nbody{--sodc-teal:#2D9CA9;--sodc-violet:#6656C4;--sodc-ink:#1d2733;--sodc-muted:#55606d;--sodc-line:#e7ecf1}\nbody .sodc-sat-hero{background:linear-gradient(135deg,#f1fafb 0%,#f4f2fd 100%);position:relative;overflow:hidden}\nbody .sodc-sat-hero::before{content:\"\";position:absolute;width:560px;height:560px;right:-180px;top:-200px;border-radius:50%;background:radial-gradient(circle,rgba(102,86,196,.16),rgba(102,86,196,0) 70%);pointer-events:none}\nbody .sodc-sat-hero::after{content:\"\";position:absolute;width:380px;height:380px;left:-160px;bottom:-200px;border-radius:50%;background:radial-gradient(circle,rgba(45,156,169,.16),rgba(45,156,169,0) 70%);pointer-events:none}\nbody .sodc-pill p{display:inline-block;margin:0;padding:7px 16px;border-radius:999px;background:#fff;border:1px solid #d6eef0;color:var(--sodc-teal);font-size:14px;font-weight:600;box-shadow:0 4px 14px rgba(45,156,169,.10)}\nbody .sodc-h1 .elementor-heading-title{font-family:Rubik,sans-serif;font-size:clamp(34px,4.6vw,56px);line-height:1.08;font-weight:700;color:var(--sodc-ink);letter-spacing:-.02em}\nbody .sodc-lead p{font-size:18px;line-height:1.65;color:var(--sodc-muted);max-width:580px;margin:0}\nbody .sodc-trust .elementor-icon-list-text{font-size:14px;font-weight:500;color:var(--sodc-ink)}\nbody .sodc-btn-grad .elementor-button,body .sodc-btn-ghost .elementor-button,body .sodc-btn-white .elementor-button,body .sodc-btn-outline-white .elementor-button{font-family:Rubik,sans-serif;font-weight:500;font-size:16px;border-radius:32px;transition:transform .2s ease,box-shadow .2s ease,background .2s ease,color .2s ease}\nbody .sodc-btn-grad .elementor-button{background:linear-gradient(90deg,#2D9CA9 0%,#6656C4 100%);color:#fff;padding:15px 30px;box-shadow:0 10px 24px rgba(102,86,196,.24)}\nbody .sodc-btn-grad .elementor-button:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(102,86,196,.32);color:#fff}\nbody .sodc-btn-ghost .elementor-button{background:#fff;color:var(--sodc-teal);border:2px solid var(--sodc-teal);padding:13px 28px}\nbody .sodc-btn-ghost .elementor-button:hover{background:var(--sodc-teal);color:#fff}\nbody .sodc-btn-white .elementor-button{background:#fff;color:var(--sodc-violet);padding:15px 30px;font-weight:600}\nbody .sodc-btn-white .elementor-button:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(0,0,0,.18)}\nbody .sodc-btn-outline-white .elementor-button{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.85);padding:13px 26px}\nbody .sodc-btn-outline-white .elementor-button:hover{background:#fff;color:var(--sodc-teal)}\nbody .sodc-collage-wrap{position:relative}\nbody .sodc-collage{display:grid!important;grid-template-columns:1fr 1fr;gap:14px;padding-bottom:28px}\nbody .sodc-collage>.elementor-widget-image:nth-child(even){transform:translateY(28px)}\nbody .sodc-collage img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top;border-radius:20px;box-shadow:0 18px 40px rgba(29,39,51,.14)}\nbody .sodc-float-card{position:absolute;left:-28px;bottom:6px;z-index:3;background:#fff;border-radius:16px;padding:14px 18px;box-shadow:0 16px 36px rgba(29,39,51,.18);max-width:250px;border-left:4px solid var(--sodc-violet)}\nbody .sodc-float-card p{margin:0;font-size:14px;line-height:1.45;color:var(--sodc-muted)}\nbody .sodc-float-card strong{color:var(--sodc-ink);font-size:15px}\nbody .sodc-stats{background:linear-gradient(90deg,#2D9CA9 0%,#6656C4 100%)}\nbody .sodc-stats>.e-con-inner>.elementor-widget-counter,body .sodc-stats>.elementor-widget-counter{flex:1 1 180px}\nbody .sodc-stats .elementor-counter-number-wrapper{font-family:Rubik,sans-serif;font-weight:700;font-size:44px;line-height:1.1}\nbody .sodc-stats .elementor-counter-title{font-size:15px;opacity:.92}\nbody .sodc-h2 .elementor-heading-title{font-family:Rubik,sans-serif;font-size:clamp(28px,3.2vw,38px);line-height:1.2;font-weight:700;color:var(--sodc-ink);letter-spacing:-.01em}\nbody .sodc-sub p{max-width:680px;margin:0 auto;color:var(--sodc-muted);font-size:17px;line-height:1.6}\nbody .sodc-tint{background:#f6f8fb}\nbody .sodc-grid{display:grid!important;gap:20px;margin-top:12px}\nbody .sodc-grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}\nbody .sodc-grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}\n@media (max-width:1024px){body .sodc-grid-4,body .sodc-grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}}\n@media (max-width:600px){body .sodc-grid-4,body .sodc-grid-3{grid-template-columns:1fr}body .sodc-docs{grid-template-columns:repeat(2,minmax(0,1fr))}}\nbody .sodc-card{background:#fff;border:1px solid var(--sodc-line);border-radius:18px;padding:26px 24px;box-shadow:0 6px 18px rgba(29,39,51,.05);transition:transform .25s ease,box-shadow .25s ease}\nbody .sodc-card:hover{transform:translateY(-4px);box-shadow:0 18px 38px rgba(45,156,169,.16)}\nbody .sodc-card .elementor-icon-box-title{font-family:Rubik,sans-serif;font-size:19px;font-weight:600;color:var(--sodc-ink);margin-bottom:6px}\nbody .sodc-card .elementor-icon-box-description{color:var(--sodc-muted);font-size:15px;line-height:1.6}\nbody .sodc-card .elementor-icon{font-size:22px}\nbody .sodc-tile{background:#fff;border:1px solid var(--sodc-line);border-radius:16px;padding:20px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}\nbody .sodc-tile:hover{transform:translateY(-3px);border-color:var(--sodc-teal);box-shadow:0 14px 30px rgba(45,156,169,.14)}\nbody .sodc-tile .elementor-icon{font-size:26px}\nbody .sodc-tile .elementor-icon-box-title,body .sodc-tile .elementor-icon-box-title a{font-family:Rubik,sans-serif;font-size:17px;font-weight:600;color:var(--sodc-ink)}\nbody .sodc-tile .elementor-icon-box-description{font-size:14px;line-height:1.55;color:var(--sodc-muted)}\nbody .sodc-doc .elementor-image-box-wrapper{text-align:left}\nbody .sodc-doc .elementor-image-box-img{width:100%!important;margin:0 0 14px!important;overflow:hidden;border-radius:18px}\nbody .sodc-doc img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top;border-radius:18px;transition:transform .4s ease}\nbody .sodc-doc:hover img{transform:scale(1.04)}\nbody .sodc-doc .elementor-image-box-title,body .sodc-doc .elementor-image-box-title a{font-family:Rubik,sans-serif;font-size:16px;line-height:1.3;font-weight:600;color:var(--sodc-ink);margin-bottom:2px}\nbody .sodc-doc .elementor-image-box-description{font-size:13px;line-height:1.4;color:var(--sodc-teal);font-weight:500}\nbody .sodc-docs{grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:18px}\n@media (max-width:1024px){body .sodc-docs{grid-template-columns:repeat(3,minmax(0,1fr))!important}}\n@media (max-width:600px){body .sodc-docs{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px}}\nbody .sodc-visit h3.elementor-heading-title{font-family:Rubik,sans-serif;font-size:22px;font-weight:700;color:var(--sodc-ink)}\nbody .sodc-visit p{color:var(--sodc-muted);line-height:1.6;margin:0}\nbody .sodc-visit a{color:var(--sodc-violet)}\nbody .sodc-mapframe{border-radius:20px;overflow:hidden;box-shadow:0 14px 34px rgba(29,39,51,.12)}\nbody .sodc-mapframe iframe{display:block}\n@media (max-width:767px){body .sodc-mapframe iframe{height:300px}}\nbody .sodc-note{background:#fff;border-left:4px solid var(--sodc-violet);border-radius:12px;padding:18px 22px;margin-top:12px}\nbody .sodc-note p{margin:0;color:var(--sodc-muted);line-height:1.6}\nbody .sodc-faq .elementor-toggle{max-width:860px;margin:0 auto}\nbody .sodc-faq .elementor-toggle-item{border:1px solid var(--sodc-line);border-radius:14px;margin-bottom:12px;overflow:hidden;background:#fff}\nbody .sodc-faq .elementor-tab-title{border:0!important;padding:18px 22px!important;font-family:Rubik,sans-serif;font-weight:600;font-size:17px;color:var(--sodc-ink)}\nbody .sodc-faq .elementor-tab-title a,body .sodc-faq .elementor-toggle-title{color:var(--sodc-ink)}\nbody .sodc-faq .elementor-tab-title.elementor-active a,body .sodc-faq .elementor-tab-title.elementor-active .elementor-toggle-title{color:var(--sodc-violet)}\nbody .sodc-faq .elementor-toggle-icon{color:var(--sodc-teal)}\nbody .sodc-faq .elementor-tab-content{border:0!important;padding:0 22px 18px!important;color:var(--sodc-muted);line-height:1.65}\nbody .sodc-faq .elementor-tab-content a{color:var(--sodc-violet)}\nbody .sodc-cta{background:linear-gradient(120deg,#2D9CA9 0%,#6656C4 100%);border-radius:28px;max-width:1160px;margin:0 auto 72px}\nbody .sodc-cta .elementor-heading-title{color:#fff;font-family:Rubik,sans-serif;font-size:clamp(26px,3vw,36px);font-weight:700}\nbody .sodc-cta p{color:rgba(255,255,255,.92);font-size:17px;margin:0}\n@media (max-width:767px){\nbody .sodc-float-card{position:relative;left:auto;bottom:auto;margin-top:12px;max-width:none}\nbody .sodc-stats .elementor-counter-number-wrapper{font-size:36px}\nbody .sodc-cta{border-radius:20px;width:auto!important;max-width:calc(100% - 32px)!important;margin:0 16px 48px!important}\n}\n\n/* Homepage additions */\nbody .sodc-css{display:none!important}\nbody .sodc-kicker p{display:inline-block;margin:0;padding:6px 14px;border-radius:999px;background:#EEEBFA;color:#6656C4;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}\nbody .sodc-kicker{margin-bottom:-6px}\nbody .sodc-offer{border-top:4px solid var(--sodc-violet)}\nbody .sodc-offer .elementor-icon-box-title{font-size:20px}\nbody .sodc-offer-hot{background:linear-gradient(135deg,#6656C4 0%,#4f43a8 100%);border-color:transparent;border-top-color:#f5a623}\nbody .sodc-offer-hot .elementor-icon-box-title,body .sodc-offer-hot .elementor-icon-box-description{color:#fff!important}\nbody .sodc-offer-hot .elementor-icon{background-color:rgba(255,255,255,.18)!important;color:#fff!important;fill:#fff!important}\nbody .sodc-small p{font-size:14px}\nbody .sodc-reviews,body .wpr-grid{max-width:1140px;margin-left:auto;margin-right:auto;width:100%}\nbody .sodc-form{background:#fff;border:1px solid var(--sodc-line);border-radius:16px;padding:18px}\nbody .sodc-tile .elementor-icon-box-title,body .sodc-tile .elementor-icon-box-title a{font-size:16px}\n@media (max-width:600px){body .sodc-tile{padding:16px}}\n\n/* v2: logged-in admin bar gap (preview only), swipe sliders on mobile, new sections */\nbody.admin-bar .sodc-sat-hero{margin-top:-32px}\n@media (max-width:782px){body.admin-bar .sodc-sat-hero{margin-top:-46px}}\nbody .sodc-sat-hero>.sodc-css,body .sodc-sat-hero .elementor-widget-html.sodc-css{display:none!important}\nbody .sodc-swipe-hint{display:none}\n@media (max-width:767px){\nbody .sodc-swipe{display:flex!important;flex-wrap:nowrap!important;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px!important;margin-right:-16px;padding:4px 16px 12px 0;scrollbar-width:none;-webkit-overflow-scrolling:touch}\nbody .sodc-swipe::-webkit-scrollbar{display:none}\nbody .sodc-swipe>.elementor-element{flex:0 0 78%!important;max-width:78%;scroll-snap-align:start}\nbody .sodc-docs.sodc-swipe>.elementor-element{flex-basis:58%!important;max-width:58%}\nbody .sodc-swipe-hint{display:block}\nbody .sodc-swipe-hint p{font-size:13px;color:var(--sodc-muted);margin:0;text-align:right}\n}\nbody .sodc-emergency{background:linear-gradient(90deg,#1f7c87 0%,#4f43a8 100%)}\nbody .sodc-emergency .elementor-icon-box-title{color:#fff!important;font-family:Rubik,sans-serif;font-size:20px;font-weight:600;margin:0 0 2px}\nbody .sodc-emergency .elementor-icon-box-description{color:rgba(255,255,255,.9)!important;font-size:15px}\nbody .sodc-emergency .elementor-icon{background:rgba(255,255,255,.16)!important;color:#fff!important;fill:#fff!important}\nbody .sodc-about-img img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:22px;box-shadow:0 18px 40px rgba(29,39,51,.14)}\nbody .sodc-about .sodc-h2 .elementor-heading-title{text-align:left}\nbody .sodc-ba .elementor-image-box-img{width:100%!important;margin:0 0 12px!important}\nbody .sodc-ba img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px}\nbody .sodc-ba .elementor-image-box-title{font-family:Rubik,sans-serif;font-size:17px;font-weight:600;color:var(--sodc-ink)}\nbody .sodc-ba .elementor-image-box-description{font-size:14px;color:var(--sodc-muted)}\nbody .sodc-ins{background:#fff;border:1px solid var(--sodc-line);border-radius:22px;max-width:1140px;margin:0 auto}\nbody .sodc-ins .elementor-icon-box-title{font-family:Rubik,sans-serif;font-size:22px;font-weight:700;color:var(--sodc-ink)}\nbody .sodc-ins .elementor-icon-box-description{color:var(--sodc-muted);font-size:15px}\n\n</style>",
+                        "_css_classes": "sodc-css"
+                    }
+                },
+                {
+                    "id": "51ebaf5d",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
@@ -87,7 +67,7 @@
                     },
                     "elements": [
                         {
-                            "id": "1a31299c",
+                            "id": "f46c388a",
                             "elType": "widget",
                             "settings": {
                                 "editor": "<p>Crafting Wholesome Smiles \u00b7 Al Satwa, Dubai</p>",
@@ -97,7 +77,7 @@
                             "widgetType": "text-editor"
                         },
                         {
-                            "id": "2b96d680",
+                            "id": "3363cfde",
                             "elType": "widget",
                             "settings": {
                                 "title": "Specialist Dental Clinic in Dubai",
@@ -108,17 +88,17 @@
                             "widgetType": "heading"
                         },
                         {
-                            "id": "6b07fd01",
+                            "id": "4c6fa339",
                             "elType": "widget",
                             "settings": {
-                                "editor": "<p>From Invisalign and dental implants to teeth whitening and root canal care, we correct, repair and restore healthier smiles. Every treatment is carried out by a dentist who specialises in it, in one comfortable clinic on 2nd December Street. Open every day, 9am to 9pm.</p>",
+                                "editor": "<p>From Invisalign and dental implants to teeth whitening and root canal care, we correct, repair and restore healthier smiles. Every treatment is carried out by a dentist who specialises in it, in one comfortable clinic on 2nd December Street. Call us today, we're open every day, 9am to 9pm.</p>",
                                 "_css_classes": "sodc-lead"
                             },
                             "elements": [],
                             "widgetType": "text-editor"
                         },
                         {
-                            "id": "731b0ea8",
+                            "id": "7559d4a2",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -134,24 +114,9 @@
                             },
                             "elements": [
                                 {
-                                    "id": "013c4b8f",
+                                    "id": "38b80bc2",
                                     "elType": "widget",
-                                    "settings": {
-                                        "text": "Book an Appointment",
-                                        "link": {
-                                            "url": "https://smileondc.com/make-appointment/",
-                                            "is_external": "",
-                                            "nofollow": ""
-                                        },
-                                        "size": "md",
-                                        "_css_classes": "sodc-btn-grad"
-                                    },
-                                    "elements": [],
-                                    "widgetType": "button"
-                                },
-                                {
-                                    "id": "f59a1705",
-                                    "elType": "widget",
+                                    "widgetType": "button",
                                     "settings": {
                                         "text": "Call +971 55 896 1826",
                                         "link": {
@@ -160,16 +125,37 @@
                                             "nofollow": ""
                                         },
                                         "size": "md",
+                                        "selected_icon": {
+                                            "value": "fas fa-phone-alt",
+                                            "library": "fa-solid"
+                                        },
+                                        "_css_classes": "sodc-btn-grad"
+                                    }
+                                },
+                                {
+                                    "id": "f4a0f70d",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Book Online",
+                                        "link": {
+                                            "url": "https://smileondc.com/make-appointment/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "size": "md",
+                                        "selected_icon": {
+                                            "value": "fas fa-calendar-check",
+                                            "library": "fa-solid"
+                                        },
                                         "_css_classes": "sodc-btn-ghost"
-                                    },
-                                    "elements": [],
-                                    "widgetType": "button"
+                                    }
                                 }
                             ],
                             "isInner": true
                         },
                         {
-                            "id": "1e79df31",
+                            "id": "da7f384f",
                             "elType": "widget",
                             "settings": {
                                 "view": "inline",
@@ -218,7 +204,7 @@
                     "isInner": true
                 },
                 {
-                    "id": "ac79c574",
+                    "id": "84167f0b",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
@@ -235,7 +221,7 @@
                     },
                     "elements": [
                         {
-                            "id": "543e2e5e",
+                            "id": "b782485f",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -243,7 +229,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "907a3602",
+                                    "id": "ba0cef86",
                                     "elType": "widget",
                                     "settings": {
                                         "image": {
@@ -258,7 +244,7 @@
                                     "widgetType": "image"
                                 },
                                 {
-                                    "id": "7fcbed85",
+                                    "id": "92eca152",
                                     "elType": "widget",
                                     "settings": {
                                         "image": {
@@ -273,7 +259,7 @@
                                     "widgetType": "image"
                                 },
                                 {
-                                    "id": "e569fac6",
+                                    "id": "2a1e8dec",
                                     "elType": "widget",
                                     "settings": {
                                         "image": {
@@ -288,7 +274,7 @@
                                     "widgetType": "image"
                                 },
                                 {
-                                    "id": "8dc70363",
+                                    "id": "5f328df5",
                                     "elType": "widget",
                                     "settings": {
                                         "image": {
@@ -306,7 +292,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "94b91a14",
+                            "id": "07d26894",
                             "elType": "widget",
                             "settings": {
                                 "editor": "<p><strong>Meet your specialists</strong><br>Braces, root canals, implants, gums and kids, all in one clinic</p>",
@@ -322,7 +308,7 @@
             "isInner": false
         },
         {
-            "id": "2bae8146",
+            "id": "d9c6e400",
             "elType": "container",
             "settings": {
                 "flex_direction": "row",
@@ -347,54 +333,54 @@
             },
             "elements": [
                 {
-                    "id": "045cf99e",
+                    "id": "94eb3a97",
                     "elType": "widget",
                     "settings": {
-                        "suffix": "",
-                        "title": "Google reviews, rated 5.0",
+                        "suffix": ".0 \u2605",
+                        "title": "Google rating, 333 reviews",
                         "number_color": "#ffffff",
                         "title_color": "#ffffff",
                         "starting_number": 0,
-                        "ending_number": 333
+                        "ending_number": 5
                     },
                     "elements": [],
                     "widgetType": "counter"
                 },
                 {
-                    "id": "5a3c4773",
+                    "id": "6a705ea0",
                     "elType": "widget",
                     "settings": {
-                        "ending_number": 10,
-                        "suffix": "+",
-                        "title": "Dentists and specialists",
-                        "number_color": "#ffffff",
-                        "title_color": "#ffffff",
-                        "starting_number": 0
-                    },
-                    "elements": [],
-                    "widgetType": "counter"
-                },
-                {
-                    "id": "b6a39e47",
-                    "elType": "widget",
-                    "settings": {
-                        "ending_number": 5,
-                        "suffix": "+",
-                        "title": "Years caring for Dubai smiles",
-                        "number_color": "#ffffff",
-                        "title_color": "#ffffff",
-                        "starting_number": 0
-                    },
-                    "elements": [],
-                    "widgetType": "counter"
-                },
-                {
-                    "id": "8614ae2f",
-                    "elType": "widget",
-                    "settings": {
-                        "ending_number": 7,
+                        "ending_number": 6,
                         "suffix": "",
-                        "title": "Days a week, 9am to 9pm",
+                        "title": "In-house specialists",
+                        "number_color": "#ffffff",
+                        "title_color": "#ffffff",
+                        "starting_number": 0
+                    },
+                    "elements": [],
+                    "widgetType": "counter"
+                },
+                {
+                    "id": "1ceaf88e",
+                    "elType": "widget",
+                    "settings": {
+                        "ending_number": 8,
+                        "suffix": "",
+                        "title": "Dental specialties",
+                        "number_color": "#ffffff",
+                        "title_color": "#ffffff",
+                        "starting_number": 0
+                    },
+                    "elements": [],
+                    "widgetType": "counter"
+                },
+                {
+                    "id": "fe0cc577",
+                    "elType": "widget",
+                    "settings": {
+                        "ending_number": 12,
+                        "suffix": " hrs",
+                        "title": "Open every day, 9am to 9pm",
                         "number_color": "#ffffff",
                         "title_color": "#ffffff",
                         "starting_number": 0
@@ -406,7 +392,244 @@
             "isInner": false
         },
         {
-            "id": "9c26b4f9",
+            "id": "68be9c40",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_align_items": "center",
+                "flex_justify_content": "space-between",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "16",
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 28,
+                    "right": 20,
+                    "bottom": 28,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-emergency"
+            },
+            "elements": [
+                {
+                    "id": "8763c9b5",
+                    "elType": "widget",
+                    "widgetType": "icon-box",
+                    "settings": {
+                        "selected_icon": {
+                            "value": "fas fa-tooth",
+                            "library": "fa-solid"
+                        },
+                        "view": "stacked",
+                        "position": "inline-start",
+                        "primary_color": "#ffffff",
+                        "secondary_color": "#2D9CA9",
+                        "title_text": "Dental pain or a broken tooth?",
+                        "description_text": "We keep same-day urgent slots open every day, 9am to 9pm. Call and tell us it's urgent.",
+                        "title_size": "h3"
+                    }
+                },
+                {
+                    "id": "c8aff60d",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                        "text": "Call Now: +971 55 896 1826",
+                        "link": {
+                            "url": "tel:+971558961826",
+                            "is_external": "",
+                            "nofollow": ""
+                        },
+                        "size": "md",
+                        "selected_icon": {
+                            "value": "fas fa-phone-alt",
+                            "library": "fa-solid"
+                        },
+                        "_css_classes": "sodc-btn-white"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "981b6fb7",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_align_items": "center",
+                "flex_gap": {
+                    "size": 48,
+                    "unit": "px",
+                    "column": "48",
+                    "row": "28",
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-about sodc-tint"
+            },
+            "elements": [
+                {
+                    "id": "5f6b9c70",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 46
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "a6a45f8f",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "settings": {
+                                "image": {
+                                    "url": "https://smileondc.com/wp-content/uploads/2026/01/meet-the-team.jpg",
+                                    "id": 4602,
+                                    "alt": "The Smile On Dental Clinic team at the clinic in Al Satwa, Dubai",
+                                    "source": "library"
+                                },
+                                "image_size": "large",
+                                "_css_classes": "sodc-about-img"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "c2db063e",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 48
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "size": 16,
+                            "unit": "px",
+                            "column": "16",
+                            "row": "16",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "14f146d0",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>About us</p>",
+                                "_css_classes": "sodc-kicker"
+                            }
+                        },
+                        {
+                            "id": "86ba9410",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "A One-Stop Dental Clinic for the Whole Family",
+                                "header_size": "h2",
+                                "_css_classes": "sodc-h2"
+                            }
+                        },
+                        {
+                            "id": "5e116407",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Smile On Dental Clinic LLC is a one-stop place for all your dental concerns. Established in 2021 by Dr. Arun Devarajan and Dr. Jeffrey Manuel, we offer a wide range of dental care in a well-equipped clinic, with a team of experienced doctors who truly care about your dental health.</p><p>We combine the latest cosmetic techniques with proven treatment plans to correct and restore your smile. Every plan is personalised, from preventive and pediatric care to cosmetic and specialist treatment, so you get the right care from the right dentist.</p>",
+                                "_css_classes": "sodc-lead"
+                            }
+                        },
+                        {
+                            "id": "953a19fc",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_wrap": "wrap",
+                                "flex_gap": {
+                                    "size": 12,
+                                    "unit": "px",
+                                    "column": "12",
+                                    "row": "12",
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "b1bfed89",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Call Us",
+                                        "link": {
+                                            "url": "tel:+971558961826",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "size": "md",
+                                        "selected_icon": {
+                                            "value": "fas fa-phone-alt",
+                                            "library": "fa-solid"
+                                        },
+                                        "_css_classes": "sodc-btn-grad"
+                                    }
+                                },
+                                {
+                                    "id": "5295bc98",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Know More About Us",
+                                        "link": {
+                                            "url": "https://smileondc.com/about-us/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "size": "md",
+                                        "_css_classes": "sodc-btn-ghost"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6df11ee0",
             "elType": "container",
             "settings": {
                 "flex_direction": "column",
@@ -433,11 +656,11 @@
                     "left": 16,
                     "isLinked": false
                 },
-                "css_classes": "sodc-tint"
+                "css_classes": ""
             },
             "elements": [
                 {
-                    "id": "30ec6455",
+                    "id": "078107cb",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -447,7 +670,7 @@
                     }
                 },
                 {
-                    "id": "5e2181b0",
+                    "id": "2bb70b39",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -458,25 +681,34 @@
                     }
                 },
                 {
-                    "id": "1bc00d87",
+                    "id": "65f1627a",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                        "editor": "<p>Whatever your smile needs, there's a specialist for it under one roof. Tap a treatment to see how it works and who carries it out.</p>",
+                        "editor": "<p>Whatever your smile needs, there's a specialist for it under one roof. Tap a treatment to learn more, or call us and we'll point you to the right dentist.</p>",
                         "align": "center",
                         "_css_classes": "sodc-sub"
                     }
                 },
                 {
-                    "id": "2119ccd7",
+                    "id": "17569482",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Swipe to see all treatments \u2192</p>",
+                        "_css_classes": "sodc-swipe-hint"
+                    }
+                },
+                {
+                    "id": "c41fb653",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
-                        "css_classes": "sodc-grid sodc-grid-4"
+                        "css_classes": "sodc-grid sodc-grid-4 sodc-swipe"
                     },
                     "elements": [
                         {
-                            "id": "f0ec96b9",
+                            "id": "d2b471b9",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -498,7 +730,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "0314e25c",
+                            "id": "9955c221",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -520,7 +752,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "5a4fb9bb",
+                            "id": "2d04519a",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -542,7 +774,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "3d2520a1",
+                            "id": "3eb7a220",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -564,7 +796,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "ce96d885",
+                            "id": "a3b932ab",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -586,7 +818,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "e44a2579",
+                            "id": "39e47000",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -608,7 +840,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "b436d180",
+                            "id": "ef045b2c",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -630,7 +862,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "97d50b17",
+                            "id": "49a1ff4d",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -652,7 +884,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "b91bb2c8",
+                            "id": "f6014fa9",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -674,7 +906,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "563db0b4",
+                            "id": "18d9baf0",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -696,7 +928,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "c7435a0c",
+                            "id": "11f0d03d",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -718,7 +950,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "4cb0ae8b",
+                            "id": "0f0a9caa",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -740,7 +972,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "2ea381ea",
+                            "id": "16896d51",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -762,7 +994,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "b3406057",
+                            "id": "c0e32fb8",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -784,7 +1016,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "fa0e4095",
+                            "id": "86c2c397",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -806,7 +1038,7 @@
                             "widgetType": "icon-box"
                         },
                         {
-                            "id": "f8909b12",
+                            "id": "076cf366",
                             "elType": "widget",
                             "settings": {
                                 "selected_icon": {
@@ -830,169 +1062,63 @@
                     ]
                 },
                 {
-                    "id": "8e4d46fc",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                        "text": "View All Dental Services",
-                        "link": {
-                            "url": "https://smileondc.com/dental-services/",
-                            "is_external": "",
-                            "nofollow": ""
-                        },
-                        "align": "center",
-                        "size": "md",
-                        "_css_classes": "sodc-btn-ghost"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "566e8d76",
-            "elType": "container",
-            "settings": {
-                "flex_direction": "column",
-                "flex_gap": {
-                    "size": 20,
-                    "unit": "px",
-                    "column": "20",
-                    "row": "20",
-                    "isLinked": true
-                },
-                "padding": {
-                    "unit": "px",
-                    "top": 72,
-                    "right": 20,
-                    "bottom": 72,
-                    "left": 20,
-                    "isLinked": false
-                },
-                "padding_mobile": {
-                    "unit": "px",
-                    "top": 44,
-                    "right": 16,
-                    "bottom": 44,
-                    "left": 16,
-                    "isLinked": false
-                },
-                "css_classes": ""
-            },
-            "elements": [
-                {
-                    "id": "c1ffbf15",
-                    "elType": "widget",
-                    "widgetType": "text-editor",
-                    "settings": {
-                        "editor": "<p>Offers</p>",
-                        "align": "center",
-                        "_css_classes": "sodc-kicker"
-                    }
-                },
-                {
-                    "id": "1da639d3",
-                    "elType": "widget",
-                    "widgetType": "heading",
-                    "settings": {
-                        "title": "Offers Running Now",
-                        "header_size": "h2",
-                        "align": "center",
-                        "_css_classes": "sodc-h2"
-                    }
-                },
-                {
-                    "id": "8495beee",
+                    "id": "a0781ebd",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
-                        "css_classes": "sodc-grid sodc-grid-3"
+                        "flex_direction": "row",
+                        "flex_wrap": "wrap",
+                        "flex_justify_content": "center",
+                        "flex_gap": {
+                            "size": 12,
+                            "unit": "px",
+                            "column": "12",
+                            "row": "12",
+                            "isLinked": true
+                        }
                     },
                     "elements": [
                         {
-                            "id": "438105e9",
+                            "id": "0df475f9",
                             "elType": "widget",
-                            "widgetType": "icon-box",
+                            "widgetType": "button",
                             "settings": {
+                                "text": "Not sure? Call +971 55 896 1826",
+                                "link": {
+                                    "url": "tel:+971558961826",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "size": "md",
                                 "selected_icon": {
-                                    "value": "fas fa-child",
+                                    "value": "fas fa-phone-alt",
                                     "library": "fa-solid"
                                 },
-                                "view": "stacked",
-                                "primary_color": "#EEEBFA",
-                                "secondary_color": "#6656C4",
-                                "text_align": "left",
-                                "title_text": "Free Pediatric Consultation",
-                                "description_text": "Includes an X-ray and scaling for children. Ideal for a first visit.",
-                                "_css_classes": "sodc-card sodc-offer"
+                                "_css_classes": "sodc-btn-grad"
                             }
                         },
                         {
-                            "id": "788549c6",
+                            "id": "d6a9a868",
                             "elType": "widget",
-                            "widgetType": "icon-box",
+                            "widgetType": "button",
                             "settings": {
-                                "selected_icon": {
-                                    "value": "fas fa-tooth",
-                                    "library": "fa-solid"
+                                "text": "View All Dental Services",
+                                "link": {
+                                    "url": "https://smileondc.com/dental-services/",
+                                    "is_external": "",
+                                    "nofollow": ""
                                 },
-                                "view": "stacked",
-                                "primary_color": "#E8F6F7",
-                                "secondary_color": "#2D9CA9",
-                                "text_align": "left",
-                                "title_text": "Scaling & Polishing: AED 150",
-                                "description_text": "A professional clean to remove tartar and surface stains.",
-                                "_css_classes": "sodc-card sodc-offer"
-                            }
-                        },
-                        {
-                            "id": "1da804a0",
-                            "elType": "widget",
-                            "widgetType": "icon-box",
-                            "settings": {
-                                "selected_icon": {
-                                    "value": "fas fa-star",
-                                    "library": "fa-solid"
-                                },
-                                "view": "stacked",
-                                "primary_color": "#EEEBFA",
-                                "secondary_color": "#6656C4",
-                                "text_align": "left",
-                                "title_text": "Scaling, Polishing & Whitening: AED 499",
-                                "description_text": "Clean and brighten your smile in one visit.",
-                                "_css_classes": "sodc-card sodc-offer sodc-offer-hot"
+                                "align": "center",
+                                "size": "md",
+                                "_css_classes": "sodc-btn-ghost"
                             }
                         }
                     ]
-                },
-                {
-                    "id": "a47c845b",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                        "text": "Book an Offer",
-                        "link": {
-                            "url": "https://smileondc.com/make-appointment/",
-                            "is_external": "",
-                            "nofollow": ""
-                        },
-                        "align": "center",
-                        "size": "md",
-                        "_css_classes": "sodc-btn-grad"
-                    }
-                },
-                {
-                    "id": "ae7e75f8",
-                    "elType": "widget",
-                    "widgetType": "text-editor",
-                    "settings": {
-                        "editor": "<p>Offers are subject to availability and a dentist's assessment.</p>",
-                        "align": "center",
-                        "_css_classes": "sodc-sub sodc-small"
-                    }
                 }
             ]
         },
         {
-            "id": "2748a4fc",
+            "id": "9900a48f",
             "elType": "container",
             "settings": {
                 "flex_direction": "column",
@@ -1023,38 +1149,28 @@
             },
             "elements": [
                 {
-                    "id": "c59f0257",
+                    "id": "bdebe7d7",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                        "editor": "<p>Why choose us</p>",
+                        "editor": "<p>Offers</p>",
                         "align": "center",
                         "_css_classes": "sodc-kicker"
                     }
                 },
                 {
-                    "id": "f58f6ede",
+                    "id": "7354996f",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
-                        "title": "Why Patients Across Dubai Choose Smile On",
+                        "title": "Offers Running Now",
                         "header_size": "h2",
                         "align": "center",
                         "_css_classes": "sodc-h2"
                     }
                 },
                 {
-                    "id": "a051f496",
-                    "elType": "widget",
-                    "widgetType": "text-editor",
-                    "settings": {
-                        "editor": "<p>Patient comfort and quality care come first. We combine experienced specialists with modern dental technology for an accurate diagnosis, safe procedures and reliable results.</p>",
-                        "align": "center",
-                        "_css_classes": "sodc-sub"
-                    }
-                },
-                {
-                    "id": "7d52153b",
+                    "id": "a098dc5a",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
@@ -1062,25 +1178,43 @@
                     },
                     "elements": [
                         {
-                            "id": "f69d577b",
+                            "id": "996e7cda",
                             "elType": "widget",
                             "widgetType": "icon-box",
                             "settings": {
                                 "selected_icon": {
-                                    "value": "fas fa-user-md",
+                                    "value": "fas fa-child",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "text_align": "left",
+                                "title_text": "Free Pediatric Consultation",
+                                "description_text": "Includes an X-ray and scaling for children. Ideal for a first visit.",
+                                "_css_classes": "sodc-card sodc-offer"
+                            }
+                        },
+                        {
+                            "id": "e93daa9d",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-tooth",
                                     "library": "fa-solid"
                                 },
                                 "view": "stacked",
                                 "primary_color": "#E8F6F7",
                                 "secondary_color": "#2D9CA9",
                                 "text_align": "left",
-                                "title_text": "Specialists for every treatment",
-                                "description_text": "An orthodontist, endodontist, oral surgeon, prosthodontist, periodontist and pediatric dentist all work here. No referral across town.",
-                                "_css_classes": "sodc-card"
+                                "title_text": "Scaling & Polishing: AED 150",
+                                "description_text": "A professional clean to remove tartar and surface stains.",
+                                "_css_classes": "sodc-card sodc-offer"
                             }
                         },
                         {
-                            "id": "18fa3d7e",
+                            "id": "198e5155",
                             "elType": "widget",
                             "widgetType": "icon-box",
                             "settings": {
@@ -1089,92 +1223,50 @@
                                     "library": "fa-solid"
                                 },
                                 "view": "stacked",
-                                "primary_color": "#E8F6F7",
-                                "secondary_color": "#2D9CA9",
-                                "text_align": "left",
-                                "title_text": "Rated 5.0 by patients",
-                                "description_text": "A 5.0 rating on Google from 333 reviews by patients across Dubai.",
-                                "_css_classes": "sodc-card"
-                            }
-                        },
-                        {
-                            "id": "72c08c14",
-                            "elType": "widget",
-                            "widgetType": "icon-box",
-                            "settings": {
-                                "selected_icon": {
-                                    "value": "fas fa-bolt",
-                                    "library": "fa-solid"
-                                },
-                                "view": "stacked",
-                                "primary_color": "#E8F6F7",
-                                "secondary_color": "#2D9CA9",
-                                "text_align": "left",
-                                "title_text": "Same-day urgent care",
-                                "description_text": "Severe pain, a broken tooth or swelling? We keep slots open so you can usually be seen the day you call.",
-                                "_css_classes": "sodc-card"
-                            }
-                        },
-                        {
-                            "id": "fd9f1a54",
-                            "elType": "widget",
-                            "widgetType": "icon-box",
-                            "settings": {
-                                "selected_icon": {
-                                    "value": "fas fa-x-ray",
-                                    "library": "fa-solid"
-                                },
-                                "view": "stacked",
                                 "primary_color": "#EEEBFA",
                                 "secondary_color": "#6656C4",
                                 "text_align": "left",
-                                "title_text": "Modern dental technology",
-                                "description_text": "Digital X-rays and modern equipment for an accurate diagnosis, with your options and costs explained first.",
-                                "_css_classes": "sodc-card"
-                            }
-                        },
-                        {
-                            "id": "fd37d45e",
-                            "elType": "widget",
-                            "widgetType": "icon-box",
-                            "settings": {
-                                "selected_icon": {
-                                    "value": "fas fa-map-marker-alt",
-                                    "library": "fa-solid"
-                                },
-                                "view": "stacked",
-                                "primary_color": "#EEEBFA",
-                                "secondary_color": "#6656C4",
-                                "text_align": "left",
-                                "title_text": "Central Al Satwa location",
-                                "description_text": "On 2nd December Street, easy to reach from Jumeirah, Bur Dubai, Karama and across Dubai.",
-                                "_css_classes": "sodc-card"
-                            }
-                        },
-                        {
-                            "id": "69c17207",
-                            "elType": "widget",
-                            "widgetType": "icon-box",
-                            "settings": {
-                                "selected_icon": {
-                                    "value": "fas fa-award",
-                                    "library": "fa-solid"
-                                },
-                                "view": "stacked",
-                                "primary_color": "#EEEBFA",
-                                "secondary_color": "#6656C4",
-                                "text_align": "left",
-                                "title_text": "Founded by specialists",
-                                "description_text": "Established in 2021 by Dr. Arun Devarajan and Dr. Jeffrey Manuel, with five years of trusted dental care in Dubai.",
-                                "_css_classes": "sodc-card"
+                                "title_text": "Scaling, Polishing & Whitening: AED 499",
+                                "description_text": "Clean and brighten your smile in one visit.",
+                                "_css_classes": "sodc-card sodc-offer sodc-offer-hot"
                             }
                         }
                     ]
+                },
+                {
+                    "id": "77c0e64b",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                        "text": "Call to Book an Offer",
+                        "link": {
+                            "url": "tel:+971558961826",
+                            "is_external": "",
+                            "nofollow": ""
+                        },
+                        "size": "md",
+                        "selected_icon": {
+                            "value": "fas fa-phone-alt",
+                            "library": "fa-solid"
+                        },
+                        "_css_classes": "sodc-btn-grad",
+                        "align": "center"
+                    }
+                },
+                {
+                    "id": "91175719",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Offers are subject to availability and a dentist's assessment.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub sodc-small"
+                    }
                 }
             ]
         },
         {
-            "id": "3996ee72",
+            "id": "1e71e3f3",
             "elType": "container",
             "settings": {
                 "flex_direction": "column",
@@ -1205,7 +1297,344 @@
             },
             "elements": [
                 {
-                    "id": "31d1e1d9",
+                    "id": "d7606219",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Why choose us</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "bc5c1acf",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Why Patients Across Dubai Choose Smile On",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "8951f7c0",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Patient comfort and quality care come first. We combine experienced specialists with modern dental technology for an accurate diagnosis, safe procedures and reliable results.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub"
+                    }
+                },
+                {
+                    "id": "d70a4965",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "css_classes": "sodc-grid sodc-grid-3"
+                    },
+                    "elements": [
+                        {
+                            "id": "6c99d310",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-user-md",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#E8F6F7",
+                                "secondary_color": "#2D9CA9",
+                                "text_align": "left",
+                                "title_text": "Specialists for every treatment",
+                                "description_text": "An orthodontist, endodontist, oral surgeon, prosthodontist, periodontist and pediatric dentist all work here. No referral across town.",
+                                "_css_classes": "sodc-card"
+                            }
+                        },
+                        {
+                            "id": "c9ae5099",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-star",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#E8F6F7",
+                                "secondary_color": "#2D9CA9",
+                                "text_align": "left",
+                                "title_text": "Rated 5.0 by patients",
+                                "description_text": "A 5.0 rating on Google from 333 reviews by patients across Dubai.",
+                                "_css_classes": "sodc-card"
+                            }
+                        },
+                        {
+                            "id": "eb34e472",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-bolt",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#E8F6F7",
+                                "secondary_color": "#2D9CA9",
+                                "text_align": "left",
+                                "title_text": "Same-day urgent care",
+                                "description_text": "Severe pain, a broken tooth or swelling? We keep slots open so you can usually be seen the day you call.",
+                                "_css_classes": "sodc-card"
+                            }
+                        },
+                        {
+                            "id": "40628abb",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-x-ray",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "text_align": "left",
+                                "title_text": "Modern dental technology",
+                                "description_text": "Digital X-rays and modern equipment for an accurate diagnosis, safe procedures and reliable results.",
+                                "_css_classes": "sodc-card"
+                            }
+                        },
+                        {
+                            "id": "729e9343",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-map-marker-alt",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "text_align": "left",
+                                "title_text": "Central Al Satwa location",
+                                "description_text": "On 2nd December Street, easy to reach from Jumeirah, Bur Dubai, Karama and across Dubai.",
+                                "_css_classes": "sodc-card"
+                            }
+                        },
+                        {
+                            "id": "6c0928fe",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-hand-holding-heart",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "text_align": "left",
+                                "title_text": "Clear costs, no pressure",
+                                "description_text": "Your options and what each one costs are explained before anything starts. No upselling and no manufactured urgency.",
+                                "_css_classes": "sodc-card"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c5b1f63d",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-tint"
+            },
+            "elements": [
+                {
+                    "id": "b2ca37ba",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Results</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "b9062ad5",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Before & After Smiles",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "4db68c48",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>A few of the smile transformations completed at our clinic. Every result depends on the patient, and your dentist will explain what's realistic for you.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub"
+                    }
+                },
+                {
+                    "id": "8156c6df",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "css_classes": "sodc-grid sodc-grid-3 sodc-swipe"
+                    },
+                    "elements": [
+                        {
+                            "id": "80520f9c",
+                            "elType": "widget",
+                            "widgetType": "image-box",
+                            "settings": {
+                                "image": {
+                                    "url": "https://smileondc.com/wp-content/uploads/2026/06/Hollywood-Smile-result-at-Smile-On-Dental-Clinic-Dubai.webp",
+                                    "id": 6127,
+                                    "alt": "Hollywood Smile before and after at Smile On Dental Clinic, Dubai",
+                                    "source": "library"
+                                },
+                                "title_text": "Hollywood Smile",
+                                "description_text": "Porcelain veneers to reshape and brighten the smile.",
+                                "title_size": "h3",
+                                "_css_classes": "sodc-ba sodc-card"
+                            }
+                        },
+                        {
+                            "id": "10106ff8",
+                            "elType": "widget",
+                            "widgetType": "image-box",
+                            "settings": {
+                                "image": {
+                                    "url": "https://smileondc.com/wp-content/uploads/2026/04/before_after_merged.png",
+                                    "id": 5781,
+                                    "alt": "Orthodontic treatment before and after at Smile On Dental Clinic, Dubai",
+                                    "source": "library"
+                                },
+                                "title_text": "Orthodontic Treatment",
+                                "description_text": "Crowded teeth straightened with braces.",
+                                "title_size": "h3",
+                                "_css_classes": "sodc-ba sodc-card"
+                            }
+                        },
+                        {
+                            "id": "d472c86b",
+                            "elType": "widget",
+                            "widgetType": "image-box",
+                            "settings": {
+                                "image": {
+                                    "url": "https://smileondc.com/wp-content/uploads/2026/03/Composite-Bonding-Before-and-After.png",
+                                    "id": 5614,
+                                    "alt": "Composite bonding before and after at Smile On Dental Clinic, Dubai",
+                                    "source": "library"
+                                },
+                                "title_text": "Composite Bonding",
+                                "description_text": "Chips and gaps repaired in a single visit.",
+                                "title_size": "h3",
+                                "_css_classes": "sodc-ba sodc-card"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "75c535b3",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Want to know what's possible for your smile?</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub"
+                    }
+                },
+                {
+                    "id": "a78d2074",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                        "text": "Call for a Smile Consultation",
+                        "link": {
+                            "url": "tel:+971558961826",
+                            "is_external": "",
+                            "nofollow": ""
+                        },
+                        "size": "md",
+                        "selected_icon": {
+                            "value": "fas fa-phone-alt",
+                            "library": "fa-solid"
+                        },
+                        "_css_classes": "sodc-btn-grad",
+                        "align": "center"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "44f054e2",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": ""
+            },
+            "elements": [
+                {
+                    "id": "758272b4",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1215,7 +1644,7 @@
                     }
                 },
                 {
-                    "id": "584890b1",
+                    "id": "73a7e295",
                     "elType": "widget",
                     "settings": {
                         "title": "Meet Our Specialist Team",
@@ -1226,7 +1655,7 @@
                     "widgetType": "heading"
                 },
                 {
-                    "id": "bb8b38af",
+                    "id": "208bc325",
                     "elType": "widget",
                     "settings": {
                         "editor": "<p>Six specialists work alongside our general dentists, so even complex cases are planned and treated in the same building.</p>",
@@ -1237,15 +1666,24 @@
                     "widgetType": "text-editor"
                 },
                 {
-                    "id": "7bc6c611",
+                    "id": "992b191a",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Swipe to meet the team \u2192</p>",
+                        "_css_classes": "sodc-swipe-hint"
+                    }
+                },
+                {
+                    "id": "6926567e",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
-                        "css_classes": "sodc-grid sodc-grid-3 sodc-docs"
+                        "css_classes": "sodc-grid sodc-grid-3 sodc-docs sodc-swipe"
                     },
                     "elements": [
                         {
-                            "id": "710ab7fe",
+                            "id": "2f575e0f",
                             "elType": "widget",
                             "settings": {
                                 "image": {
@@ -1267,7 +1705,7 @@
                             "widgetType": "image-box"
                         },
                         {
-                            "id": "7a12496f",
+                            "id": "4591b200",
                             "elType": "widget",
                             "settings": {
                                 "image": {
@@ -1289,7 +1727,7 @@
                             "widgetType": "image-box"
                         },
                         {
-                            "id": "2fdfe4ae",
+                            "id": "e87a944f",
                             "elType": "widget",
                             "settings": {
                                 "image": {
@@ -1311,7 +1749,7 @@
                             "widgetType": "image-box"
                         },
                         {
-                            "id": "69b6abeb",
+                            "id": "640d3736",
                             "elType": "widget",
                             "settings": {
                                 "image": {
@@ -1333,7 +1771,7 @@
                             "widgetType": "image-box"
                         },
                         {
-                            "id": "9a037f0d",
+                            "id": "db877bc4",
                             "elType": "widget",
                             "settings": {
                                 "image": {
@@ -1355,7 +1793,7 @@
                             "widgetType": "image-box"
                         },
                         {
-                            "id": "df46cdb6",
+                            "id": "17f4a7af",
                             "elType": "widget",
                             "settings": {
                                 "image": {
@@ -1380,7 +1818,7 @@
                     "isInner": true
                 },
                 {
-                    "id": "a3ca66f5",
+                    "id": "a25b15b5",
                     "elType": "widget",
                     "settings": {
                         "text": "Meet the Full Team",
@@ -1400,7 +1838,7 @@
             "isInner": false
         },
         {
-            "id": "40657601",
+            "id": "06c34278",
             "elType": "container",
             "settings": {
                 "flex_direction": "column",
@@ -1431,7 +1869,7 @@
             },
             "elements": [
                 {
-                    "id": "1d82d14c",
+                    "id": "59323116",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1441,7 +1879,7 @@
                     }
                 },
                 {
-                    "id": "5b6b7314",
+                    "id": "c17d70dc",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1452,7 +1890,7 @@
                     }
                 },
                 {
-                    "id": "a223d2cf",
+                    "id": "868218b5",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1462,7 +1900,7 @@
                     }
                 },
                 {
-                    "id": "9b7a4f12",
+                    "id": "4424c7c2",
                     "elType": "widget",
                     "widgetType": "shortcode",
                     "settings": {
@@ -1473,7 +1911,257 @@
             ]
         },
         {
-            "id": "272a14c5",
+            "id": "4eeebc50",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 8,
+                    "right": 20,
+                    "bottom": 56,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": ""
+            },
+            "elements": [
+                {
+                    "id": "54c9f6c5",
+                    "elType": "container",
+                    "settings": {
+                        "flex_direction": "row",
+                        "flex_wrap": "wrap",
+                        "flex_align_items": "center",
+                        "flex_justify_content": "space-between",
+                        "flex_gap": {
+                            "size": 20,
+                            "unit": "px",
+                            "column": "20",
+                            "row": "16",
+                            "isLinked": false
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": 28,
+                            "right": 28,
+                            "bottom": 28,
+                            "left": 28,
+                            "isLinked": true
+                        },
+                        "css_classes": "sodc-ins"
+                    },
+                    "elements": [
+                        {
+                            "id": "e13c1650",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-shield-alt",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "position": "inline-start",
+                                "primary_color": "#E8F6F7",
+                                "secondary_color": "#2D9CA9",
+                                "title_size": "h2",
+                                "title_text": "Insurance Accepted",
+                                "description_text": "We work with most major UAE health insurance providers and offer flexible payment options. Call us with your insurance details and we'll confirm your cover before your visit."
+                            }
+                        },
+                        {
+                            "id": "2554d3ea",
+                            "elType": "widget",
+                            "widgetType": "button",
+                            "settings": {
+                                "text": "Check My Cover",
+                                "link": {
+                                    "url": "tel:+971558961826",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "size": "md",
+                                "selected_icon": {
+                                    "value": "fas fa-phone-alt",
+                                    "library": "fa-solid"
+                                },
+                                "_css_classes": "sodc-btn-grad"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "34ffd577",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-tint"
+            },
+            "elements": [
+                {
+                    "id": "8e8dbdc3",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Your first visit</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "90b8e2ee",
+                    "elType": "widget",
+                    "settings": {
+                        "title": "Your First Visit, Step by Step",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    },
+                    "elements": [],
+                    "widgetType": "heading"
+                },
+                {
+                    "id": "29e27dc7",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "css_classes": "sodc-grid sodc-grid-4 sodc-steps"
+                    },
+                    "elements": [
+                        {
+                            "id": "206a41dd",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-calendar-check",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#2D9CA9",
+                                "secondary_color": "#ffffff",
+                                "text_align": "left",
+                                "title_text": "1. Book a time",
+                                "description_text": "Call us, send a WhatsApp message or book online. If you're in pain, tell us and we'll find the earliest slot.",
+                                "_css_classes": "sodc-card"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "eace66ac",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-door-open",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#2D9CA9",
+                                "secondary_color": "#ffffff",
+                                "text_align": "left",
+                                "title_text": "2. Meet your dentist",
+                                "description_text": "We listen first, then check your teeth and gums. X-rays are taken only when they're needed for a diagnosis.",
+                                "_css_classes": "sodc-card"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "30f72722",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-x-ray",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#6656C4",
+                                "secondary_color": "#ffffff",
+                                "text_align": "left",
+                                "title_text": "3. Your plan, explained",
+                                "description_text": "You hear what we found, your options and what each one costs, with no pressure to decide on the day.",
+                                "_css_classes": "sodc-card"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "a3c3d79d",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-comments",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#6656C4",
+                                "secondary_color": "#ffffff",
+                                "text_align": "left",
+                                "title_text": "4. Treatment by the right specialist",
+                                "description_text": "When you're ready, the specialist for your treatment takes over, in the same clinic.",
+                                "_css_classes": "sodc-card"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "89e4144d",
+                    "elType": "widget",
+                    "settings": {
+                        "editor": "<p><strong>Insurance and payment.</strong> We work with a range of insurance providers and offer flexible payment options for treatment your plan doesn't cover. Send us your insurance details when you book and we'll confirm your cover before your visit.</p>",
+                        "_css_classes": "sodc-note"
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "372fa5c5",
             "elType": "container",
             "settings": {
                 "flex_direction": "column",
@@ -1504,159 +2192,7 @@
             },
             "elements": [
                 {
-                    "id": "9cd5ba2b",
-                    "elType": "widget",
-                    "widgetType": "text-editor",
-                    "settings": {
-                        "editor": "<p>Your first visit</p>",
-                        "align": "center",
-                        "_css_classes": "sodc-kicker"
-                    }
-                },
-                {
-                    "id": "fad62846",
-                    "elType": "widget",
-                    "settings": {
-                        "title": "Your First Visit, Step by Step",
-                        "align": "center",
-                        "_css_classes": "sodc-h2"
-                    },
-                    "elements": [],
-                    "widgetType": "heading"
-                },
-                {
-                    "id": "0777c5d8",
-                    "elType": "container",
-                    "settings": {
-                        "content_width": "full",
-                        "css_classes": "sodc-grid sodc-grid-4 sodc-steps"
-                    },
-                    "elements": [
-                        {
-                            "id": "847f944e",
-                            "elType": "widget",
-                            "settings": {
-                                "selected_icon": {
-                                    "value": "fas fa-calendar-check",
-                                    "library": "fa-solid"
-                                },
-                                "view": "stacked",
-                                "primary_color": "#2D9CA9",
-                                "secondary_color": "#ffffff",
-                                "text_align": "left",
-                                "title_text": "1. Book a time",
-                                "description_text": "Book online, call or send a WhatsApp message. If you're in pain, tell us and we'll look for the earliest slot.",
-                                "_css_classes": "sodc-card"
-                            },
-                            "elements": [],
-                            "widgetType": "icon-box"
-                        },
-                        {
-                            "id": "34136322",
-                            "elType": "widget",
-                            "settings": {
-                                "selected_icon": {
-                                    "value": "fas fa-door-open",
-                                    "library": "fa-solid"
-                                },
-                                "view": "stacked",
-                                "primary_color": "#2D9CA9",
-                                "secondary_color": "#ffffff",
-                                "text_align": "left",
-                                "title_text": "2. Meet your dentist",
-                                "description_text": "We listen first, then check your teeth and gums. X-rays are taken only when they're needed for a diagnosis.",
-                                "_css_classes": "sodc-card"
-                            },
-                            "elements": [],
-                            "widgetType": "icon-box"
-                        },
-                        {
-                            "id": "e7548bf1",
-                            "elType": "widget",
-                            "settings": {
-                                "selected_icon": {
-                                    "value": "fas fa-x-ray",
-                                    "library": "fa-solid"
-                                },
-                                "view": "stacked",
-                                "primary_color": "#6656C4",
-                                "secondary_color": "#ffffff",
-                                "text_align": "left",
-                                "title_text": "3. Your plan, explained",
-                                "description_text": "You hear what we found, your options and what each one costs, with no pressure to decide on the day.",
-                                "_css_classes": "sodc-card"
-                            },
-                            "elements": [],
-                            "widgetType": "icon-box"
-                        },
-                        {
-                            "id": "7f0ae6de",
-                            "elType": "widget",
-                            "settings": {
-                                "selected_icon": {
-                                    "value": "fas fa-comments",
-                                    "library": "fa-solid"
-                                },
-                                "view": "stacked",
-                                "primary_color": "#6656C4",
-                                "secondary_color": "#ffffff",
-                                "text_align": "left",
-                                "title_text": "4. Treatment by the right specialist",
-                                "description_text": "When you're ready, the specialist for your treatment takes over, in the same clinic.",
-                                "_css_classes": "sodc-card"
-                            },
-                            "elements": [],
-                            "widgetType": "icon-box"
-                        }
-                    ],
-                    "isInner": true
-                },
-                {
-                    "id": "366a8974",
-                    "elType": "widget",
-                    "settings": {
-                        "editor": "<p><strong>Insurance and payment.</strong> We work with a range of insurance providers and offer flexible payment options for treatment your plan doesn't cover. Send us your insurance details when you book and we'll confirm your cover before your visit.</p>",
-                        "_css_classes": "sodc-note"
-                    },
-                    "elements": [],
-                    "widgetType": "text-editor"
-                }
-            ],
-            "isInner": false
-        },
-        {
-            "id": "ead6b494",
-            "elType": "container",
-            "settings": {
-                "flex_direction": "column",
-                "flex_gap": {
-                    "size": 20,
-                    "unit": "px",
-                    "column": "20",
-                    "row": "20",
-                    "isLinked": true
-                },
-                "padding": {
-                    "unit": "px",
-                    "top": 72,
-                    "right": 20,
-                    "bottom": 72,
-                    "left": 20,
-                    "isLinked": false
-                },
-                "padding_mobile": {
-                    "unit": "px",
-                    "top": 44,
-                    "right": 16,
-                    "bottom": 44,
-                    "left": 16,
-                    "isLinked": false
-                },
-                "css_classes": "sodc-tint"
-            },
-            "elements": [
-                {
-                    "id": "8895ee9e",
+                    "id": "72879be5",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1666,7 +2202,7 @@
                     }
                 },
                 {
-                    "id": "597a945b",
+                    "id": "1bb6c95a",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1677,7 +2213,7 @@
                     }
                 },
                 {
-                    "id": "26a327e8",
+                    "id": "0cde7199",
                     "elType": "widget",
                     "settings": {
                         "query_posts_per_page": 3,
@@ -1866,7 +2402,7 @@
                     "widgetType": "wpr-grid"
                 },
                 {
-                    "id": "b655d89e",
+                    "id": "aa20a2fd",
                     "elType": "widget",
                     "widgetType": "button",
                     "settings": {
@@ -1884,7 +2420,7 @@
             ]
         },
         {
-            "id": "3cbbb5ea",
+            "id": "f4186995",
             "elType": "container",
             "settings": {
                 "flex_direction": "column",
@@ -1911,11 +2447,11 @@
                     "left": 16,
                     "isLinked": false
                 },
-                "css_classes": ""
+                "css_classes": "sodc-tint"
             },
             "elements": [
                 {
-                    "id": "8daf06d3",
+                    "id": "7cd816b5",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1925,7 +2461,7 @@
                     }
                 },
                 {
-                    "id": "29723edd",
+                    "id": "91109458",
                     "elType": "widget",
                     "settings": {
                         "title": "Visit Us or Send a Message",
@@ -1936,7 +2472,7 @@
                     "widgetType": "heading"
                 },
                 {
-                    "id": "25d2b7d0",
+                    "id": "3b9b0939",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
@@ -1952,7 +2488,7 @@
                     },
                     "elements": [
                         {
-                            "id": "392ab6dd",
+                            "id": "1f30e217",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -1968,7 +2504,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "f73053cd",
+                                    "id": "cf18789a",
                                     "elType": "widget",
                                     "settings": {
                                         "html": "<iframe title=\"Map to Smile On Dental Clinic, Al Satwa, Dubai\" src=\"https://maps.google.com/maps?q=25.2370576,55.2753671&z=16&output=embed\" width=\"100%\" height=\"430\" style=\"border:0;display:block;width:100%;\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\" allowfullscreen></iframe>",
@@ -1981,7 +2517,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "4c5ba57c",
+                            "id": "0d54e266",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -2005,7 +2541,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "a2e3e3b1",
+                                    "id": "02b442e5",
                                     "elType": "widget",
                                     "settings": {
                                         "title": "Smile On Dental Clinic",
@@ -2015,7 +2551,7 @@
                                     "widgetType": "heading"
                                 },
                                 {
-                                    "id": "94f6be04",
+                                    "id": "41c3ae6d",
                                     "elType": "widget",
                                     "settings": {
                                         "icon_list": [
@@ -2086,7 +2622,26 @@
                                     "widgetType": "icon-list"
                                 },
                                 {
-                                    "id": "5e10352b",
+                                    "id": "e34ecef9",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Call +971 55 896 1826",
+                                        "link": {
+                                            "url": "tel:+971558961826",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "size": "md",
+                                        "selected_icon": {
+                                            "value": "fas fa-phone-alt",
+                                            "library": "fa-solid"
+                                        },
+                                        "_css_classes": "sodc-btn-grad"
+                                    }
+                                },
+                                {
+                                    "id": "6b18ef33",
                                     "elType": "widget",
                                     "widgetType": "shortcode",
                                     "settings": {
@@ -2095,7 +2650,7 @@
                                     }
                                 },
                                 {
-                                    "id": "a182b4ab",
+                                    "id": "a903cf46",
                                     "elType": "widget",
                                     "settings": {
                                         "text": "Get Directions",
@@ -2109,7 +2664,7 @@
                                             "value": "fas fa-directions",
                                             "library": "fa-solid"
                                         },
-                                        "_css_classes": "sodc-btn-grad"
+                                        "_css_classes": "sodc-btn-ghost"
                                     },
                                     "elements": [],
                                     "widgetType": "button"
@@ -2124,7 +2679,7 @@
             "isInner": false
         },
         {
-            "id": "b150d88d",
+            "id": "0b2e355c",
             "elType": "container",
             "settings": {
                 "flex_direction": "column",
@@ -2151,11 +2706,11 @@
                     "left": 16,
                     "isLinked": false
                 },
-                "css_classes": "sodc-faq sodc-tint"
+                "css_classes": "sodc-faq"
             },
             "elements": [
                 {
-                    "id": "b84ef38b",
+                    "id": "880a2704",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2165,7 +2720,7 @@
                     }
                 },
                 {
-                    "id": "6fd255fb",
+                    "id": "628bee93",
                     "elType": "widget",
                     "settings": {
                         "title": "Frequently Asked Questions",
@@ -2176,7 +2731,7 @@
                     "widgetType": "heading"
                 },
                 {
-                    "id": "23468974",
+                    "id": "0a71ba2c",
                     "elType": "widget",
                     "settings": {
                         "faq_schema": "yes",
@@ -2223,7 +2778,7 @@
                             {
                                 "_id": "q7",
                                 "tab_title": "How do I book an appointment?",
-                                "tab_content": "<p>Call us directly at <a href='tel:+971558961826'>+971 55 896 1826</a> or <a href='https://smileondc.com/make-appointment/'>book online</a>. Our team will confirm your appointment time and send you a reminder before your visit.</p>"
+                                "tab_content": "<p>The quickest way is to call us on <a href='tel:+971558961826'>+971 55 896 1826</a>, every day from 9am to 9pm. You can also <a href='https://wa.me/971558961826'>send a WhatsApp message</a> or <a href='https://smileondc.com/make-appointment/'>book online</a>, and our team will confirm your appointment and send you a reminder.</p>"
                             },
                             {
                                 "_id": "q8",
@@ -2239,7 +2794,7 @@
             "isInner": false
         },
         {
-            "id": "743b756c",
+            "id": "3514e010",
             "elType": "container",
             "settings": {
                 "flex_direction": "column",
@@ -2271,7 +2826,7 @@
             },
             "elements": [
                 {
-                    "id": "314f604d",
+                    "id": "d242b28a",
                     "elType": "widget",
                     "settings": {
                         "title": "Ready for a Healthier, Brighter Smile?",
@@ -2281,17 +2836,17 @@
                     "widgetType": "heading"
                 },
                 {
-                    "id": "5a98f2da",
+                    "id": "68c26050",
                     "elType": "widget",
                     "settings": {
-                        "editor": "<p>Specialists in-house, same-day urgent slots and a 5.0 Google rating. Open every day, 9am to 9pm.</p>",
+                        "editor": "<p>Call us now for an appointment or advice. Specialists in-house, same-day urgent slots and a 5.0 Google rating. Open every day, 9am to 9pm.</p>",
                         "align": "center"
                     },
                     "elements": [],
                     "widgetType": "text-editor"
                 },
                 {
-                    "id": "50b541e0",
+                    "id": "947e2a3c",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
@@ -2308,23 +2863,26 @@
                     },
                     "elements": [
                         {
-                            "id": "2cf80c06",
+                            "id": "b43c00f7",
                             "elType": "widget",
+                            "widgetType": "button",
                             "settings": {
-                                "text": "Book an Appointment",
+                                "text": "Call +971 55 896 1826",
                                 "link": {
-                                    "url": "https://smileondc.com/make-appointment/",
+                                    "url": "tel:+971558961826",
                                     "is_external": "",
                                     "nofollow": ""
                                 },
                                 "size": "md",
+                                "selected_icon": {
+                                    "value": "fas fa-phone-alt",
+                                    "library": "fa-solid"
+                                },
                                 "_css_classes": "sodc-btn-white"
-                            },
-                            "elements": [],
-                            "widgetType": "button"
+                            }
                         },
                         {
-                            "id": "c239615c",
+                            "id": "ac903f77",
                             "elType": "widget",
                             "settings": {
                                 "text": "WhatsApp Us",
@@ -2344,20 +2902,19 @@
                             "widgetType": "button"
                         },
                         {
-                            "id": "a3e10449",
+                            "id": "5e0a2bb8",
                             "elType": "widget",
+                            "widgetType": "button",
                             "settings": {
-                                "text": "Call +971 55 896 1826",
+                                "text": "Book Online",
                                 "link": {
-                                    "url": "tel:+971558961826",
+                                    "url": "https://smileondc.com/make-appointment/",
                                     "is_external": "",
                                     "nofollow": ""
                                 },
                                 "size": "md",
                                 "_css_classes": "sodc-btn-outline-white"
-                            },
-                            "elements": [],
-                            "widgetType": "button"
+                            }
                         }
                     ],
                     "isInner": true
