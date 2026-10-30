@@ -1,0 +1,2369 @@
+{
+    "title": "Home (New Design, Draft)",
+    "status": "draft",
+    "template_type": "wp-page",
+    "page_template": "elementor_header_footer",
+    "data": [
+        {
+            "id": "0f523907",
+            "elType": "container",
+            "settings": {
+                "content_width": "full",
+                "padding": {
+                    "unit": "px",
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "isLinked": true
+                },
+                "css_classes": "sodc-css"
+            },
+            "elements": [
+                {
+                    "id": "9d4f1bba",
+                    "elType": "widget",
+                    "widgetType": "html",
+                    "settings": {
+                        "html": "<style id=\"sodc-home-css\">\n/* Smile On homepage styles. Based on the Al Satwa location page system (WPCode snippet 6838), scoped to this page via this inline style block. Brand: teal #2D9CA9 -> violet #6656C4 */\nbody{--sodc-teal:#2D9CA9;--sodc-violet:#6656C4;--sodc-ink:#1d2733;--sodc-muted:#55606d;--sodc-line:#e7ecf1}\nbody .sodc-sat-hero{background:linear-gradient(135deg,#f1fafb 0%,#f4f2fd 100%);position:relative;overflow:hidden}\nbody .sodc-sat-hero::before{content:\"\";position:absolute;width:560px;height:560px;right:-180px;top:-200px;border-radius:50%;background:radial-gradient(circle,rgba(102,86,196,.16),rgba(102,86,196,0) 70%);pointer-events:none}\nbody .sodc-sat-hero::after{content:\"\";position:absolute;width:380px;height:380px;left:-160px;bottom:-200px;border-radius:50%;background:radial-gradient(circle,rgba(45,156,169,.16),rgba(45,156,169,0) 70%);pointer-events:none}\nbody .sodc-pill p{display:inline-block;margin:0;padding:7px 16px;border-radius:999px;background:#fff;border:1px solid #d6eef0;color:var(--sodc-teal);font-size:14px;font-weight:600;box-shadow:0 4px 14px rgba(45,156,169,.10)}\nbody .sodc-h1 .elementor-heading-title{font-family:Rubik,sans-serif;font-size:clamp(34px,4.6vw,56px);line-height:1.08;font-weight:700;color:var(--sodc-ink);letter-spacing:-.02em}\nbody .sodc-lead p{font-size:18px;line-height:1.65;color:var(--sodc-muted);max-width:580px;margin:0}\nbody .sodc-trust .elementor-icon-list-text{font-size:14px;font-weight:500;color:var(--sodc-ink)}\nbody .sodc-btn-grad .elementor-button,body .sodc-btn-ghost .elementor-button,body .sodc-btn-white .elementor-button,body .sodc-btn-outline-white .elementor-button{font-family:Rubik,sans-serif;font-weight:500;font-size:16px;border-radius:32px;transition:transform .2s ease,box-shadow .2s ease,background .2s ease,color .2s ease}\nbody .sodc-btn-grad .elementor-button{background:linear-gradient(90deg,#2D9CA9 0%,#6656C4 100%);color:#fff;padding:15px 30px;box-shadow:0 10px 24px rgba(102,86,196,.24)}\nbody .sodc-btn-grad .elementor-button:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(102,86,196,.32);color:#fff}\nbody .sodc-btn-ghost .elementor-button{background:#fff;color:var(--sodc-teal);border:2px solid var(--sodc-teal);padding:13px 28px}\nbody .sodc-btn-ghost .elementor-button:hover{background:var(--sodc-teal);color:#fff}\nbody .sodc-btn-white .elementor-button{background:#fff;color:var(--sodc-violet);padding:15px 30px;font-weight:600}\nbody .sodc-btn-white .elementor-button:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(0,0,0,.18)}\nbody .sodc-btn-outline-white .elementor-button{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.85);padding:13px 26px}\nbody .sodc-btn-outline-white .elementor-button:hover{background:#fff;color:var(--sodc-teal)}\nbody .sodc-collage-wrap{position:relative}\nbody .sodc-collage{display:grid!important;grid-template-columns:1fr 1fr;gap:14px;padding-bottom:28px}\nbody .sodc-collage>.elementor-widget-image:nth-child(even){transform:translateY(28px)}\nbody .sodc-collage img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top;border-radius:20px;box-shadow:0 18px 40px rgba(29,39,51,.14)}\nbody .sodc-float-card{position:absolute;left:-28px;bottom:6px;z-index:3;background:#fff;border-radius:16px;padding:14px 18px;box-shadow:0 16px 36px rgba(29,39,51,.18);max-width:250px;border-left:4px solid var(--sodc-violet)}\nbody .sodc-float-card p{margin:0;font-size:14px;line-height:1.45;color:var(--sodc-muted)}\nbody .sodc-float-card strong{color:var(--sodc-ink);font-size:15px}\nbody .sodc-stats{background:linear-gradient(90deg,#2D9CA9 0%,#6656C4 100%)}\nbody .sodc-stats>.e-con-inner>.elementor-widget-counter,body .sodc-stats>.elementor-widget-counter{flex:1 1 180px}\nbody .sodc-stats .elementor-counter-number-wrapper{font-family:Rubik,sans-serif;font-weight:700;font-size:44px;line-height:1.1}\nbody .sodc-stats .elementor-counter-title{font-size:15px;opacity:.92}\nbody .sodc-h2 .elementor-heading-title{font-family:Rubik,sans-serif;font-size:clamp(28px,3.2vw,38px);line-height:1.2;font-weight:700;color:var(--sodc-ink);letter-spacing:-.01em}\nbody .sodc-sub p{max-width:680px;margin:0 auto;color:var(--sodc-muted);font-size:17px;line-height:1.6}\nbody .sodc-tint{background:#f6f8fb}\nbody .sodc-grid{display:grid!important;gap:20px;margin-top:12px}\nbody .sodc-grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}\nbody .sodc-grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}\n@media (max-width:1024px){body .sodc-grid-4,body .sodc-grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}}\n@media (max-width:600px){body .sodc-grid-4,body .sodc-grid-3{grid-template-columns:1fr}body .sodc-docs{grid-template-columns:repeat(2,minmax(0,1fr))}}\nbody .sodc-card{background:#fff;border:1px solid var(--sodc-line);border-radius:18px;padding:26px 24px;box-shadow:0 6px 18px rgba(29,39,51,.05);transition:transform .25s ease,box-shadow .25s ease}\nbody .sodc-card:hover{transform:translateY(-4px);box-shadow:0 18px 38px rgba(45,156,169,.16)}\nbody .sodc-card .elementor-icon-box-title{font-family:Rubik,sans-serif;font-size:19px;font-weight:600;color:var(--sodc-ink);margin-bottom:6px}\nbody .sodc-card .elementor-icon-box-description{color:var(--sodc-muted);font-size:15px;line-height:1.6}\nbody .sodc-card .elementor-icon{font-size:22px}\nbody .sodc-tile{background:#fff;border:1px solid var(--sodc-line);border-radius:16px;padding:20px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}\nbody .sodc-tile:hover{transform:translateY(-3px);border-color:var(--sodc-teal);box-shadow:0 14px 30px rgba(45,156,169,.14)}\nbody .sodc-tile .elementor-icon{font-size:26px}\nbody .sodc-tile .elementor-icon-box-title,body .sodc-tile .elementor-icon-box-title a{font-family:Rubik,sans-serif;font-size:17px;font-weight:600;color:var(--sodc-ink)}\nbody .sodc-tile .elementor-icon-box-description{font-size:14px;line-height:1.55;color:var(--sodc-muted)}\nbody .sodc-doc .elementor-image-box-wrapper{text-align:left}\nbody .sodc-doc .elementor-image-box-img{width:100%!important;margin:0 0 14px!important;overflow:hidden;border-radius:18px}\nbody .sodc-doc img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top;border-radius:18px;transition:transform .4s ease}\nbody .sodc-doc:hover img{transform:scale(1.04)}\nbody .sodc-doc .elementor-image-box-title,body .sodc-doc .elementor-image-box-title a{font-family:Rubik,sans-serif;font-size:16px;line-height:1.3;font-weight:600;color:var(--sodc-ink);margin-bottom:2px}\nbody .sodc-doc .elementor-image-box-description{font-size:13px;line-height:1.4;color:var(--sodc-teal);font-weight:500}\nbody .sodc-docs{grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:18px}\n@media (max-width:1024px){body .sodc-docs{grid-template-columns:repeat(3,minmax(0,1fr))!important}}\n@media (max-width:600px){body .sodc-docs{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px}}\nbody .sodc-visit h3.elementor-heading-title{font-family:Rubik,sans-serif;font-size:22px;font-weight:700;color:var(--sodc-ink)}\nbody .sodc-visit p{color:var(--sodc-muted);line-height:1.6;margin:0}\nbody .sodc-visit a{color:var(--sodc-violet)}\nbody .sodc-mapframe{border-radius:20px;overflow:hidden;box-shadow:0 14px 34px rgba(29,39,51,.12)}\nbody .sodc-mapframe iframe{display:block}\n@media (max-width:767px){body .sodc-mapframe iframe{height:300px}}\nbody .sodc-note{background:#fff;border-left:4px solid var(--sodc-violet);border-radius:12px;padding:18px 22px;margin-top:12px}\nbody .sodc-note p{margin:0;color:var(--sodc-muted);line-height:1.6}\nbody .sodc-faq .elementor-toggle{max-width:860px;margin:0 auto}\nbody .sodc-faq .elementor-toggle-item{border:1px solid var(--sodc-line);border-radius:14px;margin-bottom:12px;overflow:hidden;background:#fff}\nbody .sodc-faq .elementor-tab-title{border:0!important;padding:18px 22px!important;font-family:Rubik,sans-serif;font-weight:600;font-size:17px;color:var(--sodc-ink)}\nbody .sodc-faq .elementor-tab-title a,body .sodc-faq .elementor-toggle-title{color:var(--sodc-ink)}\nbody .sodc-faq .elementor-tab-title.elementor-active a,body .sodc-faq .elementor-tab-title.elementor-active .elementor-toggle-title{color:var(--sodc-violet)}\nbody .sodc-faq .elementor-toggle-icon{color:var(--sodc-teal)}\nbody .sodc-faq .elementor-tab-content{border:0!important;padding:0 22px 18px!important;color:var(--sodc-muted);line-height:1.65}\nbody .sodc-faq .elementor-tab-content a{color:var(--sodc-violet)}\nbody .sodc-cta{background:linear-gradient(120deg,#2D9CA9 0%,#6656C4 100%);border-radius:28px;max-width:1160px;margin:0 auto 72px}\nbody .sodc-cta .elementor-heading-title{color:#fff;font-family:Rubik,sans-serif;font-size:clamp(26px,3vw,36px);font-weight:700}\nbody .sodc-cta p{color:rgba(255,255,255,.92);font-size:17px;margin:0}\n@media (max-width:767px){\nbody .sodc-float-card{position:relative;left:auto;bottom:auto;margin-top:12px;max-width:none}\nbody .sodc-stats .elementor-counter-number-wrapper{font-size:36px}\nbody .sodc-cta{border-radius:20px;width:auto!important;max-width:calc(100% - 32px)!important;margin:0 16px 48px!important}\n}\n\n/* Homepage additions */\nbody .sodc-css{display:none!important}\nbody .sodc-kicker p{display:inline-block;margin:0;padding:6px 14px;border-radius:999px;background:#EEEBFA;color:#6656C4;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}\nbody .sodc-kicker{margin-bottom:-6px}\nbody .sodc-offer{border-top:4px solid var(--sodc-violet)}\nbody .sodc-offer .elementor-icon-box-title{font-size:20px}\nbody .sodc-offer-hot{background:linear-gradient(135deg,#6656C4 0%,#4f43a8 100%);border-color:transparent;border-top-color:#f5a623}\nbody .sodc-offer-hot .elementor-icon-box-title,body .sodc-offer-hot .elementor-icon-box-description{color:#fff!important}\nbody .sodc-offer-hot .elementor-icon{background-color:rgba(255,255,255,.18)!important;color:#fff!important;fill:#fff!important}\nbody .sodc-small p{font-size:14px}\nbody .sodc-reviews,body .wpr-grid{max-width:1140px;margin-left:auto;margin-right:auto;width:100%}\nbody .sodc-form{background:#fff;border:1px solid var(--sodc-line);border-radius:16px;padding:18px}\nbody .sodc-tile .elementor-icon-box-title,body .sodc-tile .elementor-icon-box-title a{font-size:16px}\n@media (max-width:600px){body .sodc-tile{padding:16px}}\n\n</style>"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "971f1723",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_align_items": "center",
+                "flex_gap": {
+                    "size": 48,
+                    "unit": "px",
+                    "column": "48",
+                    "row": "32",
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 40,
+                    "right": 16,
+                    "bottom": 48,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-sat-hero"
+            },
+            "elements": [
+                {
+                    "id": "d3dd79ec",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 54
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "size": 18,
+                            "unit": "px",
+                            "column": "18",
+                            "row": "18",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "1a31299c",
+                            "elType": "widget",
+                            "settings": {
+                                "editor": "<p>Crafting Wholesome Smiles \u00b7 Al Satwa, Dubai</p>",
+                                "_css_classes": "sodc-pill"
+                            },
+                            "elements": [],
+                            "widgetType": "text-editor"
+                        },
+                        {
+                            "id": "2b96d680",
+                            "elType": "widget",
+                            "settings": {
+                                "title": "Specialist Dental Clinic in Dubai",
+                                "header_size": "h1",
+                                "_css_classes": "sodc-h1"
+                            },
+                            "elements": [],
+                            "widgetType": "heading"
+                        },
+                        {
+                            "id": "6b07fd01",
+                            "elType": "widget",
+                            "settings": {
+                                "editor": "<p>From Invisalign and dental implants to teeth whitening and root canal care, we correct, repair and restore healthier smiles. Every treatment is carried out by a dentist who specialises in it, in one comfortable clinic on 2nd December Street. Open every day, 9am to 9pm.</p>",
+                                "_css_classes": "sodc-lead"
+                            },
+                            "elements": [],
+                            "widgetType": "text-editor"
+                        },
+                        {
+                            "id": "731b0ea8",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_wrap": "wrap",
+                                "flex_gap": {
+                                    "size": 12,
+                                    "unit": "px",
+                                    "column": "12",
+                                    "row": "12",
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "013c4b8f",
+                                    "elType": "widget",
+                                    "settings": {
+                                        "text": "Book an Appointment",
+                                        "link": {
+                                            "url": "https://smileondc.com/make-appointment/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "size": "md",
+                                        "_css_classes": "sodc-btn-grad"
+                                    },
+                                    "elements": [],
+                                    "widgetType": "button"
+                                },
+                                {
+                                    "id": "f59a1705",
+                                    "elType": "widget",
+                                    "settings": {
+                                        "text": "Call +971 55 896 1826",
+                                        "link": {
+                                            "url": "tel:+971558961826",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "size": "md",
+                                        "_css_classes": "sodc-btn-ghost"
+                                    },
+                                    "elements": [],
+                                    "widgetType": "button"
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "1e79df31",
+                            "elType": "widget",
+                            "settings": {
+                                "view": "inline",
+                                "icon_list": [
+                                    {
+                                        "_id": "t1",
+                                        "text": "Rated 5.0 on Google (333 reviews)",
+                                        "selected_icon": {
+                                            "value": "fas fa-star",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "t2",
+                                        "text": "DHA-licensed clinic",
+                                        "selected_icon": {
+                                            "value": "fas fa-check-circle",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "t3",
+                                        "text": "Specialists in-house",
+                                        "selected_icon": {
+                                            "value": "fas fa-check-circle",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "t4",
+                                        "text": "Same-day urgent appointments",
+                                        "selected_icon": {
+                                            "value": "fas fa-check-circle",
+                                            "library": "fa-solid"
+                                        }
+                                    }
+                                ],
+                                "icon_color": "#2D9CA9",
+                                "text_color": "#3a4652",
+                                "_css_classes": "sodc-trust"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-list"
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "ac79c574",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 40
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_direction": "column",
+                        "css_classes": "sodc-collage-wrap"
+                    },
+                    "elements": [
+                        {
+                            "id": "543e2e5e",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "css_classes": "sodc-collage"
+                            },
+                            "elements": [
+                                {
+                                    "id": "907a3602",
+                                    "elType": "widget",
+                                    "settings": {
+                                        "image": {
+                                            "url": "https://smileondc.com/wp-content/uploads/2025/06/Dr.Jeff_-768x1014.jpg",
+                                            "id": 3833,
+                                            "alt": "Dr. Jeffrey Manuel, Medical Director and Specialist Orthodontist at Smile On Dental Clinic, Dubai",
+                                            "source": "library"
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": [],
+                                    "widgetType": "image"
+                                },
+                                {
+                                    "id": "7fcbed85",
+                                    "elType": "widget",
+                                    "settings": {
+                                        "image": {
+                                            "url": "https://smileondc.com/wp-content/uploads/2026/10/Dr-Minu-Mumtaz-O.V.-Specialist-Pediatric-Dentist-Dubai-768x1024.jpg",
+                                            "id": 6816,
+                                            "alt": "Dr. Minu Mumtaz O.V., Specialist Pediatric Dentist at Smile On Dental Clinic, Dubai",
+                                            "source": "library"
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": [],
+                                    "widgetType": "image"
+                                },
+                                {
+                                    "id": "e569fac6",
+                                    "elType": "widget",
+                                    "settings": {
+                                        "image": {
+                                            "url": "https://smileondc.com/wp-content/uploads/2025/06/Dr-Arunu-768x1014.jpg",
+                                            "id": 3849,
+                                            "alt": "Dr. Arun Devarajan, Specialist Endodontist at Smile On Dental Clinic, Dubai",
+                                            "source": "library"
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": [],
+                                    "widgetType": "image"
+                                },
+                                {
+                                    "id": "8dc70363",
+                                    "elType": "widget",
+                                    "settings": {
+                                        "image": {
+                                            "url": "https://smileondc.com/wp-content/uploads/2025/06/Dr-Amit-768x1014.jpg",
+                                            "id": 3850,
+                                            "alt": "Dr. Amit Gupta, Specialist Oral and Maxillofacial Surgeon at Smile On Dental Clinic, Dubai",
+                                            "source": "library"
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": [],
+                                    "widgetType": "image"
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "94b91a14",
+                            "elType": "widget",
+                            "settings": {
+                                "editor": "<p><strong>Meet your specialists</strong><br>Braces, root canals, implants, gums and kids, all in one clinic</p>",
+                                "_css_classes": "sodc-float-card"
+                            },
+                            "elements": [],
+                            "widgetType": "text-editor"
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "2bae8146",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_justify_content": "space-around",
+                "flex_gap": {
+                    "size": 24,
+                    "unit": "px",
+                    "column": "24",
+                    "row": "24",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 36,
+                    "right": 20,
+                    "bottom": 36,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-stats"
+            },
+            "elements": [
+                {
+                    "id": "045cf99e",
+                    "elType": "widget",
+                    "settings": {
+                        "suffix": "",
+                        "title": "Google reviews, rated 5.0",
+                        "number_color": "#ffffff",
+                        "title_color": "#ffffff",
+                        "starting_number": 0,
+                        "ending_number": 333
+                    },
+                    "elements": [],
+                    "widgetType": "counter"
+                },
+                {
+                    "id": "5a3c4773",
+                    "elType": "widget",
+                    "settings": {
+                        "ending_number": 10,
+                        "suffix": "+",
+                        "title": "Dentists and specialists",
+                        "number_color": "#ffffff",
+                        "title_color": "#ffffff",
+                        "starting_number": 0
+                    },
+                    "elements": [],
+                    "widgetType": "counter"
+                },
+                {
+                    "id": "b6a39e47",
+                    "elType": "widget",
+                    "settings": {
+                        "ending_number": 5,
+                        "suffix": "+",
+                        "title": "Years caring for Dubai smiles",
+                        "number_color": "#ffffff",
+                        "title_color": "#ffffff",
+                        "starting_number": 0
+                    },
+                    "elements": [],
+                    "widgetType": "counter"
+                },
+                {
+                    "id": "8614ae2f",
+                    "elType": "widget",
+                    "settings": {
+                        "ending_number": 7,
+                        "suffix": "",
+                        "title": "Days a week, 9am to 9pm",
+                        "number_color": "#ffffff",
+                        "title_color": "#ffffff",
+                        "starting_number": 0
+                    },
+                    "elements": [],
+                    "widgetType": "counter"
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "9c26b4f9",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-tint"
+            },
+            "elements": [
+                {
+                    "id": "30ec6455",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Dental services</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "5e2181b0",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Dental Services Provided",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "1bc00d87",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Whatever your smile needs, there's a specialist for it under one roof. Tap a treatment to see how it works and who carries it out.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub"
+                    }
+                },
+                {
+                    "id": "2119ccd7",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "css_classes": "sodc-grid sodc-grid-4"
+                    },
+                    "elements": [
+                        {
+                            "id": "f0ec96b9",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-teeth",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#2D9CA9",
+                                "position": "inline-start",
+                                "title_text": "Orthodontic Braces",
+                                "description_text": "Metal, ceramic, Damon and lingual braces with a specialist orthodontist.",
+                                "link": {
+                                    "url": "https://smileondc.com/metal-ceramic-braces-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "0314e25c",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-smile",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#2D9CA9",
+                                "position": "inline-start",
+                                "title_text": "Invisalign",
+                                "description_text": "Clear aligners for teens and adults from a certified Invisalign provider.",
+                                "link": {
+                                    "url": "https://smileondc.com/invisalign-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "5a4fb9bb",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-grip-lines",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#2D9CA9",
+                                "position": "inline-start",
+                                "title_text": "Damon Braces",
+                                "description_text": "Self-ligating braces with fewer adjustments.",
+                                "link": {
+                                    "url": "https://smileondc.com/damon-braces-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "3d2520a1",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-tooth",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#6656C4",
+                                "position": "inline-start",
+                                "title_text": "Dental Implants",
+                                "description_text": "Replace missing teeth, from a single implant to All-on-4.",
+                                "link": {
+                                    "url": "https://smileondc.com/dental-implants-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "ce96d885",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-bolt",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#6656C4",
+                                "position": "inline-start",
+                                "title_text": "Same Day Dental Implants",
+                                "description_text": "Leave with a temporary tooth on the day, when the implant is stable.",
+                                "link": {
+                                    "url": "https://smileondc.com/same-day-dental-implants-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "e44a2579",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-heartbeat",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#2D9CA9",
+                                "position": "inline-start",
+                                "title_text": "Root Canal Treatment",
+                                "description_text": "Save an infected tooth with a specialist endodontist.",
+                                "link": {
+                                    "url": "https://smileondc.com/root-canal-treatment/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "b436d180",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-magic",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#6656C4",
+                                "position": "inline-start",
+                                "title_text": "Cosmetic Dentistry",
+                                "description_text": "Smile makeovers planned around your face and your bite.",
+                                "link": {
+                                    "url": "https://smileondc.com/cosmetic-dentistry-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "97d50b17",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-sun",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#6656C4",
+                                "position": "inline-start",
+                                "title_text": "Teeth Whitening",
+                                "description_text": "In-clinic and Zoom whitening for a brighter smile.",
+                                "link": {
+                                    "url": "https://smileondc.com/teeth-whitening-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "b91bb2c8",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-gem",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#6656C4",
+                                "position": "inline-start",
+                                "title_text": "Porcelain Veneers (Hollywood Smile)",
+                                "description_text": "Natural-looking veneers that reshape and brighten.",
+                                "link": {
+                                    "url": "https://smileondc.com/porcelain-veneers-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "563db0b4",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-crown",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#2D9CA9",
+                                "position": "inline-start",
+                                "title_text": "Dental Crowns & Bridges",
+                                "description_text": "Restore broken or missing teeth with lasting results.",
+                                "link": {
+                                    "url": "https://smileondc.com/dental-crowns-bridges-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "c7435a0c",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-hand-holding-medical",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#2D9CA9",
+                                "position": "inline-start",
+                                "title_text": "Gum Disease Treatment",
+                                "description_text": "Periodontist-led care for bleeding or receding gums.",
+                                "link": {
+                                    "url": "https://smileondc.com/gum-disease-treatment/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "4cb0ae8b",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-child",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#6656C4",
+                                "position": "inline-start",
+                                "title_text": "Children's Dentistry",
+                                "description_text": "Gentle visits with a specialist pediatric dentist.",
+                                "link": {
+                                    "url": "https://smileondc.com/pediatric-dentistry-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "2ea381ea",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-stethoscope",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#2D9CA9",
+                                "position": "inline-start",
+                                "title_text": "Routine Dental Checkup",
+                                "description_text": "A full exam, with X-rays only when they're needed.",
+                                "link": {
+                                    "url": "https://smileondc.com/dental-checkup-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "b3406057",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-spray-can",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#2D9CA9",
+                                "position": "inline-start",
+                                "title_text": "Teeth Cleaning",
+                                "description_text": "Scaling and polishing from AED 150.",
+                                "link": {
+                                    "url": "https://smileondc.com/teeth-cleaning-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "fa0e4095",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-procedures",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#6656C4",
+                                "position": "inline-start",
+                                "title_text": "Full Mouth Rehabilitation",
+                                "description_text": "A complete plan to restore comfort, function and looks.",
+                                "link": {
+                                    "url": "https://smileondc.com/full-mouth-rehabilitation-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "f8909b12",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-tooth",
+                                    "library": "fa-solid"
+                                },
+                                "primary_color": "#2D9CA9",
+                                "position": "inline-start",
+                                "title_text": "Wisdom Tooth Extraction",
+                                "description_text": "Handled by our oral and maxillofacial surgeon.",
+                                "link": {
+                                    "url": "https://smileondc.com/wisdom-tooth-extraction-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-tile"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        }
+                    ]
+                },
+                {
+                    "id": "8e4d46fc",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                        "text": "View All Dental Services",
+                        "link": {
+                            "url": "https://smileondc.com/dental-services/",
+                            "is_external": "",
+                            "nofollow": ""
+                        },
+                        "align": "center",
+                        "size": "md",
+                        "_css_classes": "sodc-btn-ghost"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "566e8d76",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": ""
+            },
+            "elements": [
+                {
+                    "id": "c1ffbf15",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Offers</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "1da639d3",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Offers Running Now",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "8495beee",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "css_classes": "sodc-grid sodc-grid-3"
+                    },
+                    "elements": [
+                        {
+                            "id": "438105e9",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-child",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "text_align": "left",
+                                "title_text": "Free Pediatric Consultation",
+                                "description_text": "Includes an X-ray and scaling for children. Ideal for a first visit.",
+                                "_css_classes": "sodc-card sodc-offer"
+                            }
+                        },
+                        {
+                            "id": "788549c6",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-tooth",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#E8F6F7",
+                                "secondary_color": "#2D9CA9",
+                                "text_align": "left",
+                                "title_text": "Scaling & Polishing: AED 150",
+                                "description_text": "A professional clean to remove tartar and surface stains.",
+                                "_css_classes": "sodc-card sodc-offer"
+                            }
+                        },
+                        {
+                            "id": "1da804a0",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-star",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "text_align": "left",
+                                "title_text": "Scaling, Polishing & Whitening: AED 499",
+                                "description_text": "Clean and brighten your smile in one visit.",
+                                "_css_classes": "sodc-card sodc-offer sodc-offer-hot"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "a47c845b",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                        "text": "Book an Offer",
+                        "link": {
+                            "url": "https://smileondc.com/make-appointment/",
+                            "is_external": "",
+                            "nofollow": ""
+                        },
+                        "align": "center",
+                        "size": "md",
+                        "_css_classes": "sodc-btn-grad"
+                    }
+                },
+                {
+                    "id": "ae7e75f8",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Offers are subject to availability and a dentist's assessment.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub sodc-small"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2748a4fc",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-tint"
+            },
+            "elements": [
+                {
+                    "id": "c59f0257",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Why choose us</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "f58f6ede",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Why Patients Across Dubai Choose Smile On",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "a051f496",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Patient comfort and quality care come first. We combine experienced specialists with modern dental technology for an accurate diagnosis, safe procedures and reliable results.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub"
+                    }
+                },
+                {
+                    "id": "7d52153b",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "css_classes": "sodc-grid sodc-grid-3"
+                    },
+                    "elements": [
+                        {
+                            "id": "f69d577b",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-user-md",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#E8F6F7",
+                                "secondary_color": "#2D9CA9",
+                                "text_align": "left",
+                                "title_text": "Specialists for every treatment",
+                                "description_text": "An orthodontist, endodontist, oral surgeon, prosthodontist, periodontist and pediatric dentist all work here. No referral across town.",
+                                "_css_classes": "sodc-card"
+                            }
+                        },
+                        {
+                            "id": "18fa3d7e",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-star",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#E8F6F7",
+                                "secondary_color": "#2D9CA9",
+                                "text_align": "left",
+                                "title_text": "Rated 5.0 by patients",
+                                "description_text": "A 5.0 rating on Google from 333 reviews by patients across Dubai.",
+                                "_css_classes": "sodc-card"
+                            }
+                        },
+                        {
+                            "id": "72c08c14",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-bolt",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#E8F6F7",
+                                "secondary_color": "#2D9CA9",
+                                "text_align": "left",
+                                "title_text": "Same-day urgent care",
+                                "description_text": "Severe pain, a broken tooth or swelling? We keep slots open so you can usually be seen the day you call.",
+                                "_css_classes": "sodc-card"
+                            }
+                        },
+                        {
+                            "id": "fd9f1a54",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-x-ray",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "text_align": "left",
+                                "title_text": "Modern dental technology",
+                                "description_text": "Digital X-rays and modern equipment for an accurate diagnosis, with your options and costs explained first.",
+                                "_css_classes": "sodc-card"
+                            }
+                        },
+                        {
+                            "id": "fd37d45e",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-map-marker-alt",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "text_align": "left",
+                                "title_text": "Central Al Satwa location",
+                                "description_text": "On 2nd December Street, easy to reach from Jumeirah, Bur Dubai, Karama and across Dubai.",
+                                "_css_classes": "sodc-card"
+                            }
+                        },
+                        {
+                            "id": "69c17207",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-award",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "text_align": "left",
+                                "title_text": "Founded by specialists",
+                                "description_text": "Established in 2021 by Dr. Arun Devarajan and Dr. Jeffrey Manuel, with five years of trusted dental care in Dubai.",
+                                "_css_classes": "sodc-card"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3996ee72",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": ""
+            },
+            "elements": [
+                {
+                    "id": "31d1e1d9",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Our team</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "584890b1",
+                    "elType": "widget",
+                    "settings": {
+                        "title": "Meet Our Specialist Team",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    },
+                    "elements": [],
+                    "widgetType": "heading"
+                },
+                {
+                    "id": "bb8b38af",
+                    "elType": "widget",
+                    "settings": {
+                        "editor": "<p>Six specialists work alongside our general dentists, so even complex cases are planned and treated in the same building.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub"
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "7bc6c611",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "css_classes": "sodc-grid sodc-grid-3 sodc-docs"
+                    },
+                    "elements": [
+                        {
+                            "id": "710ab7fe",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "url": "https://smileondc.com/wp-content/uploads/2025/06/Dr.Jeff_-768x1014.jpg",
+                                    "id": 3833,
+                                    "alt": "Dr. Jeffrey Manuel, Medical Director and Specialist Orthodontist at Smile On Dental Clinic, Dubai",
+                                    "source": "library"
+                                },
+                                "title_text": "Dr. Jeffrey Manuel",
+                                "description_text": "Specialist Orthodontist and Medical Director",
+                                "link": {
+                                    "url": "https://smileondc.com/doctors/dr-jeffrey-manuel/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-doc"
+                            },
+                            "elements": [],
+                            "widgetType": "image-box"
+                        },
+                        {
+                            "id": "7a12496f",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "url": "https://smileondc.com/wp-content/uploads/2025/06/Dr-Arunu-768x1014.jpg",
+                                    "id": 3849,
+                                    "alt": "Dr. Arun Devarajan, Specialist Endodontist at Smile On Dental Clinic, Dubai",
+                                    "source": "library"
+                                },
+                                "title_text": "Dr. Arun Devarajan",
+                                "description_text": "Specialist Endodontist",
+                                "link": {
+                                    "url": "https://smileondc.com/doctors/dr-arun-devarajan/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-doc"
+                            },
+                            "elements": [],
+                            "widgetType": "image-box"
+                        },
+                        {
+                            "id": "2fdfe4ae",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "url": "https://smileondc.com/wp-content/uploads/2025/06/Dr-Amit-768x1014.jpg",
+                                    "id": 3850,
+                                    "alt": "Dr. Amit Gupta, Specialist Oral and Maxillofacial Surgeon at Smile On Dental Clinic, Dubai",
+                                    "source": "library"
+                                },
+                                "title_text": "Dr. Amit Gupta",
+                                "description_text": "Specialist Oral and Maxillofacial Surgeon",
+                                "link": {
+                                    "url": "https://smileondc.com/doctors/dr-amit-gupta/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-doc"
+                            },
+                            "elements": [],
+                            "widgetType": "image-box"
+                        },
+                        {
+                            "id": "69b6abeb",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "url": "https://smileondc.com/wp-content/uploads/2025/06/Dr-Rahul-1-768x1014.jpg",
+                                    "id": 3851,
+                                    "alt": "Dr. Rahul Patel, Specialist Prosthodontist at Smile On Dental Clinic, Dubai",
+                                    "source": "library"
+                                },
+                                "title_text": "Dr. Rahul Patel",
+                                "description_text": "Specialist Prosthodontist",
+                                "link": {
+                                    "url": "https://smileondc.com/doctors/dr-rahul-patel/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-doc"
+                            },
+                            "elements": [],
+                            "widgetType": "image-box"
+                        },
+                        {
+                            "id": "9a037f0d",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "url": "https://smileondc.com/wp-content/uploads/2025/06/Dr-Vineetha-1-768x1014.jpg",
+                                    "id": 3852,
+                                    "alt": "Dr. Vineetha Varughese, Specialist Periodontist at Smile On Dental Clinic, Dubai",
+                                    "source": "library"
+                                },
+                                "title_text": "Dr. Vineetha Varughese",
+                                "description_text": "Specialist Periodontist",
+                                "link": {
+                                    "url": "https://smileondc.com/doctors/dr-vineetha-varughese/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-doc"
+                            },
+                            "elements": [],
+                            "widgetType": "image-box"
+                        },
+                        {
+                            "id": "df46cdb6",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "url": "https://smileondc.com/wp-content/uploads/2026/10/Dr-Minu-Mumtaz-O.V.-Specialist-Pediatric-Dentist-Dubai-768x1024.jpg",
+                                    "id": 6816,
+                                    "alt": "Dr. Minu Mumtaz O.V., Specialist Pediatric Dentist at Smile On Dental Clinic, Dubai",
+                                    "source": "library"
+                                },
+                                "title_text": "Dr. Minu Mumtaz O.V.",
+                                "description_text": "Specialist Pediatric Dentist",
+                                "link": {
+                                    "url": "https://smileondc.com/doctors/dr-minu-mumtaz/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-doc"
+                            },
+                            "elements": [],
+                            "widgetType": "image-box"
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "a3ca66f5",
+                    "elType": "widget",
+                    "settings": {
+                        "text": "Meet the Full Team",
+                        "link": {
+                            "url": "https://smileondc.com/doctors/",
+                            "is_external": "",
+                            "nofollow": ""
+                        },
+                        "align": "center",
+                        "size": "md",
+                        "_css_classes": "sodc-btn-ghost"
+                    },
+                    "elements": [],
+                    "widgetType": "button"
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "40657601",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-tint"
+            },
+            "elements": [
+                {
+                    "id": "1d82d14c",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Patient reviews</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "5b6b7314",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "What Our Patients Say",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "a223d2cf",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Rated 5.0 on Google by patients from Al Satwa, Jumeirah and across Dubai.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub"
+                    }
+                },
+                {
+                    "id": "9b7a4f12",
+                    "elType": "widget",
+                    "widgetType": "shortcode",
+                    "settings": {
+                        "shortcode": "[grw id=5630]",
+                        "_css_classes": "sodc-reviews"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "272a14c5",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": ""
+            },
+            "elements": [
+                {
+                    "id": "9cd5ba2b",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Your first visit</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "fad62846",
+                    "elType": "widget",
+                    "settings": {
+                        "title": "Your First Visit, Step by Step",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    },
+                    "elements": [],
+                    "widgetType": "heading"
+                },
+                {
+                    "id": "0777c5d8",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "css_classes": "sodc-grid sodc-grid-4 sodc-steps"
+                    },
+                    "elements": [
+                        {
+                            "id": "847f944e",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-calendar-check",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#2D9CA9",
+                                "secondary_color": "#ffffff",
+                                "text_align": "left",
+                                "title_text": "1. Book a time",
+                                "description_text": "Book online, call or send a WhatsApp message. If you're in pain, tell us and we'll look for the earliest slot.",
+                                "_css_classes": "sodc-card"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "34136322",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-door-open",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#2D9CA9",
+                                "secondary_color": "#ffffff",
+                                "text_align": "left",
+                                "title_text": "2. Meet your dentist",
+                                "description_text": "We listen first, then check your teeth and gums. X-rays are taken only when they're needed for a diagnosis.",
+                                "_css_classes": "sodc-card"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "e7548bf1",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-x-ray",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#6656C4",
+                                "secondary_color": "#ffffff",
+                                "text_align": "left",
+                                "title_text": "3. Your plan, explained",
+                                "description_text": "You hear what we found, your options and what each one costs, with no pressure to decide on the day.",
+                                "_css_classes": "sodc-card"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        },
+                        {
+                            "id": "7f0ae6de",
+                            "elType": "widget",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-comments",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#6656C4",
+                                "secondary_color": "#ffffff",
+                                "text_align": "left",
+                                "title_text": "4. Treatment by the right specialist",
+                                "description_text": "When you're ready, the specialist for your treatment takes over, in the same clinic.",
+                                "_css_classes": "sodc-card"
+                            },
+                            "elements": [],
+                            "widgetType": "icon-box"
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "366a8974",
+                    "elType": "widget",
+                    "settings": {
+                        "editor": "<p><strong>Insurance and payment.</strong> We work with a range of insurance providers and offer flexible payment options for treatment your plan doesn't cover. Send us your insurance details when you book and we'll confirm your cover before your visit.</p>",
+                        "_css_classes": "sodc-note"
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "ead6b494",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-tint"
+            },
+            "elements": [
+                {
+                    "id": "8895ee9e",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>From our blog</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "597a945b",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Dental Tips From Our Specialists",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "26a327e8",
+                    "elType": "widget",
+                    "settings": {
+                        "query_posts_per_page": 3,
+                        "query_not_found_text": "No Posts Found!",
+                        "advanced_filters": "",
+                        "layout_select": "slider",
+                        "layout_image_crop_size": "custom",
+                        "layout_image_crop_custom_dimension": {
+                            "width": "700",
+                            "height": "450"
+                        },
+                        "layout_filters": "",
+                        "layout_slider_amount": 3,
+                        "layout_slider_amount_tablet": 2,
+                        "layout_slider_amount_mobile": 1,
+                        "layout_slides_to_scroll": 1,
+                        "layout_slider_gutter": {
+                            "unit": "px",
+                            "size": 20,
+                            "sizes": []
+                        },
+                        "layout_slider_nav": "no",
+                        "layout_slider_nav_hover": "no",
+                        "layout_slider_dots": "no",
+                        "layout_slider_autoplay": "yes",
+                        "layout_slider_loop": "yes",
+                        "grid_slider_nav_color": "#9B8FD9",
+                        "grid_slider_nav_bg_color": "transparent",
+                        "grid_slider_nav_hover_color": "#6E50C3",
+                        "grid_slider_nav_hover_bg_color": "transparent",
+                        "grid_slider_nav_font_size": {
+                            "unit": "px",
+                            "size": 22,
+                            "sizes": []
+                        },
+                        "grid_slider_nav_size": {
+                            "unit": "px",
+                            "size": 32,
+                            "sizes": []
+                        },
+                        "grid_slider_nav_border_type": "none",
+                        "grid_slider_nav_border_radius": {
+                            "unit": "%",
+                            "top": 50,
+                            "right": 50,
+                            "bottom": 50,
+                            "left": 50,
+                            "isLinked": true
+                        },
+                        "grid_slider_dots_bg_color": "rgba(110,80,195,0.25)",
+                        "grid_slider_dots_active_bg_color": "#6E50C3",
+                        "grid_slider_dots_width": {
+                            "unit": "px",
+                            "size": 9,
+                            "sizes": []
+                        },
+                        "grid_slider_dots_height": {
+                            "unit": "px",
+                            "size": 9,
+                            "sizes": []
+                        },
+                        "grid_slider_dots_gutter": {
+                            "unit": "px",
+                            "size": 8,
+                            "sizes": []
+                        },
+                        "grid_slider_dots_vr": {
+                            "unit": "%",
+                            "size": 114,
+                            "sizes": []
+                        },
+                        "_padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "50",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "grid_elements": [
+                            {
+                                "_id": "4e360c2",
+                                "element_read_more_text": "Read article",
+                                "element_tax_sep": ", ",
+                                "element_comments_text_1": "No Comments",
+                                "element_comments_text_2": "Comment",
+                                "element_comments_text_3": "Comments"
+                            },
+                            {
+                                "element_select": "date",
+                                "element_display": "inline",
+                                "element_extra_text_pos": "after",
+                                "element_extra_text": "/",
+                                "_id": "822a511",
+                                "element_read_more_text": "Read article",
+                                "element_tax_sep": ", ",
+                                "element_comments_text_1": "No Comments",
+                                "element_comments_text_2": "Comment",
+                                "element_comments_text_3": "Comments"
+                            },
+                            {
+                                "element_select": "comments",
+                                "element_display": "inline",
+                                "_id": "899a7ea",
+                                "element_read_more_text": "Read article",
+                                "element_tax_sep": ", ",
+                                "element_comments_text_1": "No Comments",
+                                "element_comments_text_2": "Comment",
+                                "element_comments_text_3": "Comments"
+                            },
+                            {
+                                "element_select": "excerpt",
+                                "_id": "3c37348",
+                                "element_read_more_text": "Read article",
+                                "element_tax_sep": ", ",
+                                "element_comments_text_1": "No Comments",
+                                "element_comments_text_2": "Comment",
+                                "element_comments_text_3": "Comments"
+                            },
+                            {
+                                "element_select": "read-more",
+                                "_id": "95b8562",
+                                "element_read_more_text": "Read article",
+                                "element_tax_sep": ", ",
+                                "element_comments_text_1": "No Comments",
+                                "element_comments_text_2": "Comment",
+                                "element_comments_text_3": "Comments"
+                            }
+                        ],
+                        "filters_all_text": "All Posts",
+                        "pagination_older_text": "Older Posts",
+                        "pagination_newer_text": "Newer Posts",
+                        "pagination_prev_text": "Previous Page",
+                        "pagination_next_text": "Next Page",
+                        "pagination_first_text": "First Page",
+                        "pagination_last_text": "Last Page",
+                        "pagination_load_more_text": "Load More",
+                        "pagination_finish_text": "End of Content.",
+                        "_background_color_stop_tablet": {
+                            "unit": "%"
+                        },
+                        "_background_color_stop_mobile": {
+                            "unit": "%"
+                        },
+                        "_background_color_b_stop_tablet": {
+                            "unit": "%"
+                        },
+                        "_background_color_b_stop_mobile": {
+                            "unit": "%"
+                        },
+                        "_background_gradient_angle_tablet": {
+                            "unit": "deg"
+                        },
+                        "_background_gradient_angle_mobile": {
+                            "unit": "deg"
+                        },
+                        "_background_hover_color_stop_tablet": {
+                            "unit": "%"
+                        },
+                        "_background_hover_color_stop_mobile": {
+                            "unit": "%"
+                        },
+                        "_background_hover_color_b_stop_tablet": {
+                            "unit": "%"
+                        },
+                        "_background_hover_color_b_stop_mobile": {
+                            "unit": "%"
+                        },
+                        "_background_hover_gradient_angle_tablet": {
+                            "unit": "deg"
+                        },
+                        "_background_hover_gradient_angle_mobile": {
+                            "unit": "deg"
+                        },
+                        "grid_item_padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "30",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "pagination_animation": "loader-2"
+                    },
+                    "elements": [],
+                    "widgetType": "wpr-grid"
+                },
+                {
+                    "id": "b655d89e",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                        "text": "View All Blogs",
+                        "link": {
+                            "url": "https://smileondc.com/blogs/",
+                            "is_external": "",
+                            "nofollow": ""
+                        },
+                        "align": "center",
+                        "size": "md",
+                        "_css_classes": "sodc-btn-ghost"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3cbbb5ea",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 24,
+                    "unit": "px",
+                    "column": "24",
+                    "row": "24",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": ""
+            },
+            "elements": [
+                {
+                    "id": "8daf06d3",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Location & contact</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "29723edd",
+                    "elType": "widget",
+                    "settings": {
+                        "title": "Visit Us or Send a Message",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    },
+                    "elements": [],
+                    "widgetType": "heading"
+                },
+                {
+                    "id": "25d2b7d0",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_wrap": "wrap",
+                        "flex_gap": {
+                            "size": 28,
+                            "unit": "px",
+                            "column": "28",
+                            "row": "28",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "392ab6dd",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 56
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100
+                                },
+                                "css_classes": "sodc-map"
+                            },
+                            "elements": [
+                                {
+                                    "id": "f73053cd",
+                                    "elType": "widget",
+                                    "settings": {
+                                        "html": "<iframe title=\"Map to Smile On Dental Clinic, Al Satwa, Dubai\" src=\"https://maps.google.com/maps?q=25.2370576,55.2753671&z=16&output=embed\" width=\"100%\" height=\"430\" style=\"border:0;display:block;width:100%;\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\" allowfullscreen></iframe>",
+                                        "_css_classes": "sodc-mapframe"
+                                    },
+                                    "elements": [],
+                                    "widgetType": "html"
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "4c5ba57c",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 40
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100
+                                },
+                                "flex_direction": "column",
+                                "flex_gap": {
+                                    "size": 14,
+                                    "unit": "px",
+                                    "column": "14",
+                                    "row": "14",
+                                    "isLinked": true
+                                },
+                                "css_classes": "sodc-card sodc-visit"
+                            },
+                            "elements": [
+                                {
+                                    "id": "a2e3e3b1",
+                                    "elType": "widget",
+                                    "settings": {
+                                        "title": "Smile On Dental Clinic",
+                                        "header_size": "h3"
+                                    },
+                                    "elements": [],
+                                    "widgetType": "heading"
+                                },
+                                {
+                                    "id": "94f6be04",
+                                    "elType": "widget",
+                                    "settings": {
+                                        "icon_list": [
+                                            {
+                                                "_id": "v1",
+                                                "text": "Unit 213, 2nd floor, AMKM Investment Building, 2nd December Street, Al Satwa, Dubai",
+                                                "selected_icon": {
+                                                    "value": "fas fa-map-marker-alt",
+                                                    "library": "fa-solid"
+                                                }
+                                            },
+                                            {
+                                                "_id": "v2",
+                                                "text": "Open every day, 9am to 9pm",
+                                                "selected_icon": {
+                                                    "value": "fas fa-clock",
+                                                    "library": "fa-solid"
+                                                }
+                                            },
+                                            {
+                                                "_id": "v3",
+                                                "text": "+971 55 896 1826",
+                                                "selected_icon": {
+                                                    "value": "fas fa-phone-alt",
+                                                    "library": "fa-solid"
+                                                },
+                                                "link": {
+                                                    "url": "tel:+971558961826",
+                                                    "is_external": "",
+                                                    "nofollow": ""
+                                                }
+                                            },
+                                            {
+                                                "_id": "v4",
+                                                "text": "Message us on WhatsApp",
+                                                "selected_icon": {
+                                                    "value": "fab fa-whatsapp",
+                                                    "library": "fa-brands"
+                                                },
+                                                "link": {
+                                                    "url": "https://wa.me/971558961826",
+                                                    "is_external": "on",
+                                                    "nofollow": ""
+                                                }
+                                            },
+                                            {
+                                                "_id": "v5",
+                                                "text": "info@smileondc.com",
+                                                "selected_icon": {
+                                                    "value": "fas fa-envelope",
+                                                    "library": "fa-solid"
+                                                },
+                                                "link": {
+                                                    "url": "mailto:info@smileondc.com",
+                                                    "is_external": "",
+                                                    "nofollow": ""
+                                                }
+                                            }
+                                        ],
+                                        "icon_color": "#2D9CA9",
+                                        "text_color": "#2b3440",
+                                        "space_between": {
+                                            "unit": "px",
+                                            "size": 10
+                                        }
+                                    },
+                                    "elements": [],
+                                    "widgetType": "icon-list"
+                                },
+                                {
+                                    "id": "5e10352b",
+                                    "elType": "widget",
+                                    "widgetType": "shortcode",
+                                    "settings": {
+                                        "shortcode": "[gravityform id=\"2\" title=\"false\"]",
+                                        "_css_classes": "sodc-form"
+                                    }
+                                },
+                                {
+                                    "id": "a182b4ab",
+                                    "elType": "widget",
+                                    "settings": {
+                                        "text": "Get Directions",
+                                        "link": {
+                                            "url": "https://www.google.com/maps/dir/?api=1&destination=25.2370576,55.2753671",
+                                            "is_external": "on",
+                                            "nofollow": ""
+                                        },
+                                        "size": "md",
+                                        "selected_icon": {
+                                            "value": "fas fa-directions",
+                                            "library": "fa-solid"
+                                        },
+                                        "_css_classes": "sodc-btn-grad"
+                                    },
+                                    "elements": [],
+                                    "widgetType": "button"
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "b150d88d",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 64,
+                    "right": 20,
+                    "bottom": 64,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 40,
+                    "right": 16,
+                    "bottom": 40,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-faq sodc-tint"
+            },
+            "elements": [
+                {
+                    "id": "b84ef38b",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>FAQ</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "6fd255fb",
+                    "elType": "widget",
+                    "settings": {
+                        "title": "Frequently Asked Questions",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    },
+                    "elements": [],
+                    "widgetType": "heading"
+                },
+                {
+                    "id": "23468974",
+                    "elType": "widget",
+                    "settings": {
+                        "faq_schema": "yes",
+                        "title_html_tag": "h3",
+                        "selected_icon": {
+                            "value": "fas fa-plus",
+                            "library": "fa-solid"
+                        },
+                        "selected_active_icon": {
+                            "value": "fas fa-minus",
+                            "library": "fa-solid"
+                        },
+                        "tabs": [
+                            {
+                                "_id": "q1",
+                                "tab_title": "What dental services does Smile On Dental Clinic offer?",
+                                "tab_content": "<p>We offer a full range of dental care under one roof, including general and preventive dentistry, cosmetic treatments like teeth whitening and veneers, orthodontics including Invisalign and braces, dental implants, root canal treatment, gum treatments and pediatric dentistry for children. <a href='https://smileondc.com/dental-services/'>See all dental services</a>.</p>"
+                            },
+                            {
+                                "_id": "q2",
+                                "tab_title": "Where is Smile On Dental Clinic located?",
+                                "tab_content": "<p>Our clinic is in Al Satwa, Dubai, at Unit 213, AMKM Investment Building, 2nd December Street. We're easy to reach from Jumeirah, Bur Dubai and other nearby areas.</p>"
+                            },
+                            {
+                                "_id": "q3",
+                                "tab_title": "What are your opening hours?",
+                                "tab_content": "<p>We're open every day of the week, from 9am to 9pm.</p>"
+                            },
+                            {
+                                "_id": "q4",
+                                "tab_title": "Do you accept insurance or offer payment plans?",
+                                "tab_content": "<p>We work with a range of insurance providers and also offer flexible payment options for treatments not covered by insurance. Contact our team before your visit and we'll confirm your coverage.</p>"
+                            },
+                            {
+                                "_id": "q5",
+                                "tab_title": "Can I get a same-day emergency dental appointment?",
+                                "tab_content": "<p>Yes. We keep slots open for urgent dental concerns such as severe pain, broken teeth or swelling, so you can usually be seen the same day you call <a href='tel:+971558961826'>+971 55 896 1826</a>.</p>"
+                            },
+                            {
+                                "_id": "q6",
+                                "tab_title": "Do you treat children?",
+                                "tab_content": "<p>Yes. Our specialist pediatric dentist, <a href='https://smileondc.com/doctors/dr-minu-mumtaz/'>Dr. Minu Mumtaz O.V.</a>, sees babies, children and teens. Ask about our free pediatric consultation.</p>"
+                            },
+                            {
+                                "_id": "q7",
+                                "tab_title": "How do I book an appointment?",
+                                "tab_content": "<p>Call us directly at <a href='tel:+971558961826'>+971 55 896 1826</a> or <a href='https://smileondc.com/make-appointment/'>book online</a>. Our team will confirm your appointment time and send you a reminder before your visit.</p>"
+                            },
+                            {
+                                "_id": "q8",
+                                "tab_title": "What languages do your doctors speak?",
+                                "tab_content": "<p>Our team is multilingual and comfortable treating patients in English along with several other languages. Let our front desk know your preference when you book and we'll do our best to accommodate you.</p>"
+                            }
+                        ]
+                    },
+                    "elements": [],
+                    "widgetType": "toggle"
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "743b756c",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                    "size": 16,
+                    "unit": "px",
+                    "column": "16",
+                    "row": "16",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 64,
+                    "right": 20,
+                    "bottom": 64,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-cta"
+            },
+            "elements": [
+                {
+                    "id": "314f604d",
+                    "elType": "widget",
+                    "settings": {
+                        "title": "Ready for a Healthier, Brighter Smile?",
+                        "align": "center"
+                    },
+                    "elements": [],
+                    "widgetType": "heading"
+                },
+                {
+                    "id": "5a98f2da",
+                    "elType": "widget",
+                    "settings": {
+                        "editor": "<p>Specialists in-house, same-day urgent slots and a 5.0 Google rating. Open every day, 9am to 9pm.</p>",
+                        "align": "center"
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "50b541e0",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_wrap": "wrap",
+                        "flex_justify_content": "center",
+                        "flex_gap": {
+                            "size": 12,
+                            "unit": "px",
+                            "column": "12",
+                            "row": "12",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "2cf80c06",
+                            "elType": "widget",
+                            "settings": {
+                                "text": "Book an Appointment",
+                                "link": {
+                                    "url": "https://smileondc.com/make-appointment/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "size": "md",
+                                "_css_classes": "sodc-btn-white"
+                            },
+                            "elements": [],
+                            "widgetType": "button"
+                        },
+                        {
+                            "id": "c239615c",
+                            "elType": "widget",
+                            "settings": {
+                                "text": "WhatsApp Us",
+                                "link": {
+                                    "url": "https://wa.me/971558961826",
+                                    "is_external": "on",
+                                    "nofollow": ""
+                                },
+                                "size": "md",
+                                "selected_icon": {
+                                    "value": "fab fa-whatsapp",
+                                    "library": "fa-brands"
+                                },
+                                "_css_classes": "sodc-btn-outline-white"
+                            },
+                            "elements": [],
+                            "widgetType": "button"
+                        },
+                        {
+                            "id": "a3e10449",
+                            "elType": "widget",
+                            "settings": {
+                                "text": "Call +971 55 896 1826",
+                                "link": {
+                                    "url": "tel:+971558961826",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "size": "md",
+                                "_css_classes": "sodc-btn-outline-white"
+                            },
+                            "elements": [],
+                            "widgetType": "button"
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        }
+    ]
+}
