@@ -220,3 +220,27 @@ td.num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; color: 
 .dev-notes-off .dev-note, .dev-notes-off .placeholder-flag, .dev-notes-off .photo-note { display: none; }
 .note-toggle { position: fixed; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 40; font: 600 .78rem/1 var(--f-mono); background: var(--ink); color: #fff; border: 0; border-radius: 999px; padding: 12px 16px; cursor: pointer; box-shadow: 0 6px 20px rgba(13,43,51,.25); }
 @media (max-width: 760px) { .note-toggle { bottom: calc(86px + env(safe-area-inset-bottom, 0px)); } }
+
+/* ===== v2 visual layer ===== */
+/* Illustrated placeholder: soft clinic light + faint tooth-outline pattern instead of a flat box */
+.photo {
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cpath d='M26 22c-4 0-6 3-6 6.5 0 4.5 2 6.5 3 11s1.5 8.5 3.5 8.5 2.5-6 6.5-6 4.5 6 6.5 6 2.5-4 3.5-8.5 3-6.5 3-11c0-3.5-2-6.5-6-6.5-3 0-4.5 1.5-7.5 1.5S29 22 26 22z' fill='none' stroke='%230f7a72' stroke-opacity='.10' stroke-width='1.4'/%3E%3C/svg%3E"),
+    radial-gradient(120% 90% at 15% 0%, #bfe0d8 0%, transparent 55%),
+    radial-gradient(90% 80% at 100% 100%, #fbdc98 0%, transparent 55%),
+    linear-gradient(160deg, #e9f3f0, #dcebe7);
+}
+.reveal { transform: translateY(18px); transition: transform .7s cubic-bezier(.2,.7,.2,1); }
+.reveal.in { transform: none; }
+@media (prefers-reduced-motion: reduce) { .reveal { transform: none; } }
+
+/* Monogram portrait (stand-in until real photography) */
+.portrait-mono { position: relative; aspect-ratio: 4 / 5; max-width: 100%; border-radius: var(--r-l); overflow: hidden; display: grid; place-items: center;
+  background: radial-gradient(80% 60% at 50% 30%, rgba(255,255,255,.35), transparent 70%), var(--pc, var(--teal)); }
+.portrait-mono::after { content: ""; position: absolute; inset: auto -20% -38% -20%; height: 70%; border-radius: 50% 50% 0 0; background: rgba(255,255,255,.16); }
+.portrait-mono span { position: relative; z-index: 1; font: 700 3.4rem/1 var(--f-display); color: rgba(255,255,255,.95); letter-spacing: -.02em; }
+.portrait-mono .photo-note { position: absolute; left: 0; bottom: 0; z-index: 2; font-size: .7rem; letter-spacing: 0; color: var(--ink-2); }
+.doc { transition: transform .2s ease; }
+.doc:hover { transform: translateY(-4px); }
+.card, .svc, .pb, .quote { transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.card:hover, .pb:hover { transform: translateY(-3px); box-shadow: 0 16px 34px rgba(13,43,51,.08); }
