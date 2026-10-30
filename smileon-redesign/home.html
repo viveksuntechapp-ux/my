@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Smile On Homepage</title>
+<meta name="description" content="Specialist-led dental clinic in Al Satwa, Dubai. Eight dental specialties under one roof, 5.0 on Google, DHA licensed. Open Wednesday to Monday, 9am to 9pm. Book your visit.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,650;12..96,700&family=Figtree:wght@400;500;600;650&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="site.css">
+<style>
+  .hero { padding-block: clamp(40px, 6vw, 80px) clamp(48px, 6vw, 72px); background:
+    linear-gradient(180deg, var(--paper) 0%, var(--porcelain) 100%); }
+  .hero-grid { display: grid; grid-template-columns: 1.08fr .92fr; gap: clamp(28px, 5vw, 64px); align-items: center; }
+  .hero h1 em { font-style: normal; color: var(--teal); }
+  .hero .lede { margin-top: 20px; }
+  .hero .btn-row { margin-top: 30px; }
+  .hero-visual { position: relative; }
+  .hero-visual .photo { min-height: 460px; }
+  .float-card {
+    position: absolute; background: var(--paper); border-radius: var(--r-m); padding: 16px 18px;
+    box-shadow: 0 18px 40px rgba(13,43,51,.14); display: grid; gap: 4px; max-width: 240px;
+  }
+  .float-card b { font: 700 1.05rem/1.2 var(--f-display); color: var(--ink); }
+  .float-card span { font-size: .84rem; color: var(--muted); }
+  .fc-1 { left: -24px; bottom: 36px; }
+  .fc-2 { right: -16px; top: 30px; }
+  .hero-trust { margin-top: clamp(36px, 5vw, 56px); }
+  @media (max-width: 900px) {
+    .hero-grid { grid-template-columns: 1fr; }
+    .hero-visual .photo { min-height: 320px; }
+    .fc-1 { left: 12px; } .fc-2 { right: 12px; }
+  }
+
+  .svc-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 14px; }
+  .svc { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r-m); padding: 22px; display: grid; gap: 8px; text-decoration: none; color: inherit; transition: border-color .15s, transform .15s; align-content: start; }
+  .svc:hover { border-color: var(--teal); transform: translateY(-2px); }
+  .svc h3 { font-size: 1.05rem; }
+  .svc p { font-size: .9rem; color: var(--muted); }
+  .svc--feature { grid-column: span 2; background: var(--ink); border-color: var(--ink); }
+  .svc--feature h3 { color: #fff; font-size: 1.35rem; }
+  .svc--feature p { color: #b9cfcc; font-size: .98rem; }
+  @media (max-width: 980px) { .svc-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+  @media (max-width: 520px) { .svc-grid { grid-template-columns: 1fr; } .svc--feature { grid-column: auto; } }
+
+  .why { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(28px, 5vw, 72px); align-items: start; }
+  .why-list { display: grid; gap: 0; }
+  .why-item { display: grid; grid-template-columns: 46px 1fr; gap: 18px; padding-block: 22px; border-top: 1px solid rgba(255,255,255,.14); }
+  .why-item:last-child { border-bottom: 1px solid rgba(255,255,255,.14); }
+  .why-item .ico { background: rgba(255,255,255,.08); color: var(--sun); }
+  .why-item p { color: #b9cfcc; font-size: .97rem; margin-top: 4px; }
+  @media (max-width: 900px) { .why { grid-template-columns: 1fr; } }
+
+  .price-board { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 16px; }
+  .pb { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r-m); padding: 24px; display: grid; gap: 6px; align-content: start; }
+  .pb .from { font: 500 .74rem/1 var(--f-mono); color: var(--muted); letter-spacing: .1em; text-transform: uppercase; }
+  .pb .amt { font: 700 2.2rem/1.05 var(--f-display); color: var(--ink); font-variant-numeric: tabular-nums; }
+  .pb .amt small { font: 600 .9rem/1 var(--f-mono); color: var(--teal); margin-right: 4px; }
+  .pb p { font-size: .93rem; }
+  @media (max-width: 860px) { .price-board { grid-template-columns: 1fr; } }
+
+  .team-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 22px; }
+  @media (max-width: 980px) { .team-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+  @media (max-width: 460px) { .team-grid { grid-template-columns: 1fr; } }
+
+  .visit { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 5vw, 64px); align-items: start; }
+  .visit .photo { min-height: 380px; }
+  @media (max-width: 900px) { .visit { grid-template-columns: 1fr; } }
+
+  .ins-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+  .ins-row span { padding: 10px 16px; border: 1px dashed var(--line); border-radius: 999px; font-size: .88rem; color: var(--muted); background: var(--paper); }
+
+  .find { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .find .card dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 10px 18px; }
+  .find dt { font: 600 .74rem/1.6 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .find dd { margin: 0; color: var(--ink); }
+  .hours { width: 100%; border-collapse: collapse; min-width: 0; }
+  .hours td { padding: 9px 0; border-bottom: 1px solid var(--line); font-size: .96rem; }
+  .hours td:last-child { text-align: right; font-family: var(--f-mono); font-size: .9rem; }
+  .hours tr.off td { color: #a0522d; }
+  .map { min-height: 220px; border-radius: var(--r-m); }
+  @media (max-width: 860px) { .find { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<div class="utility">
+  <div class="wrap">
+    <div class="u-group">
+      <span>Wed – Mon · 9:00am – 9:00pm</span>
+      <span class="closed">Closed Tuesdays</span>
+    </div>
+    <div class="u-group">
+      <a href="tel:+97143472102">04 347 2102</a>
+      <a href="tel:+971558961826">055 896 1826</a>
+      <a href="mailto:info@smileondc.com">info@smileondc.com</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="home.html" aria-label="Smile On Dental Clinic home">
+      <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#0d2b33"/><path d="M11 18c2.5 7 15.5 7 18 0" fill="none" stroke="#f5b841" stroke-width="3.2" stroke-linecap="round"/><circle cx="14.5" cy="13.5" r="1.8" fill="#fff"/><circle cx="25.5" cy="13.5" r="1.8" fill="#fff"/></svg>
+      <span>Smile On<small>Dental Clinic · Al Satwa</small></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="home.html" aria-current="page">Home</a>
+      <a href="services.html">Services</a>
+      <a href="#team">Our Doctors</a>
+      <a href="#prices">Prices</a>
+      <a href="#visit">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a class="btn btn--ghost btn--small" href="tel:+97143472102">Call 04 347 2102</a>
+      <a class="btn btn--book btn--small" href="#book">Book a visit</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">DHA-licensed dental clinic · Al Satwa, Dubai</span>
+        <h1 style="margin-top:18px">Eight dental specialists. <em>One clinic.</em> Zero runaround.</h1>
+        <p class="lede">From a AED 150 clean to braces, root canals and same-day implants, every part of your care is handled by a specialist in that field, under one roof on 2nd December Street. Open until 9pm, six days a week.</p>
+        <div class="btn-row">
+          <a class="btn btn--book" href="#book">Book your appointment</a>
+          <a class="btn btn--ghost" href="services.html">Explore treatments</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="photo"><span class="photo-note">Photo: real treatment room or Dr. Manuel with a patient, natural light</span></div>
+        <div class="float-card fc-2">
+          <b><span class="stars" aria-hidden="true">★★★★★</span> 5.0</b>
+          <span>from 314+ Google reviews</span>
+        </div>
+        <div class="float-card fc-1">
+          <b>Open till 9pm</b>
+          <span>After-work appointments, Wednesday to Monday</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="trust hero-trust" role="list">
+      <div role="listitem"><b>5.0 <span class="stars" aria-hidden="true">★</span></b><span>Google rating, 314+ reviews</span></div>
+      <div role="listitem"><b>8</b><span>dental specialties in-house</span></div>
+      <div role="listitem"><b>DHA</b><span>licensed by the Dubai Health Authority</span></div>
+      <div role="listitem"><b>Insurance</b><span>most major UAE insurers accepted</span></div>
+    </div>
+    <p class="dev-note" style="margin-top:14px">Dev note: pull the Google rating and review count live from the Places API (the site currently shows 314 on the homepage and 333 on the cosmetic page).</p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="band band--paper" id="services">
+  <div class="wrap">
+    <div class="section-head section-head--split">
+      <div style="display:grid;gap:14px;max-width:700px">
+        <span class="eyebrow">What we treat</span>
+        <h2>Whatever your smile needs, there's a specialist down the corridor</h2>
+        <p class="lede">Routine check-ups, cosmetic upgrades or a full rebuild: you won't be referred across Dubai for the next step.</p>
+      </div>
+      <a class="btn btn--ghost btn--small" href="services.html">See all 8 departments</a>
+    </div>
+
+    <div class="svc-grid">
+      <a class="svc svc--feature" href="same-day-dental-implants.html">
+        <span class="price price--sun">Single implant from AED 4,500</span>
+        <h3>Same-day dental implants</h3>
+        <p>Walk in with a gap, leave with a tooth. 3D CBCT-planned implants with a temporary crown fitted on the day when the implant is stable enough to load safely.</p>
+        <span class="more" style="color:var(--sun)">How same-day implants work</span>
+      </a>
+      <a class="svc" href="services.html#general">
+        <span class="price">From AED 150</span>
+        <h3>Teeth cleaning</h3>
+        <p>Scaling and polishing that leaves your teeth feeling brand new.</p>
+      </a>
+      <a class="svc" href="services.html#general">
+        <h3>Dental check-ups</h3>
+        <p>Digital X-rays and a thorough exam to catch problems early.</p>
+      </a>
+      <a class="svc" href="services.html#orthodontics">
+        <h3>Invisalign</h3>
+        <p>Clear aligners from a certified Invisalign provider.</p>
+      </a>
+      <a class="svc" href="services.html#orthodontics">
+        <h3>Metal &amp; ceramic braces</h3>
+        <p>Classic and tooth-coloured braces for teens and adults.</p>
+      </a>
+      <a class="svc" href="services.html#endodontics">
+        <h3>Root canal treatment</h3>
+        <p>Specialist endodontic care that saves the tooth and ends the pain.</p>
+      </a>
+      <a class="svc" href="services.html#cosmetic">
+        <h3>Teeth whitening</h3>
+        <p>In-clinic Zoom whitening for a visibly brighter smile.</p>
+      </a>
+      <a class="svc" href="services.html#cosmetic">
+        <h3>Digital Smile Design</h3>
+        <p>Preview your new smile digitally before any treatment starts.</p>
+      </a>
+      <a class="svc" href="services.html#periodontics">
+        <h3>Gum disease treatment</h3>
+        <p>Periodontist-led care for bleeding, receding or sore gums.</p>
+      </a>
+      <a class="svc" href="services.html#prosthodontics">
+        <h3>Crowns &amp; bridges</h3>
+        <p>Natural-looking restorations made to match your teeth.</p>
+      </a>
+      <a class="svc" href="services.html#surgery">
+        <h3>Wisdom tooth extraction</h3>
+        <p>Handled by an oral and maxillofacial surgery specialist.</p>
+      </a>
+      <a class="svc" href="services.html#pediatric">
+        <h3>Children's dentistry</h3>
+        <p>Gentle, patient care from a specialist paediatric dentist.</p>
+      </a>
+      <a class="svc" href="services.html#prosthodontics">
+        <h3>Full mouth rehabilitation</h3>
+        <p>A complete plan to restore function, comfort and appearance.</p>
+      </a>
+      <a class="svc" href="services.html#orthodontics">
+        <h3>Retainers</h3>
+        <p>Clear and fixed retainers that keep your results in place.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="band band--ink" id="why">
+  <div class="wrap why">
+    <div style="display:grid;gap:18px;position:sticky;top:110px">
+      <span class="eyebrow">Why patients choose Smile On</span>
+      <h2>Founded by specialists, run like a family practice</h2>
+      <p style="color:#b9cfcc;max-width:46ch">Smile On was established in 2021 by two specialists, Dr. Jeffrey Manuel (orthodontics) and Dr. Arun Devarajan (endodontics), who wanted specialist-level care delivered in a warm, personal setting.</p>
+      <div class="btn-row" style="margin-top:8px"><a class="btn btn--book" href="#book">Book your first visit</a></div>
+    </div>
+    <div class="why-list">
+      <div class="why-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c.6-3.4 3-5.5 6-5.5s5.4 2.1 6 5.5M15 15.2c2.6-.4 5 1.3 5.6 4.3"/></svg></span>
+        <div><h3>Experienced specialists, not generalists</h3><p>Orthodontics, endodontics, prosthodontics, periodontics, paediatric dentistry, oral surgery, implantology and general dentistry each have a dedicated expert.</p></div>
+      </div>
+      <div class="why-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4M7 12l3-3 2 2 4-4"/></svg></span>
+        <div><h3>Modern diagnostics</h3><p>Digital X-rays and 3D CBCT imaging mean precise planning, fewer surprises and lower radiation.</p></div>
+      </div>
+      <div class="why-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <div><h3>Hours that fit Dubai life</h3><p>9am to 9pm, Wednesday to Monday, so you can come in after work without taking leave.</p></div>
+      </div>
+      <div class="why-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+        <div><h3>Central Al Satwa location</h3><p>On 2nd December Street, minutes from Jumeirah, Al Bada'a, Karama and Bur Dubai.</p></div>
+      </div>
+      <div class="why-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 3l7 3v6c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></span>
+        <div><h3>Licensed, insured and upfront</h3><p>DHA licensed, most major UAE insurers accepted, and a full written quote before any treatment begins.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICES -->
+<section class="band" id="prices">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Clear pricing</span>
+      <h2>Know the cost before you sit in the chair</h2>
+      <p class="lede">Here are a few of our most-asked-about prices. For anything more complex, you'll get a complete quote after your assessment, with no hidden extras.</p>
+    </div>
+    <div class="price-board">
+      <div class="pb">
+        <span class="from">Scaling &amp; polishing</span>
+        <span class="amt"><small>AED</small>150</span>
+        <p>A professional clean that removes plaque and tartar build-up.</p>
+      </div>
+      <div class="pb">
+        <span class="from">Cleaning + whitening</span>
+        <span class="amt"><small>AED</small>499</span>
+        <p>Your clean, plus whitening for a brighter finish in one visit.</p>
+      </div>
+      <div class="pb">
+        <span class="from">Single implant, complete</span>
+        <span class="amt"><small>AED</small>4,500<span style="font-size:1rem;color:var(--muted)"> +</span></span>
+        <p>Implant, abutment and crown, including 3D CBCT planning.</p>
+      </div>
+    </div>
+    <p class="dev-note" style="margin-top:16px">Dev note: these three prices are taken from the live site. Confirm with the clinic, and keep one price per service across all pages (the implant blogs currently quote four different ranges).</p>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="band band--paper" id="team">
+  <div class="wrap">
+    <div class="section-head section-head--split">
+      <div style="display:grid;gap:14px;max-width:700px">
+        <span class="eyebrow">Meet your doctors</span>
+        <h2>The specialists behind every Smile On smile</h2>
+      </div>
+      <a class="btn btn--ghost btn--small" href="#">Meet the full team</a>
+    </div>
+    <div class="team-grid">
+      <article class="doc">
+        <div class="photo portrait"><span class="photo-note">Portrait</span></div>
+        <span class="role">Medical Director · Orthodontist</span>
+        <h3>Dr. Jeffrey Manuel</h3>
+        <p>Co-founder and certified Invisalign provider, in UAE practice since 2008. He treats teens and adults, and offers early interceptive care for children.</p>
+      </article>
+      <article class="doc">
+        <div class="photo portrait"><span class="photo-note">Portrait</span></div>
+        <span class="role">Specialist Endodontist</span>
+        <h3>Dr. Arun Devarajan</h3>
+        <p>Co-founder and root canal specialist, including complex cases, retreatment and apicoectomy.</p>
+      </article>
+      <article class="doc">
+        <div class="photo portrait"><span class="photo-note">Portrait</span></div>
+        <span class="role">Specialist Prosthodontist</span>
+        <h3>Dr. Rahul Patel</h3>
+        <p>Almost 10 years in restorative and implant dentistry: crowns, implants and full mouth rehabilitation.</p>
+      </article>
+      <article class="doc">
+        <div class="photo portrait"><span class="photo-note">Portrait</span></div>
+        <span class="role">Periodontist</span>
+        <h3>Dr. Vineetha Varughese</h3>
+        <p>A gum specialist who treats gum disease and protects the foundations of your smile.</p>
+      </article>
+    </div>
+    <p class="dev-note" style="margin-top:20px">Dev note: also add Dr. Amit Gupta (oral and maxillofacial surgery), Dr. Marwa Kodmany, DDS (general dentistry), the paediatric dentist and Kavitha Pinto (CEO and co-owner) in a carousel. The live site names three different paediatric dentists, so confirm the current roster before launch.</p>
+  </div>
+</section>
+
+<!-- FIRST VISIT -->
+<section class="band" id="first-visit">
+  <div class="wrap visit">
+    <div style="display:grid;gap:18px">
+      <span class="eyebrow">Your first visit</span>
+      <h2>Here's exactly what happens when you walk in</h2>
+      <ol class="steps" style="margin-top:12px">
+        <li><div><h3>Book in under a minute</h3><p>Call, email or use the online form. Choose a time between 9am and 9pm that suits you.</p></div></li>
+        <li><div><h3>Meet your dentist</h3><p>We listen first, then examine your teeth and gums and take digital X-rays if they're needed.</p></div></li>
+        <li><div><h3>See your options, with prices</h3><p>Your plan is explained in plain language with a written quote, and we check your insurance cover.</p></div></li>
+        <li><div><h3>Start when you're ready</h3><p>No pressure and no upselling. You decide when to begin.</p></div></li>
+      </ol>
+    </div>
+    <div class="photo"><span class="photo-note">Photo: reception at AMKM Investment Building</span></div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="band band--mint" id="reviews">
+  <div class="wrap">
+    <div class="section-head section-head--split">
+      <div style="display:grid;gap:14px;max-width:700px">
+        <span class="eyebrow">5.0 on Google · 314+ reviews</span>
+        <h2>Don't take our word for it</h2>
+      </div>
+      <a class="btn btn--ghost btn--small" href="#">Read all reviews on Google</a>
+    </div>
+    <div class="grid-3">
+      <figure class="quote" style="margin:0">
+        <blockquote>"[Paste a real Google review that mentions the clinic's cleanliness and the friendly team.]"</blockquote>
+        <footer><span>Patient name · Google</span><span class="placeholder-flag">real review</span></footer>
+      </figure>
+      <figure class="quote" style="margin:0">
+        <blockquote>"[Paste a real Google review about a specialist treatment, such as implants, a root canal or Invisalign.]"</blockquote>
+        <footer><span>Patient name · Google</span><span class="placeholder-flag">real review</span></footer>
+      </figure>
+      <figure class="quote" style="margin:0">
+        <blockquote>"[Paste a real Google review from a parent about their child's visit.]"</blockquote>
+        <footer><span>Patient name · Google</span><span class="placeholder-flag">real review</span></footer>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- INSURANCE -->
+<section class="band band--paper" id="insurance">
+  <div class="wrap" style="display:grid;gap:10px">
+    <span class="eyebrow">Insurance</span>
+    <h2 style="font-size:clamp(1.5rem,2.6vw,2rem)">We accept most major UAE insurance plans</h2>
+    <p>Bring your insurance card to your visit and we'll check your coverage before treatment starts.</p>
+    <div class="ins-row"><span>Insurer logo</span><span>Insurer logo</span><span>Insurer logo</span><span>Insurer logo</span><span>Insurer logo</span><span>Insurer logo</span></div>
+    <p class="dev-note" style="margin-top:10px">Dev note: replace these with the clinic's actual insurer list. Don't publish logos for insurers the clinic hasn't confirmed.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="band" id="faq">
+  <div class="wrap" style="display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(24px,5vw,64px)">
+    <div style="display:grid;gap:14px;align-content:start">
+      <span class="eyebrow">Questions</span>
+      <h2>Good questions, straight answers</h2>
+      <p>Can't find yours? Call <b>04 347 2102</b> and our team will help.</p>
+    </div>
+    <div class="faq">
+      <details open><summary>What dental services do you offer?</summary><p>Everything from check-ups and cleaning to Invisalign, braces, root canals, implants, whitening, gum treatment, wisdom tooth removal and children's dentistry. Each treatment is handled within one of our eight specialist departments.</p></details>
+      <details><summary>Where is Smile On Dental Clinic?</summary><p>Unit 213, AMKM Investment Building, 2nd December Street, Al Satwa, Dubai. We're close to Jumeirah, Al Bada'a and Karama.</p></details>
+      <details><summary>What age should my child get braces?</summary><p>Early interceptive orthodontic treatment usually happens between about 9 and 14, while the jaw is still growing. Dr. Manuel will advise whether your child needs treatment now or later.</p></details>
+      <details><summary>How long does orthodontic treatment take?</summary><p>It depends on the case and the appliance. After your assessment, your orthodontist will give you a personal timeline before you commit.</p></details>
+      <details><summary>Do you accept insurance?</summary><p>Yes, we accept most major UAE insurers. We'll confirm your coverage before treatment.</p></details>
+      <details><summary>When are you open?</summary><p>Wednesday to Monday, 9:00am to 9:00pm. We're closed on Tuesdays.</p></details>
+    </div>
+  </div>
+  <style>@media (max-width:860px){#faq .wrap{grid-template-columns:1fr !important}}</style>
+</section>
+
+<!-- BOOK / VISIT -->
+<section class="band band--paper" id="visit">
+  <div class="wrap" style="display:grid;gap:28px">
+    <div class="book-band" id="book">
+      <div style="display:grid;gap:16px">
+        <span class="eyebrow">Book your visit</span>
+        <h2>Your best smile is one appointment away</h2>
+        <p>Tell us what's bothering you, or just that it's time for a check-up. We'll find a time that fits your day.</p>
+        <div class="btn-row"><a class="btn btn--book" href="#">Book online</a><a class="btn btn--ghost" href="tel:+97143472102">Call 04 347 2102</a></div>
+      </div>
+      <div class="contact-lines">
+        <div><b>Phone</b> · 04 347 2102</div>
+        <div><b>Mobile</b> · 055 896 1826</div>
+        <div><b>Email</b> · info@smileondc.com</div>
+        <div><b>Hours</b> · Wed–Mon, 9am–9pm (Tue closed)</div>
+      </div>
+    </div>
+
+    <div class="find">
+      <div class="card">
+        <h3>Find us</h3>
+        <dl>
+          <dt>Address</dt><dd>Unit 213, AMKM Investment Building, 2nd December Street, Al Satwa, Dubai</dd>
+          <dt>Phone</dt><dd>04 347 2102 · 055 896 1826</dd>
+          <dt>Email</dt><dd>info@smileondc.com</dd>
+        </dl>
+        <div class="photo map" style="margin-top:10px"><span class="photo-note">Google Map embed</span></div>
+      </div>
+      <div class="card">
+        <h3>Opening hours</h3>
+        <table class="hours" aria-label="Opening hours">
+          <tr><td>Wednesday</td><td>9:00 – 21:00</td></tr>
+          <tr><td>Thursday</td><td>9:00 – 21:00</td></tr>
+          <tr><td>Friday</td><td>9:00 – 21:00</td></tr>
+          <tr><td>Saturday</td><td>9:00 – 21:00</td></tr>
+          <tr><td>Sunday</td><td>9:00 – 21:00</td></tr>
+          <tr><td>Monday</td><td>9:00 – 21:00</td></tr>
+          <tr class="off"><td>Tuesday</td><td>Closed</td></tr>
+        </table>
+        <p class="dev-note">Dev note: the live site shows three different hour sets (Wed–Mon, Mon–Sun and "7 days"). Confirm one with the clinic and use it on every page and in Google Business Profile.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div style="display:grid;gap:14px;align-content:start">
+        <a class="logo" href="home.html" style="color:#fff"><svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#163f49"/><path d="M11 18c2.5 7 15.5 7 18 0" fill="none" stroke="#f5b841" stroke-width="3.2" stroke-linecap="round"/><circle cx="14.5" cy="13.5" r="1.8" fill="#fff"/><circle cx="25.5" cy="13.5" r="1.8" fill="#fff"/></svg><span>Smile On<small style="color:#7f9a97">Dental Clinic LLC</small></span></a>
+        <p>A specialist-led, DHA-licensed dental clinic in Al Satwa, Dubai.</p>
+      </div>
+      <div><h4>Treatments</h4><ul><li><a href="same-day-dental-implants.html">Same-day implants</a></li><li><a href="services.html#orthodontics">Invisalign &amp; braces</a></li><li><a href="services.html#endodontics">Root canal</a></li><li><a href="services.html#cosmetic">Whitening</a></li><li><a href="services.html#pediatric">Children's dentistry</a></li></ul></div>
+      <div><h4>Clinic</h4><ul><li><a href="#">About us</a></li><li><a href="#team">Our doctors</a></li><li><a href="services.html">Departments</a></li><li><a href="#">Blog</a></li><li><a href="#visit">Contact</a></li></ul></div>
+      <div><h4>Visit</h4><ul><li>Unit 213, AMKM Investment Building, 2nd December St, Al Satwa, Dubai</li><li>04 347 2102</li><li>info@smileondc.com</li><li>Wed–Mon 9am–9pm</li></ul></div>
+    </div>
+    <div class="foot-base"><span>© Smile On Dental Clinic LLC</span><span>Licensed by the Dubai Health Authority</span></div>
+  </div>
+</footer>
+
+<div class="mobile-bar"><a class="btn btn--ghost" href="tel:+97143472102">Call</a><a class="btn btn--book" href="#book">Book</a></div>
+<button class="note-toggle" type="button" id="noteToggle" aria-pressed="true">Hide design notes</button>
+<script>
+  (function () {
+    var b = document.getElementById('noteToggle');
+    b.addEventListener('click', function () {
+      var off = document.body.classList.toggle('dev-notes-off');
+      b.textContent = off ? 'Show design notes' : 'Hide design notes';
+      b.setAttribute('aria-pressed', String(!off));
+    });
+  })();
+</script>
+</body>
+</html>

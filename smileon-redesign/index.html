@@ -1,0 +1,204 @@
+<title>Smile On Redesign Brief</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: a single reading column with wide tables, and three page cards at the top as the deliverables. */
+:root {
+  --bg: #f6f8f7; --surface: #ffffff; --fg: #233b41; --head: #0d2b33; --muted: #63797f;
+  --line: #d8e3e0; --accent: #0f7a72; --soft: #e3f0ec; --warn-bg: #fff4dc; --warn: #7a5300;
+  --good: #1d7a4a; --bad: #a2402a;
+  --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Figtree", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0b1a1f; --surface: #12262c; --fg: #c6d8d5; --head: #eef6f4; --muted: #8aa3a0;
+  --line: #24403f; --accent: #4fc2b6; --soft: #173a3a; --warn-bg: #3a2c0c; --warn: #f3cf85;
+  --good: #6fd09a; --bad: #f09a83; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0b1a1f; --surface: #12262c; --fg: #c6d8d5; --head: #eef6f4; --muted: #8aa3a0;
+  --line: #24403f; --accent: #4fc2b6; --soft: #173a3a; --warn-bg: #3a2c0c; --warn: #f3cf85;
+  --good: #6fd09a; --bad: #f09a83; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 400 16px/1.65 var(--f-body); }
+.page { max-width: 1040px; margin: 0 auto; padding-block: 48px 80px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--f-display); color: var(--head); line-height: 1.15; text-wrap: balance; margin: 0; letter-spacing: -.01em; }
+h1 { font-size: clamp(2rem, 4.4vw, 3rem); }
+h2 { font-size: clamp(1.4rem, 2.6vw, 1.85rem); margin-bottom: 14px; }
+h3 { font-size: 1.08rem; }
+p { margin: 0; }
+a { color: var(--accent); }
+.eyebrow { font: 600 .74rem/1 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+section { margin-top: 56px; display: grid; gap: 14px; }
+.lede { font-size: 1.12rem; max-width: 66ch; }
+.prose { max-width: 70ch; display: grid; gap: 12px; }
+.callout { background: var(--warn-bg); color: var(--warn); border-radius: 10px; padding: 14px 18px; font-size: .94rem; }
+.callout b { color: inherit; }
+
+.deliverables { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 14px; margin-top: 28px; }
+.deliv { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; display: grid; gap: 8px; text-decoration: none; color: var(--fg); align-content: start; transition: border-color .15s; }
+.deliv:hover { border-color: var(--accent); }
+.deliv .n { font: 600 .72rem/1 var(--f-mono); color: var(--muted); letter-spacing: .1em; text-transform: uppercase; }
+.deliv h3 { font-size: 1.15rem; }
+.deliv p { font-size: .92rem; }
+.deliv .open { font-weight: 600; color: var(--accent); font-size: .92rem; }
+@media (max-width: 760px) { .deliverables { grid-template-columns: 1fr; } }
+
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 760px; font-size: .92rem; }
+th, td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 .7rem/1.3 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+tr:last-child td { border-bottom: 0; }
+td:first-child { font-weight: 600; color: var(--head); }
+td.num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.us td { background: var(--soft); }
+
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 760px) { .two { grid-template-columns: 1fr; } }
+.box { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; display: grid; gap: 10px; align-content: start; }
+.box ul { margin: 0; padding-left: 18px; display: grid; gap: 7px; font-size: .95rem; }
+.sev { display: inline-block; font: 600 .68rem/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; padding: 4px 7px; border-radius: 5px; margin-right: 6px; vertical-align: 2px; }
+.sev.high { background: var(--bad); color: var(--surface); }
+.sev.med { background: var(--warn-bg); color: var(--warn); }
+.good { color: var(--good); font-weight: 600; }
+.sources { font-size: .86rem; color: var(--muted); }
+.sources ul { padding-left: 18px; display: grid; gap: 4px; }
+</style>
+
+<div class="page">
+  <span class="eyebrow">Smile On Dental Clinic · Al Satwa, Dubai · October 2026</span>
+  <h1 style="margin-top:14px">Competitor review and redesign of the homepage and service pages</h1>
+  <p class="lede" style="margin-top:16px">This brief covers the competitor and market analysis behind the redesign, the problems on the current site, and three redesigned pages: the homepage, the services hub and one service page. All three reuse the clinic's existing information, reorganised and rewritten to convert better.</p>
+
+  <div class="deliverables">
+    <a class="deliv" href="home.html"><span class="n">Page 1</span><h3>Homepage</h3><p>A specialist-led hero, a trust strip, 14 treatments, clear prices, the doctors, the first visit, FAQs and booking.</p><span class="open">Open design →</span></a>
+    <a class="deliv" href="services.html"><span class="n">Page 2</span><h3>Services hub</h3><p>The eight departments, a "what's wrong?" chooser, the lead doctor for each department and a comparison with general clinics.</p><span class="open">Open design →</span></a>
+    <a class="deliv" href="same-day-dental-implants.html"><span class="n">Page 3</span><h3>Service page: same-day implants</h3><p>The highest-value service: a day-one timeline, six steps, how candidacy is decided, a price table and FAQs.</p><span class="open">Open design →</span></a>
+  </div>
+
+  <p class="callout" style="margin-top:20px"><b>How the content was gathered.</b> smileondc.com blocks automated access through its Hostinger firewall, and the WPVibe connection had used its daily limit. The clinic facts therefore come from search-indexed copies of the site's own pages. Before launch, the copy needs a line-by-line check against the live pages. Each design has yellow developer notes marking anything to confirm, and you can hide them with the button on each page.</p>
+
+  <section>
+    <span class="eyebrow">01 · Market snapshot</span>
+    <h2>Dubai dentistry is crowded, review-driven and priced in wide ranges</h2>
+    <div class="prose">
+      <p>Patients in Jumeirah, Satwa and Al Wasl compare clinics on three things: Google rating and review volume, whether a specialist will do the work, and whether a price is shown. Big groups win on volume of reviews and locations. Single clinics win when they look more specialised and more transparent.</p>
+    </div>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Treatment</th><th>Dubai market range seen</th><th>Smile On (current site)</th><th>Read</th></tr></thead>
+        <tbody>
+          <tr><td>Single implant, complete</td><td class="num">AED 3,500 – 8,500</td><td class="num">AED 4,500 – 8,000</td><td>Mid-market. Competitive given CBCT is included.</td></tr>
+          <tr><td>All-on-4, per arch</td><td class="num">AED 15,000 – 45,000</td><td class="num">AED 25,000 – 45,000*</td><td>*One blog says 35,000–70,000. Fix this.</td></tr>
+          <tr><td>Premium implant brands</td><td class="num">Korean from 3,500 · Straumann from 5,500 · Nobel from 7,000</td><td>Not stated</td><td>State the brands. Patients search for them.</td></tr>
+          <tr><td>Scaling &amp; polishing</td><td>Rarely published</td><td class="num">AED 150</td><td class="good">A strength. Lead with it.</td></tr>
+          <tr><td>Consultation fee</td><td class="num">AED 0 – 500</td><td>Not stated</td><td>Publish it, or say "free consultation" if that's true.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">02 · Competitors</span>
+    <h2>Who Smile On competes with for Satwa, Jumeirah and Al Wasl searches</h2>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Clinic</th><th>Area</th><th>Social proof</th><th>Positioning</th><th>What their site does well</th></tr></thead>
+        <tbody>
+          <tr class="us"><td>Smile On</td><td>Al Satwa (2nd December St)</td><td class="num">5.0 · 314–333 reviews</td><td>Specialist-founded (2021), 8 departments, open until 9pm</td><td>Many service pages and a published cleaning price. Facts are inconsistent across pages.</td></tr>
+          <tr><td>Dr. Michael's Dental</td><td>Jumeirah, Umm Suqeim (4 clinics)</td><td class="num">4.9 · 1,470 ratings (schema)</td><td>25+ years, multi-specialty group, separate kids' and orthodontic centres</td><td>Location landing pages, separate same-day implant page, doctor profiles, review schema</td></tr>
+          <tr><td>Rex Medical Centre</td><td>Trade Centre 1, SZR</td><td class="num">4.9 · 304 reviews</td><td>Implants and Invisalign, 24/7 emergency</td><td>Area pages aimed at Satwa, Jumeirah and Mankhool, which directly target Smile On's area</td></tr>
+          <tr><td>Dr. Joy Dental</td><td>Jumeirah Beach Rd, Palm (6+ branches)</td><td class="num">4.8 · 449–585 per branch</td><td>Cosmetic, facial aesthetics, smile design</td><td>A large review claim ("2,500+ 5-star"), a testimonials hub, before and after photos</td></tr>
+          <tr><td>Le Denté</td><td>Al Wasl Road</td><td class="num">Low volume on Practo</td><td>Luxury, dental tourism</td><td>A price table in its guides, a 10-year implant warranty, a flat price for tourists</td></tr>
+          <tr><td>Pearl Dental</td><td>Jumeirah 3, Al Wasl Rd</td><td>Practo listing</td><td>Neighbourhood clinic</td><td>Consultation fee published (AED 0–185)</td></tr>
+          <tr><td>First Priority Medical</td><td>Al Wasl</td><td class="num">4.7 · 1,159 reviews</td><td>Dental and dermatology</td><td>High review volume, though less specialised</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="sources" style="margin-top:4px">Ratings are as shown by each clinic's site or by directories, and vary by date and source.</p>
+  </section>
+
+  <section>
+    <span class="eyebrow">03 · Patterns on competitors' service pages</span>
+    <h2>What the best-converting implant and service pages have in common</h2>
+    <div class="two">
+      <div class="box"><h3>Patterns worth adopting</h3><ul>
+        <li><b>Price near the top.</b> Le Denté and the aggregators show a price table. Patients filter on price before they read further.</li>
+        <li><b>A guarantee or reassurance.</b> Le Denté offers a 10-year implant warranty and Rex promotes 3D-guided surgery.</li>
+        <li><b>Named doctor on each service.</b> Dr. Michael's links every service to a dentist's profile.</li>
+        <li><b>Area landing pages.</b> Rex targets "Satwa" and "Jumeirah" directly.</li>
+        <li><b>Visible review volume</b> next to every call to action.</li>
+      </ul></div>
+      <div class="box"><h3>Where Smile On can win</h3><ul>
+        <li><b>Eight specialists in one clinic.</b> Big groups spread specialists across branches. Smile On has them in one building, so make that the headline.</li>
+        <li><b>A 5.0 rating.</b> Competitors sit at 4.7–4.9. Smile On has fewer reviews, but a higher score.</li>
+        <li><b>Openness about same-day loading.</b> The clinic's "we only load if stability passes" rule builds trust that competitors don't offer.</li>
+        <li><b>A published AED 150 cleaning price.</b> It's an easy first booking that brings patients in.</li>
+        <li><b>Open until 9pm</b>, which suits people who work in Jumeirah and Satwa.</li>
+      </ul></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">04 · Problems on the current site</span>
+    <h2>What's holding smileondc.com back</h2>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Issue</th><th>Evidence</th><th>Fix</th></tr></thead>
+        <tbody>
+          <tr><td><span class="sev high">High</span>Conflicting facts</td><td>The homepage says "over 10 years" and "5 years". Hours appear as Wed–Mon, Mon–Sun and "7 days". Review counts are 314 and 333.</td><td>Keep one fact sheet and use it on every page, in the schema and in Google Business Profile.</td></tr>
+          <tr><td><span class="sev high">High</span>Four implant price ranges</td><td>AED 4,500–8,000, 3,500–7,000 and 6,000–15,000. All-on-4 is quoted at 25–45k and at 35–70k.</td><td>Agree one price list with the clinic and update the blogs.</td></tr>
+          <tr><td><span class="sev high">High</span>Duplicate and competing URLs</td><td>/dental-implants, /same-day-dental-implants-dubai, /implantology, /3d-guided-implant-surgery-dubai. Also /endodontics vs /dental-services/endodontics, /doctors/ vs /member/, and /cosmetic-dentistry vs /cosmetic-dentistry-dubai vs /services/cosmetic-dentistry.</td><td>Choose one URL per topic, 301-redirect the rest, and link from the hub.</td></tr>
+          <tr><td><span class="sev med">Med</span>Inconsistent doctor roster</td><td>Three different paediatric dentists are named across pages. Dr. Amit's entry is truncated on the About page.</td><td>Confirm the current team and keep one doctor page each.</td></tr>
+          <tr><td><span class="sev med">Med</span>Overclaiming titles</td><td>Titles like "#1 Dental Clinic in Dubai Al Badaa" and "Best Dental Clinic in Dubai".</td><td>Use specific, defensible claims such as "specialist-led" or "5.0 on Google".</td></tr>
+          <tr><td><span class="sev med">Med</span>Firewall blocks crawlers</td><td>Hostinger CDN returns 403 to non-browser requests, including the REST API.</td><td>Check that Googlebot and AI crawlers can reach the site. Whitelist or loosen the bot rules.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">05 · Redesign rationale</span>
+    <h2>Why the three pages are built the way they are</h2>
+    <div class="two">
+      <div class="box"><h3>Homepage</h3><ul>
+        <li>The hero's message, "Eight dental specialists. One clinic.", is the one claim no nearby competitor can match.</li>
+        <li>A trust strip (5.0 rating, 8 specialties, DHA, insurance) appears before any scrolling.</li>
+        <li>Implants get a large card because they're the highest-value treatment. The other 13 services sit in a scannable grid.</li>
+        <li>A "Know the cost" price board shows AED 150, 499 and 4,500+.</li>
+        <li>A sticky Call and Book bar on mobile, where most Dubai dental searches happen.</li>
+      </ul></div>
+      <div class="box"><h3>Services hub and implant page</h3><ul>
+        <li>The hub opens with a symptom chooser ("My tooth hurts", "It's for my child") so patients don't need to know department names.</li>
+        <li>Each department shows its lead doctor, which answers "who will treat me?"</li>
+        <li>The implant page has a day-one timeline, six real steps, a safety note on loading, a price table and FAQs written for search snippets.</li>
+        <li>Each design uses one accent colour, saved for the booking button so it's always the clearest thing to click.</li>
+      </ul></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">06 · Before launch</span>
+    <h2>Checklist for the developer and the clinic</h2>
+    <div class="box"><ul>
+      <li>Confirm one set of hours, years of experience, the doctor roster and the prices. These are flagged in yellow in each design.</li>
+      <li>Replace the review placeholders with real Google reviews, quoted exactly and with permission.</li>
+      <li>Shoot real photos: the treatment room, reception, doctor portraits and a CBCT scan in use. Don't use stock images of other clinics.</li>
+      <li>Add LocalBusiness/Dentist, FAQPage, MedicalProcedure and Physician schema that matches the confirmed facts.</li>
+      <li>Consolidate the duplicate service URLs with 301 redirects, then point internal links at the new hub.</li>
+      <li>Check claims and before and after imagery against DHA healthcare advertising rules.</li>
+    </ul></div>
+  </section>
+
+  <section class="sources">
+    <span class="eyebrow">Sources</span>
+    <ul>
+      <li>Smile On: <a href="https://smileondc.com/">smileondc.com</a>, <a href="https://smileondc.com/dental-departments/">/dental-departments</a>, <a href="https://smileondc.com/doctors/">/doctors</a>, <a href="https://smileondc.com/dental-implants">/dental-implants</a>, <a href="https://smileondc.com/teeth-cleaning-dubai/">/teeth-cleaning-dubai</a>, <a href="https://smileondc.com/blogs/dental-implants-in-dubai-guide/">implant guide</a></li>
+      <li>Competitors: <a href="https://www.drmichaels.com/">drmichaels.com</a>, <a href="https://www.rexmedicalcentre.com/">rexmedicalcentre.com</a>, <a href="https://drjoydentalclinic.com/">drjoydentalclinic.com</a>, <a href="https://ledente.com/dental-implants/">ledente.com</a>, <a href="https://www.practo.com/dubai/clinics/dental-clinics/al-satwa">Practo Al Satwa</a></li>
+      <li>Market pricing: <a href="https://www.noadentalclinic.com/dental-implant-cost/">NOA Dental</a>, <a href="https://www.drfive.com/top-10-dental-implants-prices-and-offers-in-dubai.htm">DrFive</a>, <a href="https://ledente.com/blog/dental-implant-cost/">Le Denté cost guide</a></li>
+    </ul>
+  </section>
+</div>
