@@ -1,0 +1,2480 @@
+{
+    "title": "Orthodontist Dubai (New Design, Draft)",
+    "status": "draft",
+    "template_type": "wp-page",
+    "page_template": "elementor_header_footer",
+    "data": [
+        {
+            "id": "1594b938",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_align_items": "center",
+                "flex_gap": {
+                    "size": 48,
+                    "unit": "px",
+                    "column": "48",
+                    "row": "32",
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 64,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 36,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-sat-hero"
+            },
+            "elements": [
+                {
+                    "id": "1d794e50",
+                    "elType": "widget",
+                    "widgetType": "html",
+                    "settings": {
+                        "html": "<style id=\"sodc-home-css\">\n/* Smile On homepage styles. Based on the Al Satwa location page system (WPCode snippet 6838), scoped to this page via this inline style block. Brand: teal #2D9CA9 -> violet #6656C4 */\nbody{--sodc-teal:#2D9CA9;--sodc-violet:#6656C4;--sodc-ink:#1d2733;--sodc-muted:#55606d;--sodc-line:#e7ecf1}\nbody .sodc-sat-hero{background:linear-gradient(135deg,#f1fafb 0%,#f4f2fd 100%);position:relative;overflow:hidden}\nbody .sodc-sat-hero::before{content:\"\";position:absolute;width:560px;height:560px;right:-180px;top:-200px;border-radius:50%;background:radial-gradient(circle,rgba(102,86,196,.16),rgba(102,86,196,0) 70%);pointer-events:none}\nbody .sodc-sat-hero::after{content:\"\";position:absolute;width:380px;height:380px;left:-160px;bottom:-200px;border-radius:50%;background:radial-gradient(circle,rgba(45,156,169,.16),rgba(45,156,169,0) 70%);pointer-events:none}\nbody .sodc-pill p{display:inline-block;margin:0;padding:7px 16px;border-radius:999px;background:#fff;border:1px solid #d6eef0;color:var(--sodc-teal);font-size:14px;font-weight:600;box-shadow:0 4px 14px rgba(45,156,169,.10)}\nbody .sodc-h1 .elementor-heading-title{font-family:Rubik,sans-serif;font-size:clamp(34px,4.6vw,56px);line-height:1.08;font-weight:700;color:var(--sodc-ink);letter-spacing:-.02em}\nbody .sodc-lead p{font-size:18px;line-height:1.65;color:var(--sodc-muted);max-width:580px;margin:0}\nbody .sodc-trust .elementor-icon-list-text{font-size:14px;font-weight:500;color:var(--sodc-ink)}\nbody .sodc-btn-grad .elementor-button,body .sodc-btn-ghost .elementor-button,body .sodc-btn-white .elementor-button,body .sodc-btn-outline-white .elementor-button{font-family:Rubik,sans-serif;font-weight:500;font-size:16px;border-radius:32px;transition:transform .2s ease,box-shadow .2s ease,background .2s ease,color .2s ease}\nbody .sodc-btn-grad .elementor-button{background:linear-gradient(90deg,#2D9CA9 0%,#6656C4 100%);color:#fff;padding:15px 30px;box-shadow:0 10px 24px rgba(102,86,196,.24)}\nbody .sodc-btn-grad .elementor-button:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(102,86,196,.32);color:#fff}\nbody .sodc-btn-ghost .elementor-button{background:#fff;color:var(--sodc-teal);border:2px solid var(--sodc-teal);padding:13px 28px}\nbody .sodc-btn-ghost .elementor-button:hover{background:var(--sodc-teal);color:#fff}\nbody .sodc-btn-white .elementor-button{background:#fff;color:var(--sodc-violet);padding:15px 30px;font-weight:600}\nbody .sodc-btn-white .elementor-button:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(0,0,0,.18)}\nbody .sodc-btn-outline-white .elementor-button{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.85);padding:13px 26px}\nbody .sodc-btn-outline-white .elementor-button:hover{background:#fff;color:var(--sodc-teal)}\nbody .sodc-collage-wrap{position:relative}\nbody .sodc-collage{display:grid!important;grid-template-columns:1fr 1fr;gap:14px;padding-bottom:28px}\nbody .sodc-collage>.elementor-widget-image:nth-child(even){transform:translateY(28px)}\nbody .sodc-collage img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top;border-radius:20px;box-shadow:0 18px 40px rgba(29,39,51,.14)}\nbody .sodc-float-card{position:absolute;left:-28px;bottom:6px;z-index:3;background:#fff;border-radius:16px;padding:14px 18px;box-shadow:0 16px 36px rgba(29,39,51,.18);max-width:250px;border-left:4px solid var(--sodc-violet)}\nbody .sodc-float-card p{margin:0;font-size:14px;line-height:1.45;color:var(--sodc-muted)}\nbody .sodc-float-card strong{color:var(--sodc-ink);font-size:15px}\nbody .sodc-stats{background:linear-gradient(90deg,#2D9CA9 0%,#6656C4 100%)}\nbody .sodc-stats>.e-con-inner>.elementor-widget-counter,body .sodc-stats>.elementor-widget-counter{flex:1 1 180px}\nbody .sodc-stats .elementor-counter-number-wrapper{font-family:Rubik,sans-serif;font-weight:700;font-size:44px;line-height:1.1}\nbody .sodc-stats .elementor-counter-title{font-size:15px;opacity:.92}\nbody .sodc-h2 .elementor-heading-title{font-family:Rubik,sans-serif;font-size:clamp(28px,3.2vw,38px);line-height:1.2;font-weight:700;color:var(--sodc-ink);letter-spacing:-.01em}\nbody .sodc-sub p{max-width:680px;margin:0 auto;color:var(--sodc-muted);font-size:17px;line-height:1.6}\nbody .sodc-tint{background:#f6f8fb}\nbody .sodc-grid{display:grid!important;gap:20px;margin-top:12px}\nbody .sodc-grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}\nbody .sodc-grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}\n@media (max-width:1024px){body .sodc-grid-4,body .sodc-grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}}\n@media (max-width:600px){body .sodc-grid-4,body .sodc-grid-3{grid-template-columns:1fr}body .sodc-docs{grid-template-columns:repeat(2,minmax(0,1fr))}}\nbody .sodc-card{background:#fff;border:1px solid var(--sodc-line);border-radius:18px;padding:26px 24px;box-shadow:0 6px 18px rgba(29,39,51,.05);transition:transform .25s ease,box-shadow .25s ease}\nbody .sodc-card:hover{transform:translateY(-4px);box-shadow:0 18px 38px rgba(45,156,169,.16)}\nbody .sodc-card .elementor-icon-box-title{font-family:Rubik,sans-serif;font-size:19px;font-weight:600;color:var(--sodc-ink);margin-bottom:6px}\nbody .sodc-card .elementor-icon-box-description{color:var(--sodc-muted);font-size:15px;line-height:1.6}\nbody .sodc-card .elementor-icon{font-size:22px}\nbody .sodc-tile{background:#fff;border:1px solid var(--sodc-line);border-radius:16px;padding:20px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}\nbody .sodc-tile:hover{transform:translateY(-3px);border-color:var(--sodc-teal);box-shadow:0 14px 30px rgba(45,156,169,.14)}\nbody .sodc-tile .elementor-icon{font-size:26px}\nbody .sodc-tile .elementor-icon-box-title,body .sodc-tile .elementor-icon-box-title a{font-family:Rubik,sans-serif;font-size:17px;font-weight:600;color:var(--sodc-ink)}\nbody .sodc-tile .elementor-icon-box-description{font-size:14px;line-height:1.55;color:var(--sodc-muted)}\nbody .sodc-doc .elementor-image-box-wrapper{text-align:left}\nbody .sodc-doc .elementor-image-box-img{width:100%!important;margin:0 0 14px!important;overflow:hidden;border-radius:18px}\nbody .sodc-doc img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top;border-radius:18px;transition:transform .4s ease}\nbody .sodc-doc:hover img{transform:scale(1.04)}\nbody .sodc-doc .elementor-image-box-title,body .sodc-doc .elementor-image-box-title a{font-family:Rubik,sans-serif;font-size:16px;line-height:1.3;font-weight:600;color:var(--sodc-ink);margin-bottom:2px}\nbody .sodc-doc .elementor-image-box-description{font-size:13px;line-height:1.4;color:var(--sodc-teal);font-weight:500}\nbody .sodc-docs{grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:18px}\n@media (max-width:1024px){body .sodc-docs{grid-template-columns:repeat(3,minmax(0,1fr))!important}}\n@media (max-width:600px){body .sodc-docs{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px}}\nbody .sodc-visit h3.elementor-heading-title{font-family:Rubik,sans-serif;font-size:22px;font-weight:700;color:var(--sodc-ink)}\nbody .sodc-visit p{color:var(--sodc-muted);line-height:1.6;margin:0}\nbody .sodc-visit a{color:var(--sodc-violet)}\nbody .sodc-mapframe{border-radius:20px;overflow:hidden;box-shadow:0 14px 34px rgba(29,39,51,.12)}\nbody .sodc-mapframe iframe{display:block}\n@media (max-width:767px){body .sodc-mapframe iframe{height:300px}}\nbody .sodc-note{background:#fff;border-left:4px solid var(--sodc-violet);border-radius:12px;padding:18px 22px;margin-top:12px}\nbody .sodc-note p{margin:0;color:var(--sodc-muted);line-height:1.6}\nbody .sodc-faq .elementor-toggle{max-width:860px;margin:0 auto}\nbody .sodc-faq .elementor-toggle-item{border:1px solid var(--sodc-line);border-radius:14px;margin-bottom:12px;overflow:hidden;background:#fff}\nbody .sodc-faq .elementor-tab-title{border:0!important;padding:18px 22px!important;font-family:Rubik,sans-serif;font-weight:600;font-size:17px;color:var(--sodc-ink)}\nbody .sodc-faq .elementor-tab-title a,body .sodc-faq .elementor-toggle-title{color:var(--sodc-ink)}\nbody .sodc-faq .elementor-tab-title.elementor-active a,body .sodc-faq .elementor-tab-title.elementor-active .elementor-toggle-title{color:var(--sodc-violet)}\nbody .sodc-faq .elementor-toggle-icon{color:var(--sodc-teal)}\nbody .sodc-faq .elementor-tab-content{border:0!important;padding:0 22px 18px!important;color:var(--sodc-muted);line-height:1.65}\nbody .sodc-faq .elementor-tab-content a{color:var(--sodc-violet)}\nbody .sodc-cta{background:linear-gradient(120deg,#2D9CA9 0%,#6656C4 100%);border-radius:28px;max-width:1160px;margin:0 auto 72px}\nbody .sodc-cta .elementor-heading-title{color:#fff;font-family:Rubik,sans-serif;font-size:clamp(26px,3vw,36px);font-weight:700}\nbody .sodc-cta p{color:rgba(255,255,255,.92);font-size:17px;margin:0}\n@media (max-width:767px){\nbody .sodc-float-card{position:relative;left:auto;bottom:auto;margin-top:12px;max-width:none}\nbody .sodc-stats .elementor-counter-number-wrapper{font-size:36px}\nbody .sodc-cta{border-radius:20px;width:auto!important;max-width:calc(100% - 32px)!important;margin:0 16px 48px!important}\n}\n\n/* Homepage additions */\nbody .sodc-css{display:none!important}\nbody .sodc-kicker p{display:inline-block;margin:0;padding:6px 14px;border-radius:999px;background:#EEEBFA;color:#6656C4;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}\nbody .sodc-kicker{margin-bottom:-6px}\nbody .sodc-offer{border-top:4px solid var(--sodc-violet)}\nbody .sodc-offer .elementor-icon-box-title{font-size:20px}\nbody .sodc-offer-hot{background:linear-gradient(135deg,#6656C4 0%,#4f43a8 100%);border-color:transparent;border-top-color:#f5a623}\nbody .sodc-offer-hot .elementor-icon-box-title,body .sodc-offer-hot .elementor-icon-box-description{color:#fff!important}\nbody .sodc-offer-hot .elementor-icon{background-color:rgba(255,255,255,.18)!important;color:#fff!important;fill:#fff!important}\nbody .sodc-small p{font-size:14px}\nbody .sodc-reviews,body .wpr-grid{max-width:1140px;margin-left:auto;margin-right:auto;width:100%}\nbody .sodc-form{background:#fff;border:1px solid var(--sodc-line);border-radius:16px;padding:18px}\nbody .sodc-tile .elementor-icon-box-title,body .sodc-tile .elementor-icon-box-title a{font-size:16px}\n@media (max-width:600px){body .sodc-tile{padding:16px}}\n\n/* v2: logged-in admin bar gap (preview only), swipe sliders on mobile, new sections */\nbody.admin-bar .sodc-sat-hero{margin-top:-32px}\n@media (max-width:782px){body.admin-bar .sodc-sat-hero{margin-top:-46px}}\nbody .sodc-sat-hero>.sodc-css,body .sodc-sat-hero .elementor-widget-html.sodc-css{display:none!important}\nbody .sodc-swipe-hint{display:none}\n@media (max-width:767px){\nbody .sodc-swipe{display:flex!important;flex-wrap:nowrap!important;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px!important;margin-right:-16px;padding:4px 16px 12px 0;scrollbar-width:none;-webkit-overflow-scrolling:touch}\nbody .sodc-swipe::-webkit-scrollbar{display:none}\nbody .sodc-swipe>.elementor-element{flex:0 0 78%!important;max-width:78%;scroll-snap-align:start}\nbody .sodc-docs.sodc-swipe>.elementor-element{flex-basis:58%!important;max-width:58%}\nbody .sodc-swipe-hint{display:block}\nbody .sodc-swipe-hint p{font-size:13px;color:var(--sodc-muted);margin:0;text-align:right}\n}\nbody .sodc-emergency{background:linear-gradient(90deg,#1f7c87 0%,#4f43a8 100%)}\nbody .sodc-emergency .elementor-icon-box-title{color:#fff!important;font-family:Rubik,sans-serif;font-size:20px;font-weight:600;margin:0 0 2px}\nbody .sodc-emergency .elementor-icon-box-description{color:rgba(255,255,255,.9)!important;font-size:15px}\nbody .sodc-emergency .elementor-icon{background:rgba(255,255,255,.16)!important;color:#fff!important;fill:#fff!important}\nbody .sodc-about-img img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:22px;box-shadow:0 18px 40px rgba(29,39,51,.14)}\nbody .sodc-about .sodc-h2 .elementor-heading-title{text-align:left}\nbody .sodc-ba .elementor-image-box-img{width:100%!important;margin:0 0 12px!important}\nbody .sodc-ba img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px}\nbody .sodc-ba .elementor-image-box-title{font-family:Rubik,sans-serif;font-size:17px;font-weight:600;color:var(--sodc-ink)}\nbody .sodc-ba .elementor-image-box-description{font-size:14px;color:var(--sodc-muted)}\nbody .sodc-ins{background:#fff;border:1px solid var(--sodc-line);border-radius:22px;max-width:1140px;margin:0 auto}\nbody .sodc-ins .elementor-icon-box-title{font-family:Rubik,sans-serif;font-size:22px;font-weight:700;color:var(--sodc-ink)}\nbody .sodc-ins .elementor-icon-box-description{color:var(--sodc-muted);font-size:15px}\n\n/* Service page template (orthodontics first) */\nbody .sodc-hero-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;border-radius:26px;box-shadow:0 22px 50px rgba(29,39,51,.18)}\nbody .sodc-hero-photo{position:relative}\nbody .sodc-crumbs p{margin:0;font-size:13px;color:var(--sodc-muted)}\nbody .sodc-crumbs a{color:var(--sodc-teal);text-decoration:none}\nbody .sodc-formcard{background:#fff;border:1px solid var(--sodc-line);border-radius:22px;padding:26px;box-shadow:0 14px 34px rgba(29,39,51,.08)}\nbody .sodc-formcard .elementor-heading-title{font-family:Rubik,sans-serif;font-size:22px;font-weight:700;color:var(--sodc-ink)}\nbody .sodc-prose p{color:var(--sodc-muted);font-size:17px;line-height:1.7;margin:0 0 14px}\nbody .sodc-prose a{color:var(--sodc-violet);font-weight:600}\nbody .sodc-sign{background:#fff;border:1px solid var(--sodc-line);border-radius:16px;padding:18px 20px}\nbody .sodc-sign .elementor-icon-box-title{font-family:Rubik,sans-serif;font-size:17px;font-weight:600;color:var(--sodc-ink);margin:0}\nbody .sodc-sign .elementor-icon{font-size:18px}\nbody .sodc-opt{background:#fff;border:1px solid var(--sodc-line);border-radius:20px;padding:26px 24px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;height:100%}\nbody .sodc-opt:hover{transform:translateY(-4px);border-color:var(--sodc-teal);box-shadow:0 18px 38px rgba(45,156,169,.16)}\nbody .sodc-opt .elementor-icon-box-title,body .sodc-opt .elementor-icon-box-title a{font-family:Rubik,sans-serif;font-size:19px;font-weight:600;color:var(--sodc-ink)}\nbody .sodc-opt .elementor-icon-box-description{color:var(--sodc-muted);font-size:15px;line-height:1.6}\nbody .sodc-opt .elementor-icon-box-description::after{content:\"Learn more \\2192\";display:block;margin-top:10px;color:var(--sodc-teal);font-weight:600;font-size:14px}\nbody .sodc-compare{overflow-x:auto;border:1px solid var(--sodc-line);border-radius:18px;background:#fff;max-width:1100px;margin:0 auto;width:100%}\nbody .sodc-compare table{width:100%;min-width:640px;border-collapse:collapse;font-size:15px;margin:0}\nbody .sodc-compare th,body .sodc-compare td{padding:14px 18px;border:0;border-bottom:1px solid var(--sodc-line);text-align:left;vertical-align:top;color:var(--sodc-muted)}\nbody .sodc-compare th{background:linear-gradient(90deg,#2D9CA9,#6656C4);color:#fff;font-family:Rubik,sans-serif;font-weight:600}\nbody .sodc-compare td:first-child{color:var(--sodc-ink);font-weight:600}\nbody .sodc-compare tr:last-child td{border-bottom:0}\nbody .sodc-compare tr:nth-child(even) td{background:#f8fafc}\nbody .sodc-panel{background:#fff;border:1px solid var(--sodc-line);border-radius:22px;padding:30px}\nbody .sodc-panel .elementor-heading-title{font-family:Rubik,sans-serif;font-size:24px;font-weight:700;color:var(--sodc-ink)}\nbody .sodc-panel .elementor-icon-list-text{color:var(--sodc-ink);font-size:16px}\nbody .sodc-panel p{color:var(--sodc-muted);margin:0}\nbody .sodc-profile img{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:top;border-radius:24px;box-shadow:0 18px 40px rgba(29,39,51,.14)}\nbody .sodc-badges .elementor-icon-list-item{background:#fff;border:1px solid var(--sodc-line);border-radius:999px;padding:8px 14px!important;margin:0 8px 8px 0!important}\nbody .sodc-badges .elementor-icon-list-text{font-size:14px;font-weight:500;color:var(--sodc-ink)}\nbody .sodc-ba-single img{width:100%;max-width:560px;margin:0 auto;border-radius:22px;box-shadow:0 18px 40px rgba(29,39,51,.14)}\nbody .sodc-h3c .elementor-heading-title{font-family:Rubik,sans-serif;font-size:22px;font-weight:700;color:var(--sodc-ink);margin-top:10px}\nbody .sodc-price{background:linear-gradient(135deg,#f1fafb 0%,#f4f2fd 100%);border-radius:24px;padding:34px}\n@media (max-width:767px){body .sodc-price,body .sodc-panel{padding:22px}body .sodc-formcard{padding:20px}}\n\n</style>",
+                        "_css_classes": "sodc-css"
+                    }
+                },
+                {
+                    "id": "31afaadd",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 56
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "size": 16,
+                            "unit": "px",
+                            "column": "16",
+                            "row": "16",
+                            "isLinked": true
+                        },
+                        "css_classes": ""
+                    },
+                    "elements": [
+                        {
+                            "id": "8b4a2a0e",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p><a href=\"https://smileondc.com/\">Home</a> \u203a <a href=\"https://smileondc.com/dental-services/\">Dental Services</a> \u203a Orthodontics</p>",
+                                "_css_classes": "sodc-crumbs"
+                            }
+                        },
+                        {
+                            "id": "73438357",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Orthodontist in Dubai \u00b7 Braces &amp; Clear Aligners</p>",
+                                "_css_classes": "sodc-pill"
+                            }
+                        },
+                        {
+                            "id": "9789e606",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Best Orthodontist in Dubai for Braces and Clear Aligners",
+                                "header_size": "h1",
+                                "_css_classes": "sodc-h1"
+                            }
+                        },
+                        {
+                            "id": "8fcdf98f",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Straighter teeth and a healthier bite, planned by a specialist orthodontist. We treat children, teens and adults with metal, ceramic, lingual and Damon braces, Invisalign and Invisalign First, all in one clinic in Al Satwa, close to Jumeirah.</p>",
+                                "_css_classes": "sodc-lead"
+                            }
+                        },
+                        {
+                            "id": "7d2c8550",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_wrap": "wrap",
+                                "flex_gap": {
+                                    "size": 12,
+                                    "unit": "px",
+                                    "column": "12",
+                                    "row": "12",
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "71deb253",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Call +971 55 896 1826",
+                                        "link": {
+                                            "url": "tel:+971558961826",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "size": "md",
+                                        "selected_icon": {
+                                            "value": "fas fa-phone-alt",
+                                            "library": "fa-solid"
+                                        },
+                                        "_css_classes": "sodc-btn-grad"
+                                    }
+                                },
+                                {
+                                    "id": "d613e13c",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Book a Consultation",
+                                        "link": {
+                                            "url": "https://smileondc.com/make-appointment/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "size": "md",
+                                        "_css_classes": "sodc-btn-ghost",
+                                        "selected_icon": {
+                                            "value": "fas fa-calendar-check",
+                                            "library": "fa-solid"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "48817456",
+                            "elType": "widget",
+                            "widgetType": "icon-list",
+                            "settings": {
+                                "view": "inline",
+                                "icon_color": "#2D9CA9",
+                                "text_color": "#3a4652",
+                                "_css_classes": "sodc-trust",
+                                "icon_list": [
+                                    {
+                                        "_id": "t1",
+                                        "text": "Specialist orthodontist",
+                                        "selected_icon": {
+                                            "value": "fas fa-check-circle",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "t2",
+                                        "text": "Certified Invisalign provider",
+                                        "selected_icon": {
+                                            "value": "fas fa-check-circle",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "t3",
+                                        "text": "Children, teens & adults",
+                                        "selected_icon": {
+                                            "value": "fas fa-check-circle",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "t4",
+                                        "text": "Rated 5.0 on Google",
+                                        "selected_icon": {
+                                            "value": "fas fa-star",
+                                            "library": "fa-solid"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "3e0a9cd3",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 38
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "size": 0,
+                            "unit": "px",
+                            "column": "0",
+                            "row": "0",
+                            "isLinked": true
+                        },
+                        "css_classes": "sodc-collage-wrap"
+                    },
+                    "elements": [
+                        {
+                            "id": "eb769319",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "settings": {
+                                "image": {
+                                    "url": "https://smileondc.com/wp-content/uploads/2025/06/Dr.Jeff_-768x1014.jpg",
+                                    "id": 3833,
+                                    "alt": "Dr. Jeffrey Manuel, Specialist Orthodontist and Medical Director at Smile On Dental Clinic, Dubai",
+                                    "source": "library"
+                                },
+                                "image_size": "full",
+                                "_css_classes": "sodc-hero-photo"
+                            }
+                        },
+                        {
+                            "id": "773f5fa8",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p><strong>Dr. Jeffrey Manuel</strong><br>Specialist Orthodontist &amp; Medical Director. Certified Invisalign provider, in UAE practice since 2008.</p>",
+                                "_css_classes": "sodc-float-card"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "76762a78",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_justify_content": "space-around",
+                "flex_gap": {
+                    "size": 24,
+                    "unit": "px",
+                    "column": "24",
+                    "row": "24",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 36,
+                    "right": 20,
+                    "bottom": 36,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-stats"
+            },
+            "elements": [
+                {
+                    "id": "3077d788",
+                    "elType": "widget",
+                    "widgetType": "counter",
+                    "settings": {
+                        "starting_number": 0,
+                        "ending_number": 6,
+                        "suffix": "",
+                        "title": "Orthodontic options",
+                        "number_color": "#ffffff",
+                        "title_color": "#ffffff"
+                    }
+                },
+                {
+                    "id": "ad79c75b",
+                    "elType": "widget",
+                    "widgetType": "counter",
+                    "settings": {
+                        "starting_number": 0,
+                        "ending_number": 18,
+                        "suffix": "\u201324",
+                        "title": "Months, typical treatment",
+                        "number_color": "#ffffff",
+                        "title_color": "#ffffff"
+                    }
+                },
+                {
+                    "id": "66523c14",
+                    "elType": "widget",
+                    "widgetType": "counter",
+                    "settings": {
+                        "starting_number": 0,
+                        "ending_number": 3,
+                        "suffix": "",
+                        "title": "Age groups: kids, teens, adults",
+                        "number_color": "#ffffff",
+                        "title_color": "#ffffff"
+                    }
+                },
+                {
+                    "id": "8b743ce4",
+                    "elType": "widget",
+                    "widgetType": "counter",
+                    "settings": {
+                        "starting_number": 0,
+                        "ending_number": 5,
+                        "suffix": ".0 \u2605",
+                        "title": "Google rating",
+                        "number_color": "#ffffff",
+                        "title_color": "#ffffff"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1b53868a",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "size": 40,
+                    "unit": "px",
+                    "column": "40",
+                    "row": "40",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "",
+                "flex_wrap": "wrap",
+                "flex_align_items": "center"
+            },
+            "elements": [
+                {
+                    "id": "4f328539",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 56
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "size": 14,
+                            "unit": "px",
+                            "column": "14",
+                            "row": "14",
+                            "isLinked": true
+                        },
+                        "css_classes": ""
+                    },
+                    "elements": [
+                        {
+                            "id": "088c8e5d",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Orthodontics at Smile On</p>",
+                                "_css_classes": "sodc-kicker"
+                            }
+                        },
+                        {
+                            "id": "2b7b1617",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Orthodontist in Dubai for Braces and Clear Aligners",
+                                "header_size": "h2",
+                                "_css_classes": "sodc-h2"
+                            }
+                        },
+                        {
+                            "id": "e22862dc",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Choosing the right orthodontist is an important decision, especially when treatment affects both your appearance and long-term oral health. At Smile On Dental Clinic, we provide orthodontic care that is precise, well-planned and focused on patient comfort.</p><p>Our orthodontic team works with adults, teenagers and children who want straighter teeth, better bite alignment and long-lasting results. Every treatment is planned carefully, using modern techniques and clear communication, so you always know what to expect.</p><p>We offer a full range of options to suit every case and lifestyle, including traditional <a href=\"https://smileondc.com/metal-ceramic-braces-dubai/\">metal and ceramic braces</a>, fully hidden <a href=\"https://smileondc.com/lingual-braces-dubai/\">lingual braces</a> and comfortable self-ligating <a href=\"https://smileondc.com/damon-braces-dubai/\">Damon braces</a>. For a removable option there's <a href=\"https://smileondc.com/invisalign-dubai/\">Invisalign</a>, and <a href=\"https://smileondc.com/invisalign-first-dubai/\">Invisalign First</a> for younger patients. Every course of treatment finishes with custom <a href=\"https://smileondc.com/teeth-retainers-dubai/\">teeth retainers</a> to protect your results.</p><p>Many patients looking for an orthodontist near Jumeirah choose our clinic for its experienced team, modern options and clear, patient-focused approach. We're on 2nd December Street in Al Satwa, a practical choice for families, professionals and expats across central Dubai.</p>",
+                                "_css_classes": "sodc-prose"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "0769d583",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 38
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "size": 12,
+                            "unit": "px",
+                            "column": "12",
+                            "row": "12",
+                            "isLinked": true
+                        },
+                        "css_classes": "sodc-formcard"
+                    },
+                    "elements": [
+                        {
+                            "id": "e4f55adf",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Request a Call Back",
+                                "header_size": "h3",
+                                "_css_classes": ""
+                            }
+                        },
+                        {
+                            "id": "18ac70a7",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Leave your details and our team will call you within 24 hours. Prefer to talk now? Call <a href=\"tel:+971558961826\">+971 55 896 1826</a>.</p>",
+                                "_css_classes": "sodc-sub sodc-small"
+                            }
+                        },
+                        {
+                            "id": "7eaaee0e",
+                            "elType": "widget",
+                            "widgetType": "shortcode",
+                            "settings": {
+                                "shortcode": "[gravityform id=\"2\" title=\"false\"]"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "456f7930",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-tint"
+            },
+            "elements": [
+                {
+                    "id": "88311dd8",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>The basics</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "2be28e16",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "What Is Orthodontic Treatment?",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "d545cf9f",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Orthodontic treatment corrects the position of teeth and jaws. When teeth are crowded, unevenly spaced or the bite doesn't line up, it can affect chewing, speech, oral hygiene and confidence. Braces or clear aligners move teeth gently into healthier positions over time, with a plan tailored to your age, bone structure and dental condition.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub"
+                    }
+                },
+                {
+                    "id": "a9a8aa71",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "When Is Orthodontic Treatment Recommended?",
+                        "header_size": "h3",
+                        "align": "center",
+                        "_css_classes": "sodc-h3c"
+                    }
+                },
+                {
+                    "id": "4432b6de",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "css_classes": "sodc-grid sodc-grid-3"
+                    },
+                    "elements": [
+                        {
+                            "id": "faa9c829",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-layer-group",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "position": "inline-start",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "title_text": "Crowded or overlapping teeth",
+                                "title_size": "h3",
+                                "_css_classes": "sodc-sign"
+                            }
+                        },
+                        {
+                            "id": "6465eda6",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-arrows-alt-h",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "position": "inline-start",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "title_text": "Gaps between teeth",
+                                "title_size": "h3",
+                                "_css_classes": "sodc-sign"
+                            }
+                        },
+                        {
+                            "id": "8b68098d",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-tooth",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "position": "inline-start",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "title_text": "Overbite, underbite or crossbite",
+                                "title_size": "h3",
+                                "_css_classes": "sodc-sign"
+                            }
+                        },
+                        {
+                            "id": "bd0f3bc4",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-head-side-cough",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "position": "inline-start",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "title_text": "Jaw discomfort related to bite issues",
+                                "title_size": "h3",
+                                "_css_classes": "sodc-sign"
+                            }
+                        },
+                        {
+                            "id": "a7e4d89c",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-pump-soap",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "position": "inline-start",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "title_text": "Difficulty cleaning teeth due to misalignment",
+                                "title_size": "h3",
+                                "_css_classes": "sodc-sign"
+                            }
+                        },
+                        {
+                            "id": "d2e4bcad",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-smile",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "position": "inline-start",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "title_text": "Concerns about how your smile looks",
+                                "title_size": "h3",
+                                "_css_classes": "sodc-sign"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "558d301b",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Orthodontic care isn't just for teenagers. Many adults in Dubai now choose treatment for both functional and aesthetic reasons.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub"
+                    }
+                },
+                {
+                    "id": "485393fc",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                        "text": "Not sure if you need braces? Call us",
+                        "link": {
+                            "url": "tel:+971558961826",
+                            "is_external": "",
+                            "nofollow": ""
+                        },
+                        "size": "md",
+                        "selected_icon": {
+                            "value": "fas fa-phone-alt",
+                            "library": "fa-solid"
+                        },
+                        "_css_classes": "sodc-btn-grad",
+                        "align": "center"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "175fffdf",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": ""
+            },
+            "elements": [
+                {
+                    "id": "8cb80fe6",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Treatment options</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "c3e56dac",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Orthodontic Solutions We Offer",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "c07ad2c4",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>A full range of options, so your treatment can match your lifestyle, budget and clinical needs.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub"
+                    }
+                },
+                {
+                    "id": "7bed118c",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Swipe to see all options \u2192</p>",
+                        "_css_classes": "sodc-swipe-hint"
+                    }
+                },
+                {
+                    "id": "0053b797",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "css_classes": "sodc-grid sodc-grid-3 sodc-swipe"
+                    },
+                    "elements": [
+                        {
+                            "id": "e0acc83d",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-teeth",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#E8F6F7",
+                                "secondary_color": "#2D9CA9",
+                                "text_align": "left",
+                                "title_text": "Metal & Ceramic Braces",
+                                "description_text": "Metal braces are durable and effective for every level of correction. Ceramic braces work the same way but blend with your tooth colour, so they're less noticeable.",
+                                "title_size": "h3",
+                                "link": {
+                                    "url": "https://smileondc.com/metal-ceramic-braces-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-opt"
+                            }
+                        },
+                        {
+                            "id": "62e971cc",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-eye-slash",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "text_align": "left",
+                                "title_text": "Lingual Braces",
+                                "description_text": "Placed behind the teeth, so they're hidden from view. Ideal if you want effective treatment without visible braces.",
+                                "title_size": "h3",
+                                "link": {
+                                    "url": "https://smileondc.com/lingual-braces-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-opt"
+                            }
+                        },
+                        {
+                            "id": "678c58a8",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-cog",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#E8F6F7",
+                                "secondary_color": "#2D9CA9",
+                                "text_align": "left",
+                                "title_text": "Damon Braces",
+                                "description_text": "A self-ligating system that allows smoother tooth movement. Often fewer adjustments and more comfort during treatment.",
+                                "title_size": "h3",
+                                "link": {
+                                    "url": "https://smileondc.com/damon-braces-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-opt"
+                            }
+                        },
+                        {
+                            "id": "cb43e3d5",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-smile-beam",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "text_align": "left",
+                                "title_text": "Invisalign",
+                                "description_text": "Custom-made clear aligners that are removable and comfortable. Eat normally and keep up your oral hygiene easily.",
+                                "title_size": "h3",
+                                "link": {
+                                    "url": "https://smileondc.com/invisalign-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-opt"
+                            }
+                        },
+                        {
+                            "id": "826a67d4",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-child",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#E8F6F7",
+                                "secondary_color": "#2D9CA9",
+                                "text_align": "left",
+                                "title_text": "Invisalign First",
+                                "description_text": "Designed for younger patients. Helps guide jaw development while correcting early alignment issues in growing children.",
+                                "title_size": "h3",
+                                "link": {
+                                    "url": "https://smileondc.com/invisalign-first-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-opt"
+                            }
+                        },
+                        {
+                            "id": "64977bee",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-shield-alt",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#EEEBFA",
+                                "secondary_color": "#6656C4",
+                                "text_align": "left",
+                                "title_text": "Teeth Retainers",
+                                "description_text": "Custom retainers keep your teeth in their new position, with clear guidance on how to wear and care for them.",
+                                "title_size": "h3",
+                                "link": {
+                                    "url": "https://smileondc.com/teeth-retainers-dubai/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "_css_classes": "sodc-opt"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f980cef8",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-tint"
+            },
+            "elements": [
+                {
+                    "id": "9019462a",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Compare</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "1ec3dca5",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Braces or Aligners? Your Options at a Glance",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "4b32d60d",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Your orthodontist will recommend the best option for your teeth and bite. This quick comparison helps you prepare questions for your consultation.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub"
+                    }
+                },
+                {
+                    "id": "7236cd24",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<div class=\"sodc-compare\"><table><thead><tr><th>Option</th><th>How visible?</th><th>Removable?</th><th>Good to know</th></tr></thead><tbody><tr><td>Metal braces</td><td>Visible</td><td>No</td><td>Durable and effective for every level of correction</td></tr><tr><td>Ceramic braces</td><td>Less noticeable, tooth-coloured</td><td>No</td><td>Works like metal braces with a more discreet look</td></tr><tr><td>Lingual braces</td><td>Hidden behind the teeth</td><td>No</td><td>For effective treatment without visible braces</td></tr><tr><td>Damon braces</td><td>Visible (self-ligating)</td><td>No</td><td>Smoother movement, often fewer adjustments</td></tr><tr><td>Invisalign</td><td>Clear, barely noticeable</td><td>Yes</td><td>Eat normally and clean your teeth easily</td></tr><tr><td>Invisalign First</td><td>Clear, barely noticeable</td><td>Yes</td><td>For children, guiding jaw development early</td></tr></tbody></table></div>"
+                    }
+                },
+                {
+                    "id": "05f3b208",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Want a deeper comparison? Read our guide: <a href=\"https://smileondc.com/blogs/invisalign-vs-braces-dubai/\">Invisalign vs Braces in Dubai</a>.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub sodc-small"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6449c2d8",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "size": 48,
+                    "unit": "px",
+                    "column": "48",
+                    "row": "48",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "",
+                "flex_wrap": "wrap",
+                "flex_align_items": "center"
+            },
+            "elements": [
+                {
+                    "id": "5563747a",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 38
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "size": 0,
+                            "unit": "px",
+                            "column": "0",
+                            "row": "0",
+                            "isLinked": true
+                        },
+                        "css_classes": ""
+                    },
+                    "elements": [
+                        {
+                            "id": "8175e531",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "settings": {
+                                "image": {
+                                    "url": "https://smileondc.com/wp-content/uploads/2022/09/dr.jeffrey-poster-768x768-1.webp",
+                                    "id": 617,
+                                    "alt": "Dr. Jeffrey Manuel, specialist orthodontist at Smile On Dental Clinic, Dubai",
+                                    "source": "library"
+                                },
+                                "image_size": "large",
+                                "_css_classes": "sodc-profile"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "8397c368",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 56
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "size": 14,
+                            "unit": "px",
+                            "column": "14",
+                            "row": "14",
+                            "isLinked": true
+                        },
+                        "css_classes": ""
+                    },
+                    "elements": [
+                        {
+                            "id": "2fcc783f",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Meet your orthodontist</p>",
+                                "_css_classes": "sodc-kicker"
+                            }
+                        },
+                        {
+                            "id": "b1384de8",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Dr. Jeffrey Manuel",
+                                "header_size": "h2",
+                                "_css_classes": "sodc-h2"
+                            }
+                        },
+                        {
+                            "id": "a9fb59ae",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p><strong>Specialist Orthodontist &amp; Medical Director.</strong> Dr. Jeffrey co-founded Smile On Dental Clinic in 2021 and has practised in the UAE since 2008. He treats children, teens and adults, and plans every case personally, from early treatment for growing children to discreet options for working professionals.</p>",
+                                "_css_classes": "sodc-lead"
+                            }
+                        },
+                        {
+                            "id": "1892a6aa",
+                            "elType": "widget",
+                            "widgetType": "icon-list",
+                            "settings": {
+                                "view": "inline",
+                                "icon_color": "#6656C4",
+                                "_css_classes": "sodc-badges",
+                                "icon_list": [
+                                    {
+                                        "_id": "b1",
+                                        "text": "Certified Invisalign provider",
+                                        "selected_icon": {
+                                            "value": "fas fa-certificate",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "b2",
+                                        "text": "Damon & self-ligating braces",
+                                        "selected_icon": {
+                                            "value": "fas fa-cog",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "b3",
+                                        "text": "Early treatment for children",
+                                        "selected_icon": {
+                                            "value": "fas fa-child",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "b4",
+                                        "text": "Myobrace",
+                                        "selected_icon": {
+                                            "value": "fas fa-tooth",
+                                            "library": "fa-solid"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "edfe7a7a",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_wrap": "wrap",
+                                "flex_gap": {
+                                    "size": 12,
+                                    "unit": "px",
+                                    "column": "12",
+                                    "row": "12",
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "2e564da3",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Book with Dr. Jeffrey",
+                                        "link": {
+                                            "url": "tel:+971558961826",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "size": "md",
+                                        "selected_icon": {
+                                            "value": "fas fa-phone-alt",
+                                            "library": "fa-solid"
+                                        },
+                                        "_css_classes": "sodc-btn-grad"
+                                    }
+                                },
+                                {
+                                    "id": "aa3fdc84",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "View Full Profile",
+                                        "link": {
+                                            "url": "https://smileondc.com/doctors/dr-jeffrey-manuel/",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "size": "md",
+                                        "_css_classes": "sodc-btn-ghost"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f3de378c",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-tint"
+            },
+            "elements": [
+                {
+                    "id": "0acbe335",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Your treatment journey</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "97faf64d",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "What to Expect During Treatment",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "0e13ad90",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Orthodontic treatment is a structured process designed to deliver safe, predictable results.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub"
+                    }
+                },
+                {
+                    "id": "acb537c3",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "css_classes": "sodc-grid sodc-grid-4"
+                    },
+                    "elements": [
+                        {
+                            "id": "8176d9d7",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-search",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#2D9CA9",
+                                "secondary_color": "#ffffff",
+                                "text_align": "left",
+                                "title_text": "1. Initial consultation",
+                                "description_text": "A detailed assessment, including digital scans, X-rays if needed and a bite analysis.",
+                                "title_size": "h3",
+                                "_css_classes": "sodc-card"
+                            }
+                        },
+                        {
+                            "id": "a05aac2c",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-clipboard-list",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#2D9CA9",
+                                "secondary_color": "#ffffff",
+                                "text_align": "left",
+                                "title_text": "2. Personalised plan",
+                                "description_text": "We explain the recommended option, the estimated duration and how to care for your teeth.",
+                                "title_size": "h3",
+                                "_css_classes": "sodc-card"
+                            }
+                        },
+                        {
+                            "id": "b7f8426a",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-sync-alt",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#6656C4",
+                                "secondary_color": "#ffffff",
+                                "text_align": "left",
+                                "title_text": "3. Active treatment",
+                                "description_text": "Braces or aligners are adjusted periodically to guide your teeth gradually into place.",
+                                "title_size": "h3",
+                                "_css_classes": "sodc-card"
+                            }
+                        },
+                        {
+                            "id": "91ccc201",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-shield-alt",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "primary_color": "#6656C4",
+                                "secondary_color": "#ffffff",
+                                "text_align": "left",
+                                "title_text": "4. Retention",
+                                "description_text": "Retainers are fitted once alignment goals are reached, to protect your results long term.",
+                                "title_size": "h3",
+                                "_css_classes": "sodc-card"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "13cbbdf6",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "size": 48,
+                    "unit": "px",
+                    "column": "48",
+                    "row": "48",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "",
+                "flex_wrap": "wrap",
+                "flex_align_items": "center"
+            },
+            "elements": [
+                {
+                    "id": "f466b27f",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 46
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "size": 0,
+                            "unit": "px",
+                            "column": "0",
+                            "row": "0",
+                            "isLinked": true
+                        },
+                        "css_classes": ""
+                    },
+                    "elements": [
+                        {
+                            "id": "99dc6eba",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "settings": {
+                                "image": {
+                                    "url": "https://smileondc.com/wp-content/uploads/2026/04/before_after_merged.png",
+                                    "id": 5781,
+                                    "alt": "Orthodontic treatment before and after at Smile On Dental Clinic, Dubai",
+                                    "source": "library"
+                                },
+                                "image_size": "large",
+                                "_css_classes": "sodc-ba-single"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "5df24f7c",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 48
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100
+                        },
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "size": 14,
+                            "unit": "px",
+                            "column": "14",
+                            "row": "14",
+                            "isLinked": true
+                        },
+                        "css_classes": ""
+                    },
+                    "elements": [
+                        {
+                            "id": "c0ce26fd",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Results</p>",
+                                "_css_classes": "sodc-kicker"
+                            }
+                        },
+                        {
+                            "id": "015e8ad1",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Straighter Teeth, Healthier Bite",
+                                "header_size": "h2",
+                                "_css_classes": "sodc-h2"
+                            }
+                        },
+                        {
+                            "id": "d62dfb4d",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Orthodontic care offers more than a cosmetic improvement. Here's what a well-planned treatment can do for you:</p>",
+                                "_css_classes": "sodc-lead"
+                            }
+                        },
+                        {
+                            "id": "465c253c",
+                            "elType": "widget",
+                            "widgetType": "icon-list",
+                            "settings": {
+                                "icon_color": "#2D9CA9",
+                                "text_color": "#2b3440",
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 10
+                                },
+                                "icon_list": [
+                                    {
+                                        "_id": "r1",
+                                        "text": "Better bite alignment and jaw function",
+                                        "selected_icon": {
+                                            "value": "fas fa-check-circle",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "r2",
+                                        "text": "Easier cleaning and improved oral hygiene",
+                                        "selected_icon": {
+                                            "value": "fas fa-check-circle",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "r3",
+                                        "text": "Reduced risk of tooth wear and gum problems",
+                                        "selected_icon": {
+                                            "value": "fas fa-check-circle",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "r4",
+                                        "text": "Improved confidence and facial balance",
+                                        "selected_icon": {
+                                            "value": "fas fa-check-circle",
+                                            "library": "fa-solid"
+                                        }
+                                    },
+                                    {
+                                        "_id": "r5",
+                                        "text": "Long-term dental stability",
+                                        "selected_icon": {
+                                            "value": "fas fa-check-circle",
+                                            "library": "fa-solid"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "5b90b520",
+                            "elType": "widget",
+                            "widgetType": "button",
+                            "settings": {
+                                "text": "Call to Start Your Smile Journey",
+                                "link": {
+                                    "url": "tel:+971558961826",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "size": "md",
+                                "selected_icon": {
+                                    "value": "fas fa-phone-alt",
+                                    "library": "fa-solid"
+                                },
+                                "_css_classes": "sodc-btn-grad"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "dc92edd4",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": ""
+            },
+            "elements": [
+                {
+                    "id": "95315db6",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Cost & value</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "d92bc086",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Orthodontist Braces Price in Dubai",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "6ed412e1",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_wrap": "wrap",
+                        "flex_gap": {
+                            "size": 24,
+                            "unit": "px",
+                            "column": "24",
+                            "row": "24",
+                            "isLinked": true
+                        },
+                        "flex_align_items": "stretch"
+                    },
+                    "elements": [
+                        {
+                            "id": "e19e6662",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 49
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100
+                                },
+                                "flex_direction": "column",
+                                "flex_gap": {
+                                    "size": 14,
+                                    "unit": "px",
+                                    "column": "14",
+                                    "row": "14",
+                                    "isLinked": true
+                                },
+                                "css_classes": "sodc-panel"
+                            },
+                            "elements": [
+                                {
+                                    "id": "266af848",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "What affects the cost",
+                                        "header_size": "h3",
+                                        "_css_classes": ""
+                                    }
+                                },
+                                {
+                                    "id": "12bdeb8c",
+                                    "elType": "widget",
+                                    "widgetType": "icon-list",
+                                    "settings": {
+                                        "icon_color": "#6656C4",
+                                        "text_color": "#2b3440",
+                                        "space_between": {
+                                            "unit": "px",
+                                            "size": 10
+                                        },
+                                        "icon_list": [
+                                            {
+                                                "_id": "p1",
+                                                "text": "The type of braces or aligners you choose",
+                                                "selected_icon": {
+                                                    "value": "fas fa-circle",
+                                                    "library": "fa-solid"
+                                                }
+                                            },
+                                            {
+                                                "_id": "p2",
+                                                "text": "How complex the tooth and bite correction is",
+                                                "selected_icon": {
+                                                    "value": "fas fa-circle",
+                                                    "library": "fa-solid"
+                                                }
+                                            },
+                                            {
+                                                "_id": "p3",
+                                                "text": "How long treatment takes",
+                                                "selected_icon": {
+                                                    "value": "fas fa-circle",
+                                                    "library": "fa-solid"
+                                                }
+                                            },
+                                            {
+                                                "_id": "p4",
+                                                "text": "The patient's age",
+                                                "selected_icon": {
+                                                    "value": "fas fa-circle",
+                                                    "library": "fa-solid"
+                                                }
+                                            },
+                                            {
+                                                "_id": "p5",
+                                                "text": "Follow-up and retention needs",
+                                                "selected_icon": {
+                                                    "value": "fas fa-circle",
+                                                    "library": "fa-solid"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "3838b7bc",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>At your consultation we give you a transparent treatment plan with clear cost guidance, so you can decide without pressure. We work with a range of insurance providers and offer flexible payment options. For typical Invisalign prices, see our <a href=\"https://smileondc.com/blogs/invisalign-cost-dubai-uae/\">Invisalign cost guide</a>.</p>",
+                                        "_css_classes": "sodc-sub sodc-small"
+                                    }
+                                },
+                                {
+                                    "id": "2af3fc22",
+                                    "elType": "widget",
+                                    "widgetType": "button",
+                                    "settings": {
+                                        "text": "Call for a Cost Estimate",
+                                        "link": {
+                                            "url": "tel:+971558961826",
+                                            "is_external": "",
+                                            "nofollow": ""
+                                        },
+                                        "size": "md",
+                                        "selected_icon": {
+                                            "value": "fas fa-phone-alt",
+                                            "library": "fa-solid"
+                                        },
+                                        "_css_classes": "sodc-btn-grad"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f7f6b171",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 49
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100
+                                },
+                                "flex_direction": "column",
+                                "flex_gap": {
+                                    "size": 14,
+                                    "unit": "px",
+                                    "column": "14",
+                                    "row": "14",
+                                    "isLinked": true
+                                },
+                                "css_classes": "sodc-panel"
+                            },
+                            "elements": [
+                                {
+                                    "id": "80da9b32",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Why patients choose Smile On",
+                                        "header_size": "h3",
+                                        "_css_classes": ""
+                                    }
+                                },
+                                {
+                                    "id": "d6563625",
+                                    "elType": "widget",
+                                    "widgetType": "icon-list",
+                                    "settings": {
+                                        "icon_color": "#2D9CA9",
+                                        "text_color": "#2b3440",
+                                        "space_between": {
+                                            "unit": "px",
+                                            "size": 10
+                                        },
+                                        "icon_list": [
+                                            {
+                                                "_id": "w1",
+                                                "text": "Experienced orthodontic professionals",
+                                                "selected_icon": {
+                                                    "value": "fas fa-user-md",
+                                                    "library": "fa-solid"
+                                                }
+                                            },
+                                            {
+                                                "_id": "w2",
+                                                "text": "Modern diagnostic and treatment technology",
+                                                "selected_icon": {
+                                                    "value": "fas fa-laptop-medical",
+                                                    "library": "fa-solid"
+                                                }
+                                            },
+                                            {
+                                                "_id": "w3",
+                                                "text": "Strict hygiene and sterilisation standards",
+                                                "selected_icon": {
+                                                    "value": "fas fa-hand-sparkles",
+                                                    "library": "fa-solid"
+                                                }
+                                            },
+                                            {
+                                                "_id": "w4",
+                                                "text": "Clear explanations at every stage",
+                                                "selected_icon": {
+                                                    "value": "fas fa-comments",
+                                                    "library": "fa-solid"
+                                                }
+                                            },
+                                            {
+                                                "_id": "w5",
+                                                "text": "A calm, patient-focused environment",
+                                                "selected_icon": {
+                                                    "value": "fas fa-spa",
+                                                    "library": "fa-solid"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "1bc8e9ca",
+                                    "elType": "widget",
+                                    "widgetType": "text-editor",
+                                    "settings": {
+                                        "editor": "<p>Our approach is centred on long-term oral health, not rushed outcomes.</p>",
+                                        "_css_classes": "sodc-sub sodc-small"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6b67124e",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-tint"
+            },
+            "elements": [
+                {
+                    "id": "88c1482f",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Patient reviews</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "f62e9449",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "What Our Patients Say",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "6238b089",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Rated 5.0 on Google by patients from Al Satwa, Jumeirah and across Dubai.</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-sub"
+                    }
+                },
+                {
+                    "id": "5cd7c9a6",
+                    "elType": "widget",
+                    "widgetType": "shortcode",
+                    "settings": {
+                        "shortcode": "[trustindex no-registration=google]",
+                        "_css_classes": "sodc-reviews"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "c560a667",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-faq"
+            },
+            "elements": [
+                {
+                    "id": "68470127",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>FAQ</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "64215aad",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Frequently Asked Questions",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "8ac83998",
+                    "elType": "widget",
+                    "widgetType": "toggle",
+                    "settings": {
+                        "faq_schema": "yes",
+                        "title_html_tag": "h3",
+                        "selected_icon": {
+                            "value": "fas fa-plus",
+                            "library": "fa-solid"
+                        },
+                        "selected_active_icon": {
+                            "value": "fas fa-minus",
+                            "library": "fa-solid"
+                        },
+                        "tabs": [
+                            {
+                                "_id": "q1",
+                                "tab_title": "How long does orthodontic treatment usually take?",
+                                "tab_content": "<p>It depends on how complex the problem is rather than the type of braces, along with factors such as bone density and age. Treatment usually takes 18 to 24 months. Teenagers often see faster results because much of their growth happens at this stage.</p>"
+                            },
+                            {
+                                "_id": "q2",
+                                "tab_title": "Is orthodontic treatment painful?",
+                                "tab_content": "<p>Treatment shouldn't be painful. Most people feel some pressure or soreness for a few days after braces are fitted or adjusted, or when they start a new set of aligners. This usually settles quickly, and soft foods help in the meantime. Your orthodontist will explain what to expect and how to stay comfortable.</p>"
+                            },
+                            {
+                                "_id": "q3",
+                                "tab_title": "Can adults get braces or Invisalign?",
+                                "tab_content": "<p>Yes. Orthodontic care isn't limited to teenagers, and many adults in Dubai choose treatment for both functional and aesthetic reasons. Discreet options such as <a href='https://smileondc.com/invisalign-dubai/'>Invisalign</a>, ceramic braces and <a href='https://smileondc.com/lingual-braces-dubai/'>lingual braces</a> are popular with working professionals.</p>"
+                            },
+                            {
+                                "_id": "q4",
+                                "tab_title": "Which type of braces is right for me?",
+                                "tab_content": "<p>Each option works differently. Traditional braces use brackets and wires, Invisalign uses removable clear trays to move teeth into position, and lingual braces are attached behind the teeth. The right choice depends on how severe the problem is, along with cost, treatment time and how discreet you'd like it to be. Our orthodontist will talk you through the options at your consultation.</p>"
+                            },
+                            {
+                                "_id": "q5",
+                                "tab_title": "When should my child see an orthodontist?",
+                                "tab_content": "<p>An early check helps spot bite and jaw problems while your child is still growing. If treatment is needed, options such as <a href='https://smileondc.com/invisalign-first-dubai/'>Invisalign First</a> and <a href='https://smileondc.com/myobrace-dubai/'>Myobrace</a> can guide jaw development and correct early alignment issues.</p>"
+                            },
+                            {
+                                "_id": "q6",
+                                "tab_title": "How much do braces cost in Dubai?",
+                                "tab_content": "<p>The cost depends on the type of braces or aligners, how complex the correction is, how long treatment takes, your age and your retention needs. You'll get a transparent plan with clear cost guidance at your consultation. Call <a href='tel:+971558961826'>+971 55 896 1826</a> to book.</p>"
+                            },
+                            {
+                                "_id": "q7",
+                                "tab_title": "What is the difference between an orthodontist and a general dentist for braces?",
+                                "tab_content": "<p>An orthodontist is a dentist who has completed additional training focused on tooth alignment and bite correction. For braces and complex orthodontic treatment, seeing an orthodontist means a specialist handles your treatment planning and care.</p>"
+                            },
+                            {
+                                "_id": "q8",
+                                "tab_title": "Is Smile On Dental Clinic a good choice for orthodontics near Jumeirah?",
+                                "tab_content": "<p>Patients from Jumeirah and nearby areas often choose Smile On for its accessible location on 2nd December Street, its range of braces and aligner options and its patient-focused care. Treatment is always based on your individual needs rather than a one-size-fits-all approach.</p>"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "87a59944",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "size": 20,
+                    "unit": "px",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 72,
+                    "right": 20,
+                    "bottom": 72,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-tint"
+            },
+            "elements": [
+                {
+                    "id": "5486099c",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>From our blog</p>",
+                        "align": "center",
+                        "_css_classes": "sodc-kicker"
+                    }
+                },
+                {
+                    "id": "0ed924fb",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Orthodontic Guides From Our Team",
+                        "header_size": "h2",
+                        "align": "center",
+                        "_css_classes": "sodc-h2"
+                    }
+                },
+                {
+                    "id": "271afe99",
+                    "elType": "widget",
+                    "settings": {
+                        "query_posts_per_page": 3,
+                        "query_not_found_text": "No Posts Found!",
+                        "advanced_filters": "",
+                        "layout_select": "slider",
+                        "layout_image_crop_size": "custom",
+                        "layout_image_crop_custom_dimension": {
+                            "width": "700",
+                            "height": "450"
+                        },
+                        "layout_filters": "",
+                        "layout_slider_amount": 3,
+                        "layout_slider_amount_tablet": 2,
+                        "layout_slider_amount_mobile": 1,
+                        "layout_slides_to_scroll": 1,
+                        "layout_slider_gutter": {
+                            "unit": "px",
+                            "size": 20,
+                            "sizes": []
+                        },
+                        "layout_slider_nav": "no",
+                        "layout_slider_nav_hover": "no",
+                        "layout_slider_dots": "no",
+                        "layout_slider_autoplay": "yes",
+                        "layout_slider_loop": "yes",
+                        "grid_slider_nav_color": "#9B8FD9",
+                        "grid_slider_nav_bg_color": "transparent",
+                        "grid_slider_nav_hover_color": "#6E50C3",
+                        "grid_slider_nav_hover_bg_color": "transparent",
+                        "grid_slider_nav_font_size": {
+                            "unit": "px",
+                            "size": 22,
+                            "sizes": []
+                        },
+                        "grid_slider_nav_size": {
+                            "unit": "px",
+                            "size": 32,
+                            "sizes": []
+                        },
+                        "grid_slider_nav_border_type": "none",
+                        "grid_slider_nav_border_radius": {
+                            "unit": "%",
+                            "top": 50,
+                            "right": 50,
+                            "bottom": 50,
+                            "left": 50,
+                            "isLinked": true
+                        },
+                        "grid_slider_dots_bg_color": "rgba(110,80,195,0.25)",
+                        "grid_slider_dots_active_bg_color": "#6E50C3",
+                        "grid_slider_dots_width": {
+                            "unit": "px",
+                            "size": 9,
+                            "sizes": []
+                        },
+                        "grid_slider_dots_height": {
+                            "unit": "px",
+                            "size": 9,
+                            "sizes": []
+                        },
+                        "grid_slider_dots_gutter": {
+                            "unit": "px",
+                            "size": 8,
+                            "sizes": []
+                        },
+                        "grid_slider_dots_vr": {
+                            "unit": "%",
+                            "size": 114,
+                            "sizes": []
+                        },
+                        "_padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "50",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "grid_elements": [
+                            {
+                                "_id": "4e360c2",
+                                "element_read_more_text": "Read article",
+                                "element_tax_sep": ", ",
+                                "element_comments_text_1": "No Comments",
+                                "element_comments_text_2": "Comment",
+                                "element_comments_text_3": "Comments"
+                            },
+                            {
+                                "element_select": "date",
+                                "element_display": "inline",
+                                "element_extra_text_pos": "after",
+                                "element_extra_text": "/",
+                                "_id": "822a511",
+                                "element_read_more_text": "Read article",
+                                "element_tax_sep": ", ",
+                                "element_comments_text_1": "No Comments",
+                                "element_comments_text_2": "Comment",
+                                "element_comments_text_3": "Comments"
+                            },
+                            {
+                                "element_select": "comments",
+                                "element_display": "inline",
+                                "_id": "899a7ea",
+                                "element_read_more_text": "Read article",
+                                "element_tax_sep": ", ",
+                                "element_comments_text_1": "No Comments",
+                                "element_comments_text_2": "Comment",
+                                "element_comments_text_3": "Comments"
+                            },
+                            {
+                                "element_select": "excerpt",
+                                "_id": "3c37348",
+                                "element_read_more_text": "Read article",
+                                "element_tax_sep": ", ",
+                                "element_comments_text_1": "No Comments",
+                                "element_comments_text_2": "Comment",
+                                "element_comments_text_3": "Comments"
+                            },
+                            {
+                                "element_select": "read-more",
+                                "_id": "95b8562",
+                                "element_read_more_text": "Read article",
+                                "element_tax_sep": ", ",
+                                "element_comments_text_1": "No Comments",
+                                "element_comments_text_2": "Comment",
+                                "element_comments_text_3": "Comments"
+                            }
+                        ],
+                        "filters_all_text": "All Posts",
+                        "pagination_older_text": "Older Posts",
+                        "pagination_newer_text": "Newer Posts",
+                        "pagination_prev_text": "Previous Page",
+                        "pagination_next_text": "Next Page",
+                        "pagination_first_text": "First Page",
+                        "pagination_last_text": "Last Page",
+                        "pagination_load_more_text": "Load More",
+                        "pagination_finish_text": "End of Content.",
+                        "_background_color_stop_tablet": {
+                            "unit": "%"
+                        },
+                        "_background_color_stop_mobile": {
+                            "unit": "%"
+                        },
+                        "_background_color_b_stop_tablet": {
+                            "unit": "%"
+                        },
+                        "_background_color_b_stop_mobile": {
+                            "unit": "%"
+                        },
+                        "_background_gradient_angle_tablet": {
+                            "unit": "deg"
+                        },
+                        "_background_gradient_angle_mobile": {
+                            "unit": "deg"
+                        },
+                        "_background_hover_color_stop_tablet": {
+                            "unit": "%"
+                        },
+                        "_background_hover_color_stop_mobile": {
+                            "unit": "%"
+                        },
+                        "_background_hover_color_b_stop_tablet": {
+                            "unit": "%"
+                        },
+                        "_background_hover_color_b_stop_mobile": {
+                            "unit": "%"
+                        },
+                        "_background_hover_gradient_angle_tablet": {
+                            "unit": "deg"
+                        },
+                        "_background_hover_gradient_angle_mobile": {
+                            "unit": "deg"
+                        },
+                        "grid_item_padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "30",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "pagination_animation": "loader-2"
+                    },
+                    "elements": [],
+                    "widgetType": "wpr-grid"
+                },
+                {
+                    "id": "45155225",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                        "text": "View All Blogs",
+                        "link": {
+                            "url": "https://smileondc.com/blogs/",
+                            "is_external": "",
+                            "nofollow": ""
+                        },
+                        "size": "md",
+                        "_css_classes": "sodc-btn-ghost",
+                        "align": "center"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ea93bd2c",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                    "size": 16,
+                    "unit": "px",
+                    "column": "16",
+                    "row": "16",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 64,
+                    "right": 20,
+                    "bottom": 64,
+                    "left": 20,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": 44,
+                    "right": 16,
+                    "bottom": 44,
+                    "left": 16,
+                    "isLinked": false
+                },
+                "css_classes": "sodc-cta"
+            },
+            "elements": [
+                {
+                    "id": "14b7bc19",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "Book an Orthodontic Consultation in Dubai",
+                        "align": "center",
+                        "header_size": "h2"
+                    }
+                },
+                {
+                    "id": "b8c253cb",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                        "editor": "<p>Our team will assess your needs, explain suitable options and guide you through the process with clarity and care. Call 04 347 2102 or 055 896 1826, or send a request and we'll get back to you within 24 hours.</p>",
+                        "align": "center"
+                    }
+                },
+                {
+                    "id": "8a6b5dc8",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_wrap": "wrap",
+                        "flex_gap": {
+                            "size": 12,
+                            "unit": "px",
+                            "column": "12",
+                            "row": "12",
+                            "isLinked": true
+                        },
+                        "flex_justify_content": "center"
+                    },
+                    "elements": [
+                        {
+                            "id": "486acf22",
+                            "elType": "widget",
+                            "widgetType": "button",
+                            "settings": {
+                                "text": "Call 055 896 1826",
+                                "link": {
+                                    "url": "tel:+971558961826",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "size": "md",
+                                "selected_icon": {
+                                    "value": "fas fa-phone-alt",
+                                    "library": "fa-solid"
+                                },
+                                "_css_classes": "sodc-btn-white"
+                            }
+                        },
+                        {
+                            "id": "11ca28bb",
+                            "elType": "widget",
+                            "widgetType": "button",
+                            "settings": {
+                                "text": "Call 04 347 2102",
+                                "link": {
+                                    "url": "tel:+97143472102",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "size": "md",
+                                "selected_icon": {
+                                    "value": "fas fa-phone-alt",
+                                    "library": "fa-solid"
+                                },
+                                "_css_classes": "sodc-btn-outline-white"
+                            }
+                        },
+                        {
+                            "id": "be7e748e",
+                            "elType": "widget",
+                            "widgetType": "button",
+                            "settings": {
+                                "text": "WhatsApp Us",
+                                "link": {
+                                    "url": "https://wa.me/971558961826",
+                                    "is_external": "on",
+                                    "nofollow": ""
+                                },
+                                "size": "md",
+                                "_css_classes": "sodc-btn-outline-white",
+                                "selected_icon": {
+                                    "value": "fab fa-whatsapp",
+                                    "library": "fa-brands"
+                                }
+                            }
+                        },
+                        {
+                            "id": "c83d21cf",
+                            "elType": "widget",
+                            "widgetType": "button",
+                            "settings": {
+                                "text": "Book Online",
+                                "link": {
+                                    "url": "https://smileondc.com/make-appointment/",
+                                    "is_external": "",
+                                    "nofollow": ""
+                                },
+                                "size": "md",
+                                "_css_classes": "sodc-btn-outline-white"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
