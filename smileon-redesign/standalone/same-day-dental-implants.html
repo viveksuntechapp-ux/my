@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Same-Day Dental Implants Dubai</title>
+<meta name="description" content="Same-day dental implants in Al Satwa, Dubai. 3D CBCT-planned implants, with a temporary crown fitted the same day when the implant is stable. Complete single implant from AED 4,500.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,650;12..96,700&family=Figtree:wght@400;500;600;650&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Smile On Dental Clinic — redesign stylesheet
+   Layout concept: "open clinic" — wide porcelain bands, a deep lagoon-ink anchor colour,
+   and one sunlit accent reserved for the booking action. */
+:root {
+  --ink: #0d2b33;          /* lagoon ink: headings, dark bands */
+  --ink-2: #1f4a53;
+  --body: #3b5258;         /* running text */
+  --muted: #6b8187;
+  --porcelain: #f6f8f7;    /* page ground */
+  --paper: #ffffff;
+  --mint: #e3f0ec;         /* soft band */
+  --line: #d6e2df;
+  --teal: #0f7a72;         /* links, icons */
+  --sun: #f5b841;          /* booking accent — used only for primary CTA */
+  --sun-ink: #3a2a00;
+  --star: #e8a317;
+
+  --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Figtree", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --r-s: 8px;
+  --r-m: 14px;
+  --r-l: 22px;
+  --wrap: 1180px;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; animation: none !important; } }
+body {
+  margin: 0; background: var(--porcelain); color: var(--body);
+  font: 400 17px/1.65 var(--f-body);
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; display: block; }
+a { color: var(--teal); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid var(--sun); outline-offset: 3px; border-radius: 6px;
+}
+h1, h2, h3, h4 { font-family: var(--f-display); color: var(--ink); line-height: 1.12; margin: 0; text-wrap: balance; letter-spacing: -0.015em; }
+h1 { font-size: clamp(2.3rem, 5.2vw, 4.1rem); font-weight: 700; }
+h2 { font-size: clamp(1.8rem, 3.4vw, 2.7rem); font-weight: 700; }
+h3 { font-size: 1.22rem; font-weight: 650; }
+p { margin: 0; }
+.wrap {
+  max-width: var(--wrap); margin-inline: auto;
+  padding-left: max(20px, env(safe-area-inset-left, 0px));
+  padding-right: max(20px, env(safe-area-inset-right, 0px));
+}
+.band { padding-block: clamp(56px, 8vw, 104px); }
+.band--mint { background: var(--mint); }
+.band--paper { background: var(--paper); }
+.band--ink { background: var(--ink); color: #c9dcd9; }
+.band--ink h2, .band--ink h3 { color: #fff; }
+.eyebrow {
+  font: 600 0.78rem/1 var(--f-mono); letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--teal); display: inline-flex; gap: 10px; align-items: center;
+}
+.band--ink .eyebrow { color: var(--sun); }
+.lede { font-size: 1.15rem; max-width: 60ch; }
+.section-head { display: grid; gap: 14px; max-width: 760px; margin-bottom: 44px; }
+.section-head--split { max-width: none; grid-template-columns: 1fr auto; align-items: end; gap: 24px; }
+@media (max-width: 760px) { .section-head--split { grid-template-columns: 1fr; } }
+
+/* Buttons */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  font: 650 1rem/1 var(--f-body); padding: 16px 24px; border-radius: 999px;
+  text-decoration: none; border: 2px solid transparent; cursor: pointer; white-space: nowrap;
+  transition: transform .15s ease, background .15s ease;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn--book { background: var(--sun); color: var(--sun-ink); }
+.btn--book:hover { background: #f8c55f; }
+.btn--ghost { border-color: var(--ink); color: var(--ink); background: transparent; }
+.band--ink .btn--ghost, .hero--ink .btn--ghost { border-color: rgba(255,255,255,.55); color: #fff; }
+.btn--small { padding: 11px 18px; font-size: .92rem; }
+.btn-row { display: flex; flex-wrap: wrap; gap: 12px; }
+
+/* Utility bar + header */
+.utility { background: var(--ink); color: #b9cfcc; font-size: .85rem; }
+.utility .wrap { display: flex; flex-wrap: wrap; gap: 6px 24px; justify-content: space-between; padding-block: 9px; }
+.utility a { color: #fff; text-decoration: none; }
+.utility .u-group { display: flex; flex-wrap: wrap; gap: 6px 20px; }
+.utility .closed { color: var(--sun); }
+.site-header {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  background: rgba(255,255,255,.94); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line);
+}
+.site-header .wrap { display: flex; align-items: center; gap: 24px; padding-block: 14px; }
+.logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font: 700 1.25rem/1 var(--f-display); }
+.logo-mark { width: 38px; height: 38px; flex: none; }
+.logo small { display: block; font: 500 .66rem/1.3 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.nav { display: flex; gap: 26px; margin-left: auto; }
+.nav a { color: var(--ink); text-decoration: none; font-weight: 550; font-size: .97rem; }
+.nav a[aria-current="page"] { color: var(--teal); }
+.header-cta { display: flex; gap: 10px; }
+@media (max-width: 980px) { .nav { display: none; } .header-cta { margin-left: auto; } }
+@media (max-width: 520px) { .header-cta .btn--ghost { display: none; } }
+
+/* Trust strip */
+.trust { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border: 1px solid var(--line); border-radius: var(--r-m); background: var(--paper); }
+.trust > div { padding: 20px 22px; display: grid; gap: 4px; }
+.trust > div + div { border-left: 1px solid var(--line); }
+.trust b { font: 700 1.5rem/1.1 var(--f-display); color: var(--ink); }
+.trust span { font-size: .88rem; color: var(--muted); }
+@media (max-width: 860px) {
+  .trust { grid-template-columns: 1fr 1fr; }
+  .trust > div:nth-child(3) { border-left: 0; }
+  .trust > div:nth-child(n+3) { border-top: 1px solid var(--line); }
+}
+.stars { color: var(--star); letter-spacing: 2px; }
+
+/* Placeholders for real photography */
+.photo {
+  position: relative; border-radius: var(--r-l); overflow: hidden; background:
+    radial-gradient(120% 90% at 20% 10%, #cfe6e0 0%, transparent 60%),
+    radial-gradient(90% 80% at 90% 90%, #fbe3ad 0%, transparent 55%),
+    #e6efec;
+  min-height: 260px; display: flex; align-items: flex-end;
+}
+.photo .photo-note {
+  margin: 14px; padding: 7px 11px; border-radius: 999px; background: rgba(255,255,255,.88);
+  font: 500 .74rem/1.2 var(--f-mono); color: var(--ink-2); letter-spacing: .02em;
+}
+
+/* Cards */
+.card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r-m); padding: 26px; display: grid; gap: 10px; align-content: start; }
+.card p { font-size: .97rem; }
+.ico { width: 46px; height: 46px; border-radius: 12px; background: var(--mint); display: grid; place-items: center; color: var(--teal); }
+.ico svg { width: 24px; height: 24px; }
+.more { font-weight: 650; text-decoration: none; display: inline-flex; gap: 6px; align-items: center; margin-top: 4px; }
+.more::after { content: "→"; transition: transform .15s; }
+.more:hover::after { transform: translateX(3px); }
+
+.grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 20px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 20px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 20px; }
+@media (max-width: 980px) { .grid-4 { grid-template-columns: repeat(2, minmax(0,1fr)); } .grid-3 { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (max-width: 640px) { .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; } }
+
+/* Price tags */
+.price { font: 600 .8rem/1 var(--f-mono); color: var(--teal); background: var(--mint); padding: 6px 10px; border-radius: 999px; justify-self: start; }
+.price--sun { background: #fdeccb; color: #7a5300; }
+
+/* Doctor cards */
+.doc { display: grid; gap: 14px; align-content: start; }
+.doc .portrait { aspect-ratio: 4 / 5; min-height: 0; max-width: 100%; }
+.doc h3 { font-size: 1.1rem; }
+.doc .role { font: 500 .78rem/1.3 var(--f-mono); color: var(--teal); text-transform: uppercase; letter-spacing: .08em; }
+.doc p { font-size: .93rem; }
+
+/* Steps (a real sequence) */
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; counter-reset: step; }
+.steps li { counter-increment: step; display: grid; grid-template-columns: 64px 1fr; gap: 20px; padding-block: 22px; border-top: 1px solid var(--line); }
+.steps li:last-child { border-bottom: 1px solid var(--line); }
+.steps li::before { content: counter(step, decimal-leading-zero); font: 600 1.4rem/1 var(--f-mono); color: var(--teal); padding-top: 4px; }
+.band--ink .steps li { border-color: rgba(255,255,255,.14); }
+.band--ink .steps li::before { color: var(--sun); }
+.steps h3 { margin-bottom: 6px; }
+.steps .when { font: 500 .78rem/1 var(--f-mono); color: var(--muted); letter-spacing: .06em; text-transform: uppercase; display: block; margin-bottom: 8px; }
+.band--ink .steps .when { color: #8fb3ae; }
+
+/* Testimonials */
+.quote { background: var(--paper); border-radius: var(--r-m); padding: 28px; display: grid; gap: 16px; align-content: space-between; border: 1px solid var(--line); }
+.quote blockquote { margin: 0; font: 500 1.08rem/1.55 var(--f-body); color: var(--ink); }
+.quote footer { font-size: .88rem; color: var(--muted); display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.placeholder-flag { font: 500 .72rem/1.3 var(--f-mono); color: #8a5a00; background: #fff4dc; border: 1px dashed #e0b25a; border-radius: 6px; padding: 3px 7px; }
+
+/* FAQ */
+.faq { display: grid; gap: 12px; }
+.faq details { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r-m); padding: 0 24px; }
+.faq summary { cursor: pointer; list-style: none; padding-block: 20px; font: 650 1.06rem/1.35 var(--f-display); color: var(--ink); display: flex; justify-content: space-between; gap: 18px; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; font: 400 1.6rem/1 var(--f-body); color: var(--teal); transition: transform .2s; }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { padding-bottom: 22px; max-width: 70ch; }
+
+/* Tables */
+.table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--r-m); background: var(--paper); }
+table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: .96rem; }
+th, td { text-align: left; padding: 16px 20px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 .76rem/1.2 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); background: var(--porcelain); }
+tr:last-child td { border-bottom: 0; }
+td.num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; color: var(--ink); white-space: nowrap; }
+
+/* Booking band */
+.book-band { border-radius: var(--r-l); background: var(--ink); color: #c9dcd9; padding: clamp(32px, 5vw, 56px); display: grid; grid-template-columns: 1.2fr 1fr; gap: 36px; align-items: center; }
+.book-band h2 { color: #fff; }
+.book-band .contact-lines { display: grid; gap: 10px; font-size: 1rem; }
+.book-band .contact-lines b { color: #fff; font-weight: 600; }
+@media (max-width: 860px) { .book-band { grid-template-columns: 1fr; } }
+
+/* Footer */
+.site-footer { background: #08202a; color: #9fb7b4; font-size: .93rem; padding-block: 64px 32px; }
+.site-footer h4 { color: #fff; font: 600 .78rem/1 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; margin-bottom: 16px; }
+.site-footer a { color: #d5e5e2; text-decoration: none; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 36px; }
+.foot-base { border-top: 1px solid rgba(255,255,255,.1); margin-top: 48px; padding-top: 22px; display: flex; flex-wrap: wrap; gap: 10px 24px; justify-content: space-between; font-size: .84rem; }
+@media (max-width: 860px) { .foot-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .foot-grid { grid-template-columns: 1fr; } }
+
+/* Mobile sticky action bar */
+.mobile-bar { display: none; }
+@media (max-width: 760px) {
+  .mobile-bar {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 10px; position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+    padding: 10px max(14px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(14px, env(safe-area-inset-left, 0px));
+    background: rgba(255,255,255,.96); border-top: 1px solid var(--line);
+  }
+  .mobile-bar .btn { padding: 14px 12px; }
+  body { padding-bottom: 76px; }
+}
+
+/* Design annotation for the developer */
+.dev-note { font: 500 .74rem/1.4 var(--f-mono); color: #7a5300; background: #fff7e6; border-left: 3px solid var(--sun); padding: 8px 12px; border-radius: 0 6px 6px 0; }
+.dev-notes-off .dev-note, .dev-notes-off .placeholder-flag, .dev-notes-off .photo-note { display: none; }
+.note-toggle { position: fixed; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 40; font: 600 .78rem/1 var(--f-mono); background: var(--ink); color: #fff; border: 0; border-radius: 999px; padding: 12px 16px; cursor: pointer; box-shadow: 0 6px 20px rgba(13,43,51,.25); }
+@media (max-width: 760px) { .note-toggle { bottom: calc(86px + env(safe-area-inset-bottom, 0px)); } }
+
+/* ===== v2 visual layer ===== */
+/* Illustrated placeholder: soft clinic light + faint tooth-outline pattern instead of a flat box */
+.photo {
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cpath d='M26 22c-4 0-6 3-6 6.5 0 4.5 2 6.5 3 11s1.5 8.5 3.5 8.5 2.5-6 6.5-6 4.5 6 6.5 6 2.5-4 3.5-8.5 3-6.5 3-11c0-3.5-2-6.5-6-6.5-3 0-4.5 1.5-7.5 1.5S29 22 26 22z' fill='none' stroke='%230f7a72' stroke-opacity='.10' stroke-width='1.4'/%3E%3C/svg%3E"),
+    radial-gradient(120% 90% at 15% 0%, #bfe0d8 0%, transparent 55%),
+    radial-gradient(90% 80% at 100% 100%, #fbdc98 0%, transparent 55%),
+    linear-gradient(160deg, #e9f3f0, #dcebe7);
+}
+.reveal { transform: translateY(18px); transition: transform .7s cubic-bezier(.2,.7,.2,1); }
+.reveal.in { transform: none; }
+@media (prefers-reduced-motion: reduce) { .reveal { transform: none; } }
+
+/* Monogram portrait (stand-in until real photography) */
+.portrait-mono { position: relative; aspect-ratio: 4 / 5; max-width: 100%; border-radius: var(--r-l); overflow: hidden; display: grid; place-items: center;
+  background: radial-gradient(80% 60% at 50% 30%, rgba(255,255,255,.35), transparent 70%), var(--pc, var(--teal)); }
+.portrait-mono::after { content: ""; position: absolute; inset: auto -20% -38% -20%; height: 70%; border-radius: 50% 50% 0 0; background: rgba(255,255,255,.16); }
+.portrait-mono span { position: relative; z-index: 1; font: 700 3.4rem/1 var(--f-display); color: rgba(255,255,255,.95); letter-spacing: -.02em; }
+.portrait-mono .photo-note { position: absolute; left: 0; bottom: 0; z-index: 2; font-size: .7rem; letter-spacing: 0; color: var(--ink-2); }
+.doc { transition: transform .2s ease; }
+.doc:hover { transform: translateY(-4px); }
+.card, .svc, .pb, .quote { transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.card:hover, .pb:hover { transform: translateY(-3px); box-shadow: 0 16px 34px rgba(13,43,51,.08); }
+
+</style>
+<style>
+  .imp-hero { background: var(--ink); color: #c9dcd9; padding-block: clamp(40px, 6vw, 84px); overflow: hidden; }
+  .imp-hero h1 { color: #fff; }
+  .imp-hero .eyebrow { color: var(--sun); }
+  .imp-hero h1 em { font-style: normal; color: var(--sun); }
+  .imp-hero .crumbs { font: 500 .8rem/1 var(--f-mono); color: #8fb3ae; display: flex; gap: 8px; margin-bottom: 22px; }
+  .imp-hero .crumbs a { color: #8fb3ae; text-decoration: none; }
+  .imp-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(28px, 5vw, 64px); align-items: center; }
+  .imp-hero .lede { margin-top: 20px; color: #c9dcd9; }
+  .imp-hero .btn-row { margin-top: 28px; }
+  .hero-facts { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 0; margin-top: 40px; border-top: 1px solid rgba(255,255,255,.15); }
+  .hero-facts div { padding: 18px 16px 0 0; display: grid; gap: 4px; }
+  .hero-facts b { color: #fff; font: 700 1.35rem/1.1 var(--f-display); font-variant-numeric: tabular-nums; }
+  .hero-facts span { font-size: .84rem; color: #8fb3ae; }
+  @media (max-width: 900px) { .imp-grid { grid-template-columns: 1fr; } }
+  @media (max-width: 460px) { .hero-facts { grid-template-columns: 1fr; } }
+
+  /* Day-one timeline graphic */
+  .dayline { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.12); border-radius: var(--r-l); padding: 26px; display: grid; gap: 18px; }
+  .dayline h3 { color: #fff; font-size: 1rem; font-family: var(--f-mono); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+  .dl-row { display: grid; grid-template-columns: 74px 1fr; gap: 16px; align-items: start; }
+  .dl-row .t { font: 600 .82rem/1.5 var(--f-mono); color: var(--sun); }
+  .dl-row p { color: #dbe8e6; font-size: .96rem; }
+  .dl-row p small { display: block; color: #8fb3ae; font-size: .82rem; margin-top: 2px; }
+  .dl-bar { height: 6px; border-radius: 6px; background: linear-gradient(90deg, var(--teal) 0 70%, var(--sun) 70% 100%); }
+
+  /* Same-day vs standard */
+  .vs { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--line); border-radius: var(--r-l); overflow: hidden; background: var(--paper); }
+  .vs > div { padding: clamp(24px, 4vw, 40px); display: grid; gap: 14px; align-content: start; }
+  .vs > div + div { border-left: 1px solid var(--line); background: var(--mint); }
+  .vs ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+  .vs li { padding-left: 26px; position: relative; font-size: .97rem; }
+  .vs li::before { content: ""; position: absolute; left: 0; top: .55em; width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--teal); }
+  .vs .k { font: 600 .74rem/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  @media (max-width: 760px) { .vs { grid-template-columns: 1fr; } .vs > div + div { border-left: 0; border-top: 1px solid var(--line); } }
+
+  .honest { display: grid; grid-template-columns: auto 1fr; gap: 22px; align-items: start; background: #fff7e6; border: 1px solid #f1d9a2; border-radius: var(--r-l); padding: clamp(22px, 4vw, 36px); }
+  .honest .ico { background: var(--sun); color: var(--sun-ink); }
+  .honest h3 { margin-bottom: 8px; }
+  @media (max-width: 520px) { .honest { grid-template-columns: 1fr; } }
+
+  .options .card h3 { font-size: 1.12rem; }
+  .care { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 16px; }
+  .care .card b { font: 700 1.6rem/1 var(--f-display); color: var(--ink); }
+  @media (max-width: 860px) { .care { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<div class="utility">
+  <div class="wrap">
+    <div class="u-group"><span>Wed – Mon · 9:00am – 9:00pm</span><span class="closed">Closed Tuesdays</span></div>
+    <div class="u-group"><a href="tel:+97143472102">04 347 2102</a><a href="tel:+971558961826">055 896 1826</a><a href="mailto:info@smileondc.com">info@smileondc.com</a></div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="home.html" aria-label="Smile On Dental Clinic home">
+      <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#0d2b33"/><path d="M11 18c2.5 7 15.5 7 18 0" fill="none" stroke="#f5b841" stroke-width="3.2" stroke-linecap="round"/><circle cx="14.5" cy="13.5" r="1.8" fill="#fff"/><circle cx="25.5" cy="13.5" r="1.8" fill="#fff"/></svg>
+      <span>Smile On<small>Dental Clinic · Al Satwa</small></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="home.html">Home</a>
+      <a href="services.html" aria-current="page">Services</a>
+      <a href="home.html#team">Our Doctors</a>
+      <a href="home.html#prices">Prices</a>
+      <a href="home.html#visit">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a class="btn btn--ghost btn--small" href="tel:+97143472102">Call 04 347 2102</a>
+      <a class="btn btn--book btn--small" href="#book">Book a visit</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="imp-hero hero--ink">
+  <div class="wrap imp-grid">
+    <div>
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="home.html">Home</a><span>/</span><a href="services.html#implantology">Implantology</a><span>/</span><span>Same-day implants</span></nav>
+      <span class="eyebrow">Same-day dental implants · Dubai</span>
+      <h1 style="margin-top:16px">Arrive with a gap. <em>Leave with a tooth.</em></h1>
+      <p class="lede">With same-day implants, you don't spend months hiding a gap or wearing a removable plate. Your implant is placed and a temporary crown is fitted at the same appointment, as long as the implant is stable enough to support it safely. Every case is planned on a 3D CBCT scan at our Al Satwa clinic.</p>
+      <div class="btn-row">
+        <a class="btn btn--book" href="#book">Book an implant consultation</a>
+        <a class="btn btn--ghost" href="#cost">See implant prices</a>
+      </div>
+      <div class="hero-facts">
+        <div><b>AED 4,500+</b><span>complete single implant</span></div>
+        <div><b>3D CBCT</b><span>planning for every case</span></div>
+        <div><b>1 visit</b><span>implant and temporary tooth</span></div>
+      </div>
+    </div>
+
+    <div class="dayline" aria-label="Your same-day implant appointment">
+      <h3>Your implant day</h3>
+      <div class="dl-row"><span class="t">Arrive</span><p>Final check of your 3D plan<small>Your temporary crown has already been made</small></p></div>
+      <div class="dl-row"><span class="t">Treat</span><p>Implant placed under local anaesthetic<small>You're numb and comfortable throughout</small></p></div>
+      <div class="dl-row"><span class="t">Measure</span><p>Implant stability tested<small>A torque reading confirms it's safe to load</small></p></div>
+      <div class="dl-row"><span class="t">Leave</span><p>Temporary crown attached<small>You walk out with a complete smile</small></p></div>
+      <div class="dl-bar" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Trust strip -->
+<section style="padding-block:28px;background:var(--paper);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="trust">
+      <div><b>5.0 <span class="stars" aria-hidden="true">★</span></b><span>Google rating, 314+ reviews</span></div>
+      <div><b>Specialist</b><span>prosthodontist-led implant team</span></div>
+      <div><b>3D-guided</b><span>implant surgery available</span></div>
+      <div><b>DHA</b><span>licensed clinic in Al Satwa</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Same day vs standard -->
+<section class="band">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Same-day vs standard implants</span>
+      <h2>Same strong implant, without the months of waiting</h2>
+      <p class="lede">With a standard implant, you usually wait months with a gap or a removable temporary. Same-day treatment gives you a fixed temporary tooth on day one. When cases are correctly selected, long-term success rates are comparable to the standard approach.</p>
+    </div>
+    <div class="vs">
+      <div>
+        <span class="k">Standard protocol</span>
+        <h3>Implant now, tooth later</h3>
+        <ul>
+          <li>Implant placed, then left to heal</li>
+          <li>A gap or removable temporary for several months</li>
+          <li>Permanent crown after healing</li>
+        </ul>
+      </div>
+      <div>
+        <span class="k">Same-day at Smile On</span>
+        <h3>Implant and tooth in one visit</h3>
+        <ul>
+          <li>Temporary crown made before your surgery</li>
+          <li>A fixed temporary tooth on the same day</li>
+          <li>Permanent crown after 3–4 months of healing</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Process -->
+<section class="band band--ink">
+  <div class="wrap" style="display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(24px,5vw,64px)">
+    <div style="display:grid;gap:16px;align-content:start">
+      <span class="eyebrow">The process</span>
+      <h2>Six steps from first scan to final smile</h2>
+      <p style="color:#b9cfcc">Each step has a clear purpose, and you'll know what's next before you leave the chair.</p>
+    </div>
+    <ol class="steps">
+      <li><div><span class="when">Visit 1</span><h3>Consultation &amp; 3D CBCT scan</h3><p>We assess your bone and plan the exact implant position in 3D. You get a complete written price before anything begins.</p></div></li>
+      <li><div><span class="when">Before surgery</span><h3>Your temporary crown is prepared</h3><p>We make your temporary tooth in advance, so it's ready to fit on the day.</p></div></li>
+      <li><div><span class="when">Implant day</span><h3>Implant placement</h3><p>The implant is placed under local anaesthetic. 3D-guided surgery is available for extra precision.</p></div></li>
+      <li><div><span class="when">Implant day</span><h3>Stability check &amp; temporary crown</h3><p>We measure the implant's stability with an insertion torque device. If it meets the safe threshold, your temporary crown goes on the same day.</p></div></li>
+      <li><div><span class="when">3–4 months</span><h3>Healing</h3><p>The implant fuses with your jawbone. Stick to soft foods for the first 6–8 weeks.</p></div></li>
+      <li><div><span class="when">Final visit</span><h3>Permanent crown</h3><p>Your custom permanent crown is fitted, matched to your natural teeth.</p></div></li>
+    </ol>
+  </div>
+  <style>@media (max-width:860px){.band--ink > .wrap{grid-template-columns:1fr !important}}</style>
+</section>
+
+<!-- Honest candidacy -->
+<section class="band band--paper">
+  <div class="wrap" style="display:grid;gap:32px">
+    <div class="section-head" style="margin:0">
+      <span class="eyebrow">Is it right for me?</span>
+      <h2>Who same-day implants suit</h2>
+      <p class="lede">Same-day implants suit many people with one or more missing teeth. Same-day and All-on-4 protocols can also work with reduced bone, by angling implants into areas of denser bone. Your CBCT scan will show which option fits you.</p>
+    </div>
+    <div class="honest">
+      <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l7 3v6c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></span>
+      <div>
+        <h3>Our promise: safety comes before speed</h3>
+        <p>If your implant's stability reading doesn't meet the threshold for safe immediate loading, we won't attach the temporary crown that day. We'll explain this before surgery, and you'll leave with a removable temporary instead. Your implant then heals and is completed as normal.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Options -->
+<section class="band options">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Your options</span>
+      <h2>From one tooth to a full arch</h2>
+    </div>
+    <div class="grid-4">
+      <div class="card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M8 3h8l-1 5H9z"/><path d="M10 8v2h4V8M10 12h4M10.5 14h3M11 16h2"/></svg></span><h3>Single tooth implant</h3><p>Replaces one missing tooth without touching the teeth on either side.</p></div>
+      <div class="card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 4h6l-1 4H5zM14 4h6l-1 4h-4z"/><path d="M6 8v8M18 8v8M6 12h12"/></svg></span><h3>Multiple implants</h3><p>Replaces several teeth with individual implants or an implant bridge.</p></div>
+      <div class="card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 9c3-4 15-4 18 0"/><path d="M6 10v6M10 10.5v6M14 10.5v6M18 10v6"/></svg></span><h3>All-on-4 &amp; All-on-6</h3><p>A full arch of fixed teeth supported by four or six implants.</p></div>
+      <div class="card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M12 7v10M7 12h10"/><circle cx="12" cy="12" r="3"/></svg></span><h3>3D-guided surgery</h3><p>A surgical guide made from your scan places each implant exactly as planned.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Cost -->
+<section class="band band--paper" id="cost">
+  <div class="wrap" style="display:grid;gap:28px">
+    <div class="section-head" style="margin:0">
+      <span class="eyebrow">Dental implant cost in Dubai</span>
+      <h2>One complete price, before treatment begins</h2>
+      <p class="lede">After your CBCT assessment, you'll receive a complete quote that covers every component. There are no surprise add-ons halfway through.</p>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th scope="col">Treatment</th><th scope="col">What's included</th><th scope="col">Price (AED)</th></tr></thead>
+        <tbody>
+          <tr><td>Single implant, complete</td><td>Implant, abutment and crown, with 3D CBCT planning</td><td class="num">4,500 – 8,000</td></tr>
+          <tr><td>Same-day single implant</td><td>Includes the temporary crown fitted on the day, plus the final crown</td><td class="num">Quoted after CBCT</td></tr>
+          <tr><td>All-on-4 full arch</td><td>Fixed full-arch teeth on four implants, per arch</td><td class="num">25,000 – 45,000</td></tr>
+          <tr><td>Consultation &amp; CBCT</td><td>Assessment and 3D scan</td><td class="num">Ask the clinic</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:.92rem;color:var(--muted)">Same-day implants usually cost more than standard implants because they need extra planning before surgery. Your final price depends on the number of implants, your bone condition and the crown material.</p>
+    <p class="dev-note">Dev note: these ranges come from the clinic's own implant pages. The blogs quote other ranges (AED 3,500–7,000, AED 6,000–15,000 and AED 35,000–70,000 for a full arch). Agree one set of numbers with the clinic and update every page, because conflicting prices hurt trust and rankings.</p>
+  </div>
+</section>
+
+<!-- Aftercare -->
+<section class="band">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Aftercare</span>
+      <h2>Looking after your new implant</h2>
+    </div>
+    <div class="care">
+      <div class="card"><b>6–8 weeks</b><h3>Soft foods only</h3><p>Give the implant a calm start while it bonds with the bone. Choose soft, easy-to-chew meals.</p></div>
+      <div class="card"><b>3–4 months</b><h3>Healing period</h3><p>The implant integrates with your jaw. Keep up your review visits so we can check progress.</p></div>
+      <div class="card"><b>For life</b><h3>Brush, floss, check-up</h3><p>Care for implants like natural teeth, with regular professional cleaning to protect the gums around them.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Team -->
+<section class="band band--mint">
+  <div class="wrap" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,5vw,64px);align-items:center">
+    <div class="photo" style="min-height:360px"><span class="photo-note">Photo: Dr. Rahul Patel reviewing a CBCT scan</span></div>
+    <div style="display:grid;gap:16px">
+      <span class="eyebrow">Your implant team</span>
+      <h2>Planned by a prosthodontist. Placed with precision.</h2>
+      <p>Implant care at Smile On is led by specialist prosthodontist <b>Dr. Rahul Patel</b>, who has almost 10 years in restorative and implant dentistry and holds implant privileges. Our oral surgery specialist, <b>Dr. Amit Gupta</b>, supports more complex surgical cases.</p>
+      <p>Because the dentist who plans your new tooth also understands how it needs to look and bite, the result works as well as it looks.</p>
+      <div class="btn-row"><a class="btn btn--book" href="#book">Book a consultation</a></div>
+    </div>
+  </div>
+  <style>@media (max-width:860px){.band--mint > .wrap{grid-template-columns:1fr !important}}</style>
+</section>
+
+<!-- Reviews -->
+<section class="band band--paper">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow">Patient stories</span><h2>What our implant patients say</h2></div>
+    <div class="grid-2">
+      <figure class="quote" style="margin:0"><blockquote>"[Paste a real Google review from an implant patient.]"</blockquote><footer><span>Patient name · Google</span><span class="placeholder-flag">real review</span></footer></figure>
+      <figure class="quote" style="margin:0"><blockquote>"[Paste a second implant review, ideally one that mentions the same-day temporary.]"</blockquote><footer><span>Patient name · Google</span><span class="placeholder-flag">real review</span></footer></figure>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="band">
+  <div class="wrap" style="display:grid;gap:28px;max-width:900px">
+    <div class="section-head" style="margin:0"><span class="eyebrow">Questions</span><h2>Same-day implant FAQs</h2></div>
+    <div class="faq">
+      <details open><summary>Will I really leave with a tooth on the same day?</summary><p>In most suitable cases, yes. We measure your implant's stability during surgery. If it meets the safe threshold, your temporary crown is attached before you leave. If not, you'll get a removable temporary and the implant heals as normal. We'll tell you about this possibility before surgery.</p></details>
+      <details><summary>How much does a dental implant cost in Dubai at Smile On?</summary><p>A complete single implant (implant, abutment and crown) starts from AED 4,500, including 3D CBCT planning. Same-day implants cost a little more because of the extra planning. You'll receive one complete price after your assessment.</p></details>
+      <details><summary>I've been told I don't have enough bone. Can I still get implants?</summary><p>Possibly. Same-day and All-on-4 protocols are designed to work with reduced bone, by angling implants into denser areas. Your CBCT scan will show what's possible.</p></details>
+      <details><summary>What can I eat after a same-day implant?</summary><p>Soft foods for the first 6–8 weeks. Your temporary crown looks like a tooth, but the implant underneath is still healing.</p></details>
+      <details><summary>When do I get my permanent crown?</summary><p>After about 3–4 months, once the implant has fully integrated with your jawbone.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="band band--paper">
+  <div class="wrap">
+    <div class="book-band" id="book">
+      <div style="display:grid;gap:16px">
+        <span class="eyebrow">Book your implant consultation</span>
+        <h2>Find out if you can leave with a tooth on day one</h2>
+        <p>Your consultation includes a 3D CBCT scan, a clear treatment plan and one complete price.</p>
+        <div class="btn-row"><a class="btn btn--book" href="#">Book online</a><a class="btn btn--ghost" href="tel:+97143472102">Call 04 347 2102</a></div>
+      </div>
+      <div class="contact-lines">
+        <div><b>Clinic</b> · Unit 213, AMKM Investment Building, 2nd December St, Al Satwa</div>
+        <div><b>Phone</b> · 04 347 2102 · 055 896 1826</div>
+        <div><b>Email</b> · info@smileondc.com</div>
+        <div><b>Hours</b> · Wed–Mon, 9am–9pm</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div style="display:grid;gap:14px;align-content:start">
+        <a class="logo" href="home.html" style="color:#fff"><svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#163f49"/><path d="M11 18c2.5 7 15.5 7 18 0" fill="none" stroke="#f5b841" stroke-width="3.2" stroke-linecap="round"/><circle cx="14.5" cy="13.5" r="1.8" fill="#fff"/><circle cx="25.5" cy="13.5" r="1.8" fill="#fff"/></svg><span>Smile On<small style="color:#7f9a97">Dental Clinic LLC</small></span></a>
+        <p>A specialist-led, DHA-licensed dental clinic in Al Satwa, Dubai.</p>
+      </div>
+      <div><h4>Treatments</h4><ul><li><a href="same-day-dental-implants.html">Same-day implants</a></li><li><a href="services.html#orthodontics">Invisalign &amp; braces</a></li><li><a href="services.html#endodontics">Root canal</a></li><li><a href="services.html#cosmetic">Whitening</a></li><li><a href="services.html#pediatric">Children's dentistry</a></li></ul></div>
+      <div><h4>Clinic</h4><ul><li><a href="#">About us</a></li><li><a href="home.html#team">Our doctors</a></li><li><a href="services.html">Departments</a></li><li><a href="#">Blog</a></li><li><a href="home.html#visit">Contact</a></li></ul></div>
+      <div><h4>Visit</h4><ul><li>Unit 213, AMKM Investment Building, 2nd December St, Al Satwa, Dubai</li><li>04 347 2102</li><li>info@smileondc.com</li><li>Wed–Mon 9am–9pm</li></ul></div>
+    </div>
+    <div class="foot-base"><span>© Smile On Dental Clinic LLC</span><span>Licensed by the Dubai Health Authority</span></div>
+  </div>
+</footer>
+
+<div class="mobile-bar"><a class="btn btn--ghost" href="tel:+97143472102">Call</a><a class="btn btn--book" href="#book">Book</a></div>
+<button class="note-toggle" type="button" id="noteToggle" aria-pressed="true">Hide design notes</button>
+<script>
+  (function () {
+    var b = document.getElementById('noteToggle');
+    b.addEventListener('click', function () {
+      var off = document.body.classList.toggle('dev-notes-off');
+      b.textContent = off ? 'Show design notes' : 'Hide design notes';
+      b.setAttribute('aria-pressed', String(!off));
+    });
+  })();
+</script>
+</body>
+</html>
