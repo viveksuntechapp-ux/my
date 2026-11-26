@@ -9,7 +9,7 @@ nseindia.com → Products → Derivatives (or your broker's contract info) befor
 | Lot size (verify) | 65 (revised from 75 in the Dec-2025/Jan-2026 cycle) | 30 (revised from 35 in the same cycle) |
 | Weekly options | Yes — expire **Tuesday** | **No** weekly (discontinued Nov 2024) |
 | Monthly options & futures | Last **Tuesday** of the month | Last **Tuesday** of the month |
-| Holiday rule | Expiry moves to previous trading day | Same |
+| Holiday rule | Expiry moves to previous trading day (e.g. 24 Nov 2026 Guru Nanak Jayanti holiday → Nov weekly + monthly expiry on Mon 23 Nov) | Same |
 | Strike interval (near ATM) | 50 points (100 for far strikes) | 100 points |
 | Settlement | Cash, at final settlement price (index close-based) | Cash |
 | Trading hours | 9:15 AM – 3:30 PM IST (pre-open 9:00–9:08) | Same |

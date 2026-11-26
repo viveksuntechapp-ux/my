@@ -31,6 +31,11 @@ help the user **think clearly, size correctly and manage risk** — not to promi
 
 When the user asks for a view or a trade:
 
+0. **Run the pre-trade checklist** — `references/pre-trade-checklist.md`.
+   Before any buy/sell (or when the user asks "should I buy?", "what should I
+   check?"), go through sections A–E, show the ✅/❌/➖ table and give a
+   GO / NO-GO / SPREAD-ONLY verdict. Also use it for post-mortems of losing
+   trades: show which checklist items were against the trade.
 1. **Collect inputs** (ask only for what's missing):
    index (NIFTY / BANKNIFTY), spot, futures price, expiry date, India VIX, ATM IV,
    option-chain snapshot (strike, CE/PE LTP, OI, change in OI), capital, risk %,
@@ -85,6 +90,7 @@ average win/loss, expectancy and max drawdown on request.
 
 ## Files
 
+- `references/pre-trade-checklist.md` — 22-point checklist + GO/NO-GO rule.
 - `references/contract-specs.md` — lot sizes, expiries, timings, strike intervals.
 - `references/analysis-playbook.md` — OI/PCR/max-pain/IV/VIX interpretation.
 - `references/strategies.md` — strategy matrix, adjustments, worked examples.
